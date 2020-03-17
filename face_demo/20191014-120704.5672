@@ -1,0 +1,1812 @@
+Log file created at: 2019/10/14 12:07:04
+Running on machine: zcu104
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1014 12:07:04.205765  5672 feature_lib.cpp:107] Feature lib read name: images/thanglmb.jpg
+I1014 12:07:04.206712  5672 feature_lib.cpp:129] Read lib face : images/thanglmb.jpg
+I1014 12:07:04.206842  5672 feature_lib.cpp:148] Loading normal image: images/thanglmb.jpg...
+I1014 12:07:04.214752  5672 feature_lib.cpp:153] Load normal image: images/thanglmb.jpg done size: 640 * 360
+I1014 12:07:04.582186  5672 demo_inner.hpp:126] thread [DedodeThread-0] is starting
+I1014 12:07:04.582346  5672 demo_inner.hpp:126] thread [GUIThread] is starting
+I1014 12:07:04.582417  5674 demo_inner.hpp:101] thread [DedodeThread-0] is started
+I1014 12:07:04.582454  5672 demo_inner.hpp:126] thread [SORT-0] is starting
+I1014 12:07:04.582506  5675 demo_inner.hpp:101] thread [GUIThread] is started
+I1014 12:07:04.582525  5672 demo_inner.hpp:126] thread [T-Work-Detect_0] is starting
+I1014 12:07:04.582577  5676 demo_inner.hpp:101] thread [SORT-0] is started
+I1014 12:07:04.582592  5672 demo_inner.hpp:126] thread [T-Work-Recog_0] is starting
+I1014 12:07:04.582653  5677 demo_inner.hpp:101] thread [T-Work-Detect_0] is started
+I1014 12:07:04.582670  5672 demo_inner.hpp:126] thread [T-Work-Recog_1] is starting
+I1014 12:07:04.582705  5678 demo_inner.hpp:101] thread [T-Work-Recog_0] is started
+I1014 12:07:04.582737  5672 demo_inner.hpp:126] thread [T-Intergrate-intergrate] is starting
+I1014 12:07:04.582782  5679 demo_inner.hpp:101] thread [T-Work-Recog_1] is started
+I1014 12:07:04.582823  5672 demo_inner.hpp:137] waiting for [GUIThread] ended
+I1014 12:07:04.582846  5680 demo_inner.hpp:101] thread [T-Intergrate-intergrate] is started
+I1014 12:07:05.286617  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.286789  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.286852  5677 work_detect.cpp:102] Succeeded to add det start for frame 1
+I1014 12:07:05.294121  5677 work_detect.cpp:70] Frame :1 detect result :1 face(s)
+W1014 12:07:05.294162  5677 work_detect.cpp:83] Invalid bbox: [184 x 215 from (281, 160)]
+I1014 12:07:05.294473  5677 work_detect.cpp:120] Succeeded to add det end for frame 1
+I1014 12:07:05.294492  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.294523  5677 work_track.cpp:102] Succeeded to set track lock for frame 1
+I1014 12:07:05.294572  5677 work_track.cpp:116] Succeeded to release track lock for frame 1
+I1014 12:07:05.294587  5677 work_track.cpp:120] Track results of frame 1: 0 objects input, 0 objects tracked!
+I1014 12:07:05.294606  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :1 split
+I1014 12:07:05.294653  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :1
+I1014 12:07:05.295781  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 1 sorting queue size 0   FPS: -1
+I1014 12:07:05.295887  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.334417  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.334544  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.334583  5677 work_detect.cpp:102] Succeeded to add det start for frame 2
+I1014 12:07:05.341624  5677 work_detect.cpp:70] Frame :2 detect result :1 face(s)
+W1014 12:07:05.341679  5677 work_detect.cpp:83] Invalid bbox: [185 x 217 from (280, 157)]
+I1014 12:07:05.341754  5677 work_detect.cpp:120] Succeeded to add det end for frame 2
+I1014 12:07:05.341771  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.341799  5677 work_track.cpp:102] Succeeded to set track lock for frame 2
+I1014 12:07:05.341826  5677 work_track.cpp:116] Succeeded to release track lock for frame 2
+I1014 12:07:05.341840  5677 work_track.cpp:120] Track results of frame 2: 0 objects input, 0 objects tracked!
+I1014 12:07:05.341859  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :2 split
+I1014 12:07:05.341903  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :2
+I1014 12:07:05.343441  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 2 sorting queue size 0   FPS: 21.2766
+I1014 12:07:05.343535  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.388237  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.388437  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.388474  5677 work_detect.cpp:102] Succeeded to add det start for frame 3
+I1014 12:07:05.395225  5677 work_detect.cpp:70] Frame :3 detect result :1 face(s)
+W1014 12:07:05.395254  5677 work_detect.cpp:83] Invalid bbox: [187 x 217 from (278, 158)]
+I1014 12:07:05.395318  5677 work_detect.cpp:120] Succeeded to add det end for frame 3
+I1014 12:07:05.395335  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.395361  5677 work_track.cpp:102] Succeeded to set track lock for frame 3
+I1014 12:07:05.395388  5677 work_track.cpp:116] Succeeded to release track lock for frame 3
+I1014 12:07:05.395402  5677 work_track.cpp:120] Track results of frame 3: 0 objects input, 0 objects tracked!
+I1014 12:07:05.395421  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :3 split
+I1014 12:07:05.395462  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :3
+I1014 12:07:05.396973  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 3 sorting queue size 0   FPS: 20
+I1014 12:07:05.397050  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.436347  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.436475  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.436511  5677 work_detect.cpp:102] Succeeded to add det start for frame 4
+I1014 12:07:05.443248  5677 work_detect.cpp:70] Frame :4 detect result :1 face(s)
+W1014 12:07:05.443279  5677 work_detect.cpp:83] Invalid bbox: [181 x 208 from (281, 163)]
+I1014 12:07:05.443351  5677 work_detect.cpp:120] Succeeded to add det end for frame 4
+I1014 12:07:05.443368  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.443393  5677 work_track.cpp:102] Succeeded to set track lock for frame 4
+I1014 12:07:05.443420  5677 work_track.cpp:116] Succeeded to release track lock for frame 4
+I1014 12:07:05.443435  5677 work_track.cpp:120] Track results of frame 4: 0 objects input, 0 objects tracked!
+I1014 12:07:05.443454  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :4 split
+I1014 12:07:05.443495  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :4
+I1014 12:07:05.445003  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 4 sorting queue size 0   FPS: 20.2703
+I1014 12:07:05.445101  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.484380  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.484494  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.484531  5677 work_detect.cpp:102] Succeeded to add det start for frame 5
+I1014 12:07:05.491240  5677 work_detect.cpp:70] Frame :5 detect result :1 face(s)
+W1014 12:07:05.491268  5677 work_detect.cpp:83] Invalid bbox: [185 x 204 from (293, 165)]
+I1014 12:07:05.491343  5677 work_detect.cpp:120] Succeeded to add det end for frame 5
+I1014 12:07:05.491359  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.491384  5677 work_track.cpp:102] Succeeded to set track lock for frame 5
+I1014 12:07:05.491411  5677 work_track.cpp:116] Succeeded to release track lock for frame 5
+I1014 12:07:05.491425  5677 work_track.cpp:120] Track results of frame 5: 0 objects input, 0 objects tracked!
+I1014 12:07:05.491444  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :5 split
+I1014 12:07:05.491485  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :5
+I1014 12:07:05.492988  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 5 sorting queue size 0   FPS: 20.4082
+I1014 12:07:05.493064  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.538282  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.538398  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.538434  5677 work_detect.cpp:102] Succeeded to add det start for frame 6
+I1014 12:07:05.545243  5677 work_detect.cpp:70] Frame :6 detect result :1 face(s)
+W1014 12:07:05.545275  5677 work_detect.cpp:83] Invalid bbox: [183 x 212 from (280, 161)]
+I1014 12:07:05.545399  5677 work_detect.cpp:120] Succeeded to add det end for frame 6
+I1014 12:07:05.545418  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.545442  5677 work_track.cpp:102] Succeeded to set track lock for frame 6
+I1014 12:07:05.545470  5677 work_track.cpp:116] Succeeded to release track lock for frame 6
+I1014 12:07:05.545485  5677 work_track.cpp:120] Track results of frame 6: 0 objects input, 0 objects tracked!
+I1014 12:07:05.545503  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :6 split
+I1014 12:07:05.545547  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :6
+I1014 12:07:05.547055  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 6 sorting queue size 0   FPS: 20
+I1014 12:07:05.547130  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.586627  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.586752  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.586802  5677 work_detect.cpp:102] Succeeded to add det start for frame 7
+I1014 12:07:05.594302  5677 work_detect.cpp:70] Frame :7 detect result :1 face(s)
+W1014 12:07:05.594338  5677 work_detect.cpp:83] Invalid bbox: [186 x 215 from (279, 159)]
+I1014 12:07:05.594422  5677 work_detect.cpp:120] Succeeded to add det end for frame 7
+I1014 12:07:05.594439  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.594466  5677 work_track.cpp:102] Succeeded to set track lock for frame 7
+I1014 12:07:05.594496  5677 work_track.cpp:116] Succeeded to release track lock for frame 7
+I1014 12:07:05.594533  5677 work_track.cpp:120] Track results of frame 7: 0 objects input, 0 objects tracked!
+I1014 12:07:05.594553  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :7 split
+I1014 12:07:05.594596  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :7
+I1014 12:07:05.596189  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 7 sorting queue size 0   FPS: 20.0669
+I1014 12:07:05.596271  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.634711  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.634858  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.634908  5677 work_detect.cpp:102] Succeeded to add det start for frame 8
+I1014 12:07:05.642457  5677 work_detect.cpp:70] Frame :8 detect result :1 face(s)
+W1014 12:07:05.642513  5677 work_detect.cpp:83] Invalid bbox: [184 x 216 from (275, 159)]
+I1014 12:07:05.642588  5677 work_detect.cpp:120] Succeeded to add det end for frame 8
+I1014 12:07:05.642606  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.642642  5677 work_track.cpp:102] Succeeded to set track lock for frame 8
+I1014 12:07:05.642670  5677 work_track.cpp:116] Succeeded to release track lock for frame 8
+I1014 12:07:05.642684  5677 work_track.cpp:120] Track results of frame 8: 0 objects input, 0 objects tracked!
+I1014 12:07:05.642704  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :8 split
+I1014 12:07:05.642765  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :8
+I1014 12:07:05.644203  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 8 sorting queue size 0   FPS: 20.1149
+I1014 12:07:05.644275  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.688235  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.688344  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.688381  5677 work_detect.cpp:102] Succeeded to add det start for frame 9
+I1014 12:07:05.695858  5677 work_detect.cpp:70] Frame :9 detect result :1 face(s)
+W1014 12:07:05.695925  5677 work_detect.cpp:83] Invalid bbox: [187 x 219 from (277, 158)]
+I1014 12:07:05.695998  5677 work_detect.cpp:120] Succeeded to add det end for frame 9
+I1014 12:07:05.696023  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.696053  5677 work_track.cpp:102] Succeeded to set track lock for frame 9
+I1014 12:07:05.696151  5677 work_track.cpp:116] Succeeded to release track lock for frame 9
+I1014 12:07:05.696182  5677 work_track.cpp:120] Track results of frame 9: 0 objects input, 0 objects tracked!
+I1014 12:07:05.696202  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :9 split
+I1014 12:07:05.696244  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :9
+I1014 12:07:05.697729  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 9 sorting queue size 0   FPS: 19.9501
+I1014 12:07:05.697796  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.736294  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.736418  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.736457  5677 work_detect.cpp:102] Succeeded to add det start for frame 10
+I1014 12:07:05.743961  5677 work_detect.cpp:70] Frame :10 detect result :1 face(s)
+W1014 12:07:05.744010  5677 work_detect.cpp:83] Invalid bbox: [190 x 220 from (275, 157)]
+I1014 12:07:05.744084  5677 work_detect.cpp:120] Succeeded to add det end for frame 10
+I1014 12:07:05.744102  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.744172  5677 work_track.cpp:102] Succeeded to set track lock for frame 10
+I1014 12:07:05.744202  5677 work_track.cpp:116] Succeeded to release track lock for frame 10
+I1014 12:07:05.744216  5677 work_track.cpp:120] Track results of frame 10: 0 objects input, 0 objects tracked!
+I1014 12:07:05.744235  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :10 split
+I1014 12:07:05.744287  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :10
+I1014 12:07:05.745728  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 10 sorting queue size 0   FPS: 20.0445
+I1014 12:07:05.745795  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.784659  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.784776  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.784814  5677 work_detect.cpp:102] Succeeded to add det start for frame 11
+I1014 12:07:05.792342  5677 work_detect.cpp:70] Frame :11 detect result :1 face(s)
+W1014 12:07:05.792393  5677 work_detect.cpp:83] Invalid bbox: [190 x 220 from (275, 157)]
+I1014 12:07:05.792554  5677 work_detect.cpp:120] Succeeded to add det end for frame 11
+I1014 12:07:05.792573  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.792610  5677 work_track.cpp:102] Succeeded to set track lock for frame 11
+I1014 12:07:05.792639  5677 work_track.cpp:116] Succeeded to release track lock for frame 11
+I1014 12:07:05.792652  5677 work_track.cpp:120] Track results of frame 11: 0 objects input, 0 objects tracked!
+I1014 12:07:05.792671  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :11 split
+I1014 12:07:05.792717  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :11
+I1014 12:07:05.794245  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 11 sorting queue size 0   FPS: 20.0803
+I1014 12:07:05.794312  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.838433  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.838547  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.838585  5677 work_detect.cpp:102] Succeeded to add det start for frame 12
+I1014 12:07:05.846189  5677 work_detect.cpp:70] Frame :12 detect result :1 face(s)
+W1014 12:07:05.846240  5677 work_detect.cpp:83] Invalid bbox: [183 x 209 from (293, 163)]
+I1014 12:07:05.846333  5677 work_detect.cpp:120] Succeeded to add det end for frame 12
+I1014 12:07:05.846350  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.846407  5677 work_track.cpp:102] Succeeded to set track lock for frame 12
+I1014 12:07:05.846441  5677 work_track.cpp:116] Succeeded to release track lock for frame 12
+I1014 12:07:05.846455  5677 work_track.cpp:120] Track results of frame 12: 0 objects input, 0 objects tracked!
+I1014 12:07:05.846474  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :12 split
+I1014 12:07:05.846598  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :12
+I1014 12:07:05.848229  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 12 sorting queue size 0   FPS: 19.9275
+I1014 12:07:05.848377  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.887099  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.887249  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.887290  5677 work_detect.cpp:102] Succeeded to add det start for frame 13
+I1014 12:07:05.895617  5677 work_detect.cpp:70] Frame :13 detect result :1 face(s)
+W1014 12:07:05.895678  5677 work_detect.cpp:83] Invalid bbox: [187 x 218 from (277, 159)]
+I1014 12:07:05.895793  5677 work_detect.cpp:120] Succeeded to add det end for frame 13
+I1014 12:07:05.895812  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.895855  5677 work_track.cpp:102] Succeeded to set track lock for frame 13
+I1014 12:07:05.895893  5677 work_track.cpp:116] Succeeded to release track lock for frame 13
+I1014 12:07:05.895910  5677 work_track.cpp:120] Track results of frame 13: 0 objects input, 0 objects tracked!
+I1014 12:07:05.895929  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :13 split
+I1014 12:07:05.896332  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :13
+I1014 12:07:05.897832  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 13 sorting queue size 0   FPS: 19.9667
+I1014 12:07:05.897902  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.934468  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.934664  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.934701  5677 work_detect.cpp:102] Succeeded to add det start for frame 14
+I1014 12:07:05.942237  5677 work_detect.cpp:70] Frame :14 detect result :1 face(s)
+W1014 12:07:05.942288  5677 work_detect.cpp:83] Invalid bbox: [177 x 200 from (296, 168)]
+I1014 12:07:05.942370  5677 work_detect.cpp:120] Succeeded to add det end for frame 14
+I1014 12:07:05.942389  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.942415  5677 work_track.cpp:102] Succeeded to set track lock for frame 14
+I1014 12:07:05.942443  5677 work_track.cpp:116] Succeeded to release track lock for frame 14
+I1014 12:07:05.942481  5677 work_track.cpp:120] Track results of frame 14: 0 objects input, 0 objects tracked!
+I1014 12:07:05.942502  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :14 split
+I1014 12:07:05.942545  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :14
+I1014 12:07:05.944033  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 14 sorting queue size 0   FPS: 20.0927
+I1014 12:07:05.944099  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:05.988665  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:05.988778  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:05.988816  5677 work_detect.cpp:102] Succeeded to add det start for frame 15
+I1014 12:07:05.996563  5677 work_detect.cpp:70] Frame :15 detect result :1 face(s)
+W1014 12:07:05.996619  5677 work_detect.cpp:83] Invalid bbox: [185 x 217 from (280, 158)]
+I1014 12:07:05.996711  5677 work_detect.cpp:120] Succeeded to add det end for frame 15
+I1014 12:07:05.996737  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:05.996767  5677 work_track.cpp:102] Succeeded to set track lock for frame 15
+I1014 12:07:05.996876  5677 work_track.cpp:116] Succeeded to release track lock for frame 15
+I1014 12:07:05.996891  5677 work_track.cpp:120] Track results of frame 15: 0 objects input, 0 objects tracked!
+I1014 12:07:05.996910  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :15 split
+I1014 12:07:05.996954  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :15
+I1014 12:07:05.998440  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 15 sorting queue size 0   FPS: 19.943
+I1014 12:07:05.998508  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.036779  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.036896  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.036934  5677 work_detect.cpp:102] Succeeded to add det start for frame 16
+I1014 12:07:06.044376  5677 work_detect.cpp:70] Frame :16 detect result :1 face(s)
+W1014 12:07:06.044423  5677 work_detect.cpp:83] Invalid bbox: [179 x 202 from (295, 168)]
+I1014 12:07:06.044519  5677 work_detect.cpp:120] Succeeded to add det end for frame 16
+I1014 12:07:06.044538  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.044565  5677 work_track.cpp:102] Succeeded to set track lock for frame 16
+I1014 12:07:06.044601  5677 work_track.cpp:116] Succeeded to release track lock for frame 16
+I1014 12:07:06.044616  5677 work_track.cpp:120] Track results of frame 16: 0 objects input, 0 objects tracked!
+I1014 12:07:06.044636  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :16 split
+I1014 12:07:06.044682  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :16
+I1014 12:07:06.046192  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 16 sorting queue size 0   FPS: 20
+I1014 12:07:06.046262  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.084838  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.084970  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.085008  5677 work_detect.cpp:102] Succeeded to add det start for frame 17
+I1014 12:07:06.092547  5677 work_detect.cpp:70] Frame :17 detect result :2 face(s)
+W1014 12:07:06.092605  5677 work_detect.cpp:83] Invalid bbox: [181 x 207 from (280, 165)]
+I1014 12:07:06.092669  5677 work_detect.cpp:86] Detected bbox: [90 x 110 from (303, 233)]
+I1014 12:07:06.092734  5677 work_detect.cpp:120] Succeeded to add det end for frame 17
+I1014 12:07:06.092752  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.092834  5677 work_track.cpp:82] Frame: 17 build input_characts: [0.140625 x 0.305556 from (0.473437, 0.647222)], 0.905415, 0
+I1014 12:07:06.092896  5677 work_track.cpp:102] Succeeded to set track lock for frame 17
+I1014 12:07:06.093014  5677 work_track.cpp:116] Succeeded to release track lock for frame 17
+I1014 12:07:06.093029  5677 work_track.cpp:120] Track results of frame 17: 1 objects input, 0 objects tracked!
+I1014 12:07:06.093048  5677 work_track.cpp:162] Frame: 17 lid: 1 not tracked, will set invalid
+I1014 12:07:06.093072  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :17 split
+I1014 12:07:06.093091  5677 work_thread.hpp:124]  [T-Work-Detect_0] Invalid piece: lid = 1, drop it
+I1014 12:07:06.093170  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :17
+I1014 12:07:06.094668  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 17 sorting queue size 0   FPS: 20.0501
+I1014 12:07:06.094732  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.138706  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.138818  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.138859  5677 work_detect.cpp:102] Succeeded to add det start for frame 18
+I1014 12:07:06.145663  5677 work_detect.cpp:70] Frame :18 detect result :1 face(s)
+W1014 12:07:06.145715  5677 work_detect.cpp:83] Invalid bbox: [178 x 202 from (296, 167)]
+I1014 12:07:06.145790  5677 work_detect.cpp:120] Succeeded to add det end for frame 18
+I1014 12:07:06.145808  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.145838  5677 work_track.cpp:102] Succeeded to set track lock for frame 18
+I1014 12:07:06.145897  5677 work_track.cpp:116] Succeeded to release track lock for frame 18
+I1014 12:07:06.145913  5677 work_track.cpp:120] Track results of frame 18: 0 objects input, 0 objects tracked!
+I1014 12:07:06.145932  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :18 split
+I1014 12:07:06.145982  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :18
+I1014 12:07:06.147552  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 18 sorting queue size 0   FPS: 19.9765
+I1014 12:07:06.147631  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.186805  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.186913  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.186949  5677 work_detect.cpp:102] Succeeded to add det start for frame 19
+I1014 12:07:06.193677  5677 work_detect.cpp:70] Frame :19 detect result :1 face(s)
+W1014 12:07:06.193719  5677 work_detect.cpp:83] Invalid bbox: [183 x 211 from (278, 163)]
+I1014 12:07:06.193794  5677 work_detect.cpp:120] Succeeded to add det end for frame 19
+I1014 12:07:06.193811  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.193838  5677 work_track.cpp:102] Succeeded to set track lock for frame 19
+I1014 12:07:06.193935  5677 work_track.cpp:116] Succeeded to release track lock for frame 19
+I1014 12:07:06.193951  5677 work_track.cpp:120] Track results of frame 19: 0 objects input, 0 objects tracked!
+I1014 12:07:06.193970  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :19 split
+I1014 12:07:06.194018  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :19
+I1014 12:07:06.195466  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 19 sorting queue size 0   FPS: 20.0222
+I1014 12:07:06.195533  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.234972  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.235075  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.235112  5677 work_detect.cpp:102] Succeeded to add det start for frame 20
+I1014 12:07:06.241773  5677 work_detect.cpp:70] Frame :20 detect result :1 face(s)
+W1014 12:07:06.241818  5677 work_detect.cpp:83] Invalid bbox: [189 x 214 from (274, 164)]
+I1014 12:07:06.241894  5677 work_detect.cpp:120] Succeeded to add det end for frame 20
+I1014 12:07:06.241911  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.241940  5677 work_track.cpp:102] Succeeded to set track lock for frame 20
+I1014 12:07:06.241967  5677 work_track.cpp:116] Succeeded to release track lock for frame 20
+I1014 12:07:06.241981  5677 work_track.cpp:120] Track results of frame 20: 0 objects input, 0 objects tracked!
+I1014 12:07:06.242000  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :20 split
+I1014 12:07:06.242055  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :20
+I1014 12:07:06.243597  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 20 sorting queue size 0   FPS: 20.0634
+I1014 12:07:06.243690  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.288720  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.288830  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.288868  5677 work_detect.cpp:102] Succeeded to add det start for frame 21
+I1014 12:07:06.295591  5677 work_detect.cpp:70] Frame :21 detect result :1 face(s)
+W1014 12:07:06.295634  5677 work_detect.cpp:83] Invalid bbox: [191 x 216 from (274, 161)]
+I1014 12:07:06.295708  5677 work_detect.cpp:120] Succeeded to add det end for frame 21
+I1014 12:07:06.295725  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.295753  5677 work_track.cpp:102] Succeeded to set track lock for frame 21
+I1014 12:07:06.295780  5677 work_track.cpp:116] Succeeded to release track lock for frame 21
+I1014 12:07:06.295794  5677 work_track.cpp:120] Track results of frame 21: 0 objects input, 0 objects tracked!
+I1014 12:07:06.295814  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :21 split
+I1014 12:07:06.295864  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :21
+I1014 12:07:06.297394  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 21 sorting queue size 0   FPS: 19.98
+I1014 12:07:06.297492  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.336793  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.336891  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.337009  5677 work_detect.cpp:102] Succeeded to add det start for frame 22
+I1014 12:07:06.343628  5677 work_detect.cpp:70] Frame :22 detect result :1 face(s)
+W1014 12:07:06.343672  5677 work_detect.cpp:83] Invalid bbox: [185 x 210 from (277, 164)]
+I1014 12:07:06.343744  5677 work_detect.cpp:120] Succeeded to add det end for frame 22
+I1014 12:07:06.343762  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.343788  5677 work_track.cpp:102] Succeeded to set track lock for frame 22
+I1014 12:07:06.343816  5677 work_track.cpp:116] Succeeded to release track lock for frame 22
+I1014 12:07:06.343829  5677 work_track.cpp:120] Track results of frame 22: 0 objects input, 0 objects tracked!
+I1014 12:07:06.343848  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :22 split
+I1014 12:07:06.343900  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :22
+I1014 12:07:06.345419  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 22 sorting queue size 0   FPS: 20.0191
+I1014 12:07:06.345490  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.384835  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.384945  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.384985  5677 work_detect.cpp:102] Succeeded to add det start for frame 23
+I1014 12:07:06.391687  5677 work_detect.cpp:70] Frame :23 detect result :1 face(s)
+W1014 12:07:06.391738  5677 work_detect.cpp:83] Invalid bbox: [190 x 219 from (276, 161)]
+I1014 12:07:06.391811  5677 work_detect.cpp:120] Succeeded to add det end for frame 23
+I1014 12:07:06.391829  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.391858  5677 work_track.cpp:102] Succeeded to set track lock for frame 23
+I1014 12:07:06.391885  5677 work_track.cpp:116] Succeeded to release track lock for frame 23
+I1014 12:07:06.391899  5677 work_track.cpp:120] Track results of frame 23: 0 objects input, 0 objects tracked!
+I1014 12:07:06.391917  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :23 split
+I1014 12:07:06.391979  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :23
+I1014 12:07:06.393504  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 23 sorting queue size 0   FPS: 20.0547
+I1014 12:07:06.393573  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.438792  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.438900  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.438938  5677 work_detect.cpp:102] Succeeded to add det start for frame 24
+I1014 12:07:06.445564  5677 work_detect.cpp:70] Frame :24 detect result :1 face(s)
+W1014 12:07:06.445607  5677 work_detect.cpp:83] Invalid bbox: [183 x 210 from (279, 164)]
+I1014 12:07:06.445683  5677 work_detect.cpp:120] Succeeded to add det end for frame 24
+I1014 12:07:06.445699  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.445726  5677 work_track.cpp:102] Succeeded to set track lock for frame 24
+I1014 12:07:06.445753  5677 work_track.cpp:116] Succeeded to release track lock for frame 24
+I1014 12:07:06.445768  5677 work_track.cpp:120] Track results of frame 24: 0 objects input, 0 objects tracked!
+I1014 12:07:06.445787  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :24 split
+I1014 12:07:06.445830  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :24
+I1014 12:07:06.447360  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 24 sorting queue size 0   FPS: 19.9826
+I1014 12:07:06.447433  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.486901  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.487005  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.487043  5677 work_detect.cpp:102] Succeeded to add det start for frame 25
+I1014 12:07:06.495883  5677 work_detect.cpp:70] Frame :25 detect result :1 face(s)
+W1014 12:07:06.495945  5677 work_detect.cpp:83] Invalid bbox: [184 x 216 from (279, 161)]
+I1014 12:07:06.496078  5677 work_detect.cpp:120] Succeeded to add det end for frame 25
+I1014 12:07:06.496098  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.496129  5677 work_track.cpp:102] Succeeded to set track lock for frame 25
+I1014 12:07:06.496913  5677 work_track.cpp:116] Succeeded to release track lock for frame 25
+I1014 12:07:06.496940  5677 work_track.cpp:120] Track results of frame 25: 0 objects input, 0 objects tracked!
+I1014 12:07:06.496963  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :25 split
+I1014 12:07:06.497026  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :25
+I1014 12:07:06.498728  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 25 sorting queue size 0   FPS: 19.9667
+I1014 12:07:06.499423  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.534884  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.534992  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.535030  5677 work_detect.cpp:102] Succeeded to add det start for frame 26
+I1014 12:07:06.541764  5677 work_detect.cpp:70] Frame :26 detect result :1 face(s)
+W1014 12:07:06.541811  5677 work_detect.cpp:83] Invalid bbox: [193 x 223 from (274, 157)]
+I1014 12:07:06.541887  5677 work_detect.cpp:120] Succeeded to add det end for frame 26
+I1014 12:07:06.541903  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.541929  5677 work_track.cpp:102] Succeeded to set track lock for frame 26
+I1014 12:07:06.541956  5677 work_track.cpp:116] Succeeded to release track lock for frame 26
+I1014 12:07:06.541971  5677 work_track.cpp:120] Track results of frame 26: 0 objects input, 0 objects tracked!
+I1014 12:07:06.541990  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :26 split
+I1014 12:07:06.542034  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :26
+I1014 12:07:06.543514  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 26 sorting queue size 0   FPS: 20.0481
+I1014 12:07:06.543582  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.588752  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.588860  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.588896  5677 work_detect.cpp:102] Succeeded to add det start for frame 27
+I1014 12:07:06.595620  5677 work_detect.cpp:70] Frame :27 detect result :1 face(s)
+W1014 12:07:06.595665  5677 work_detect.cpp:83] Invalid bbox: [184 x 214 from (275, 162)]
+I1014 12:07:06.595739  5677 work_detect.cpp:120] Succeeded to add det end for frame 27
+I1014 12:07:06.595757  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.595784  5677 work_track.cpp:102] Succeeded to set track lock for frame 27
+I1014 12:07:06.595813  5677 work_track.cpp:116] Succeeded to release track lock for frame 27
+I1014 12:07:06.595827  5677 work_track.cpp:120] Track results of frame 27: 0 objects input, 0 objects tracked!
+I1014 12:07:06.595846  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :27 split
+I1014 12:07:06.595890  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :27
+I1014 12:07:06.597383  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 27 sorting queue size 0   FPS: 19.9846
+I1014 12:07:06.597453  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.636801  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.636919  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.636957  5677 work_detect.cpp:102] Succeeded to add det start for frame 28
+I1014 12:07:06.643821  5677 work_detect.cpp:70] Frame :28 detect result :1 face(s)
+W1014 12:07:06.643873  5677 work_detect.cpp:83] Invalid bbox: [186 x 218 from (279, 160)]
+I1014 12:07:06.643949  5677 work_detect.cpp:120] Succeeded to add det end for frame 28
+I1014 12:07:06.643966  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.643996  5677 work_track.cpp:102] Succeeded to set track lock for frame 28
+I1014 12:07:06.644068  5677 work_track.cpp:116] Succeeded to release track lock for frame 28
+I1014 12:07:06.644084  5677 work_track.cpp:120] Track results of frame 28: 0 objects input, 0 objects tracked!
+I1014 12:07:06.644104  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :28 split
+I1014 12:07:06.644182  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :28
+I1014 12:07:06.645678  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 28 sorting queue size 0   FPS: 20.0148
+I1014 12:07:06.645752  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.684877  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.684989  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.685029  5677 work_detect.cpp:102] Succeeded to add det start for frame 29
+I1014 12:07:06.691635  5677 work_detect.cpp:70] Frame :29 detect result :1 face(s)
+W1014 12:07:06.691684  5677 work_detect.cpp:83] Invalid bbox: [185 x 220 from (279, 158)]
+I1014 12:07:06.691758  5677 work_detect.cpp:120] Succeeded to add det end for frame 29
+I1014 12:07:06.691776  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.691804  5677 work_track.cpp:102] Succeeded to set track lock for frame 29
+I1014 12:07:06.691831  5677 work_track.cpp:116] Succeeded to release track lock for frame 29
+I1014 12:07:06.691845  5677 work_track.cpp:120] Track results of frame 29: 0 objects input, 0 objects tracked!
+I1014 12:07:06.691864  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :29 split
+I1014 12:07:06.691911  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :29
+I1014 12:07:06.693413  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 29 sorting queue size 0   FPS: 20.0429
+I1014 12:07:06.693483  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.738703  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.738808  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.738847  5677 work_detect.cpp:102] Succeeded to add det start for frame 30
+I1014 12:07:06.745518  5677 work_detect.cpp:70] Frame :30 detect result :1 face(s)
+W1014 12:07:06.745560  5677 work_detect.cpp:83] Invalid bbox: [185 x 210 from (293, 166)]
+I1014 12:07:06.745635  5677 work_detect.cpp:120] Succeeded to add det end for frame 30
+I1014 12:07:06.745652  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.745678  5677 work_track.cpp:102] Succeeded to set track lock for frame 30
+I1014 12:07:06.745705  5677 work_track.cpp:116] Succeeded to release track lock for frame 30
+I1014 12:07:06.745720  5677 work_track.cpp:120] Track results of frame 30: 0 objects input, 0 objects tracked!
+I1014 12:07:06.745739  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :30 split
+I1014 12:07:06.745782  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :30
+I1014 12:07:06.747308  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 30 sorting queue size 0   FPS: 19.9862
+I1014 12:07:06.747375  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.786797  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.786904  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.786945  5677 work_detect.cpp:102] Succeeded to add det start for frame 31
+I1014 12:07:06.793615  5677 work_detect.cpp:70] Frame :31 detect result :1 face(s)
+W1014 12:07:06.793658  5677 work_detect.cpp:83] Invalid bbox: [182 x 212 from (279, 162)]
+I1014 12:07:06.793730  5677 work_detect.cpp:120] Succeeded to add det end for frame 31
+I1014 12:07:06.793748  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.793774  5677 work_track.cpp:102] Succeeded to set track lock for frame 31
+I1014 12:07:06.793802  5677 work_track.cpp:116] Succeeded to release track lock for frame 31
+I1014 12:07:06.793815  5677 work_track.cpp:120] Track results of frame 31: 0 objects input, 0 objects tracked!
+I1014 12:07:06.793834  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :31 split
+I1014 12:07:06.793926  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :31
+I1014 12:07:06.795383  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 31 sorting queue size 0   FPS: 20.0133
+I1014 12:07:06.795454  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.834863  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.834967  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.835006  5677 work_detect.cpp:102] Succeeded to add det start for frame 32
+I1014 12:07:06.841668  5677 work_detect.cpp:70] Frame :32 detect result :1 face(s)
+W1014 12:07:06.841709  5677 work_detect.cpp:83] Invalid bbox: [183 x 214 from (280, 163)]
+I1014 12:07:06.841784  5677 work_detect.cpp:120] Succeeded to add det end for frame 32
+I1014 12:07:06.841801  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.841828  5677 work_track.cpp:102] Succeeded to set track lock for frame 32
+I1014 12:07:06.841856  5677 work_track.cpp:116] Succeeded to release track lock for frame 32
+I1014 12:07:06.841869  5677 work_track.cpp:120] Track results of frame 32: 0 objects input, 0 objects tracked!
+I1014 12:07:06.841888  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :32 split
+I1014 12:07:06.841961  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :32
+I1014 12:07:06.843502  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 32 sorting queue size 0   FPS: 20.0388
+I1014 12:07:06.843574  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.888774  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.888880  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.888917  5677 work_detect.cpp:102] Succeeded to add det start for frame 33
+I1014 12:07:06.895628  5677 work_detect.cpp:70] Frame :33 detect result :1 face(s)
+W1014 12:07:06.895679  5677 work_detect.cpp:83] Invalid bbox: [185 x 218 from (278, 161)]
+I1014 12:07:06.895754  5677 work_detect.cpp:120] Succeeded to add det end for frame 33
+I1014 12:07:06.895772  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.895799  5677 work_track.cpp:102] Succeeded to set track lock for frame 33
+I1014 12:07:06.895826  5677 work_track.cpp:116] Succeeded to release track lock for frame 33
+I1014 12:07:06.895840  5677 work_track.cpp:120] Track results of frame 33: 0 objects input, 0 objects tracked!
+I1014 12:07:06.895859  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :33 split
+I1014 12:07:06.895905  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :33
+I1014 12:07:06.897420  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 33 sorting queue size 0   FPS: 19.9875
+I1014 12:07:06.897488  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.936820  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.936918  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.936957  5677 work_detect.cpp:102] Succeeded to add det start for frame 34
+I1014 12:07:06.943580  5677 work_detect.cpp:70] Frame :34 detect result :1 face(s)
+W1014 12:07:06.943622  5677 work_detect.cpp:83] Invalid bbox: [182 x 211 from (280, 164)]
+I1014 12:07:06.943697  5677 work_detect.cpp:120] Succeeded to add det end for frame 34
+I1014 12:07:06.943714  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.943742  5677 work_track.cpp:102] Succeeded to set track lock for frame 34
+I1014 12:07:06.943769  5677 work_track.cpp:116] Succeeded to release track lock for frame 34
+I1014 12:07:06.943783  5677 work_track.cpp:120] Track results of frame 34: 0 objects input, 0 objects tracked!
+I1014 12:07:06.943801  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :34 split
+I1014 12:07:06.943848  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :34
+I1014 12:07:06.945320  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 34 sorting queue size 0   FPS: 20.0121
+I1014 12:07:06.945435  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:06.984920  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:06.985019  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:06.985057  5677 work_detect.cpp:102] Succeeded to add det start for frame 35
+I1014 12:07:06.991688  5677 work_detect.cpp:70] Frame :35 detect result :1 face(s)
+W1014 12:07:06.991729  5677 work_detect.cpp:83] Invalid bbox: [189 x 222 from (276, 157)]
+I1014 12:07:06.991803  5677 work_detect.cpp:120] Succeeded to add det end for frame 35
+I1014 12:07:06.991820  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:06.991849  5677 work_track.cpp:102] Succeeded to set track lock for frame 35
+I1014 12:07:06.991876  5677 work_track.cpp:116] Succeeded to release track lock for frame 35
+I1014 12:07:06.991891  5677 work_track.cpp:120] Track results of frame 35: 0 objects input, 0 objects tracked!
+I1014 12:07:06.991910  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :35 split
+I1014 12:07:06.991963  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :35
+I1014 12:07:06.993445  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 35 sorting queue size 0   FPS: 20.0354
+I1014 12:07:06.993518  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.038733  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.038851  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.038887  5677 work_detect.cpp:102] Succeeded to add det start for frame 36
+I1014 12:07:07.045616  5677 work_detect.cpp:70] Frame :36 detect result :1 face(s)
+W1014 12:07:07.045658  5677 work_detect.cpp:83] Invalid bbox: [186 x 215 from (277, 162)]
+I1014 12:07:07.045732  5677 work_detect.cpp:120] Succeeded to add det end for frame 36
+I1014 12:07:07.045750  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.045778  5677 work_track.cpp:102] Succeeded to set track lock for frame 36
+I1014 12:07:07.045804  5677 work_track.cpp:116] Succeeded to release track lock for frame 36
+I1014 12:07:07.045819  5677 work_track.cpp:120] Track results of frame 36: 0 objects input, 0 objects tracked!
+I1014 12:07:07.045838  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :36 split
+I1014 12:07:07.045882  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :36
+I1014 12:07:07.047384  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 36 sorting queue size 0   FPS: 19.9886
+I1014 12:07:07.047457  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.086839  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.086939  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.086977  5677 work_detect.cpp:102] Succeeded to add det start for frame 37
+I1014 12:07:07.093607  5677 work_detect.cpp:70] Frame :37 detect result :1 face(s)
+W1014 12:07:07.093649  5677 work_detect.cpp:83] Invalid bbox: [188 x 215 from (280, 164)]
+I1014 12:07:07.093724  5677 work_detect.cpp:120] Succeeded to add det end for frame 37
+I1014 12:07:07.093741  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.093770  5677 work_track.cpp:102] Succeeded to set track lock for frame 37
+I1014 12:07:07.093796  5677 work_track.cpp:116] Succeeded to release track lock for frame 37
+I1014 12:07:07.093811  5677 work_track.cpp:120] Track results of frame 37: 0 objects input, 0 objects tracked!
+I1014 12:07:07.093830  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :37 split
+I1014 12:07:07.093884  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :37
+I1014 12:07:07.095319  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 37 sorting queue size 0   FPS: 20.0111
+I1014 12:07:07.095386  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.134891  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.134989  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.135028  5677 work_detect.cpp:102] Succeeded to add det start for frame 38
+I1014 12:07:07.141754  5677 work_detect.cpp:70] Frame :38 detect result :1 face(s)
+W1014 12:07:07.141800  5677 work_detect.cpp:83] Invalid bbox: [177 x 204 from (286, 169)]
+I1014 12:07:07.141872  5677 work_detect.cpp:120] Succeeded to add det end for frame 38
+I1014 12:07:07.141891  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.141917  5677 work_track.cpp:102] Succeeded to set track lock for frame 38
+I1014 12:07:07.141944  5677 work_track.cpp:116] Succeeded to release track lock for frame 38
+I1014 12:07:07.141958  5677 work_track.cpp:120] Track results of frame 38: 0 objects input, 0 objects tracked!
+I1014 12:07:07.141978  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :38 split
+I1014 12:07:07.142051  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :38
+I1014 12:07:07.143568  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 38 sorting queue size 0   FPS: 20.0325
+I1014 12:07:07.143636  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.188776  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.188880  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.188918  5677 work_detect.cpp:102] Succeeded to add det start for frame 39
+I1014 12:07:07.195534  5677 work_detect.cpp:70] Frame :39 detect result :1 face(s)
+W1014 12:07:07.195574  5677 work_detect.cpp:83] Invalid bbox: [181 x 211 from (281, 162)]
+I1014 12:07:07.195647  5677 work_detect.cpp:120] Succeeded to add det end for frame 39
+I1014 12:07:07.195663  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.195690  5677 work_track.cpp:102] Succeeded to set track lock for frame 39
+I1014 12:07:07.195717  5677 work_track.cpp:116] Succeeded to release track lock for frame 39
+I1014 12:07:07.195731  5677 work_track.cpp:120] Track results of frame 39: 0 objects input, 0 objects tracked!
+I1014 12:07:07.195750  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :39 split
+I1014 12:07:07.195801  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :39
+I1014 12:07:07.197330  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 39 sorting queue size 0   FPS: 19.9895
+I1014 12:07:07.197399  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.236871  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.236974  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.237012  5677 work_detect.cpp:102] Succeeded to add det start for frame 40
+I1014 12:07:07.243688  5677 work_detect.cpp:70] Frame :40 detect result :2 face(s)
+W1014 12:07:07.243732  5677 work_detect.cpp:83] Invalid bbox: [185 x 214 from (277, 163)]
+I1014 12:07:07.243795  5677 work_detect.cpp:86] Detected bbox: [87 x 106 from (306, 236)]
+I1014 12:07:07.243840  5677 work_detect.cpp:120] Succeeded to add det end for frame 40
+I1014 12:07:07.243856  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.243881  5677 work_track.cpp:82] Frame: 40 build input_characts: [0.135937 x 0.294444 from (0.478125, 0.655556)], 0.905415, 0
+I1014 12:07:07.243937  5677 work_track.cpp:102] Succeeded to set track lock for frame 40
+I1014 12:07:07.243971  5677 work_track.cpp:116] Succeeded to release track lock for frame 40
+I1014 12:07:07.243985  5677 work_track.cpp:120] Track results of frame 40: 1 objects input, 0 objects tracked!
+I1014 12:07:07.244004  5677 work_track.cpp:162] Frame: 40 lid: 1 not tracked, will set invalid
+I1014 12:07:07.244019  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :40 split
+I1014 12:07:07.244036  5677 work_thread.hpp:124]  [T-Work-Detect_0] Invalid piece: lid = 1, drop it
+I1014 12:07:07.244087  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :40
+I1014 12:07:07.245568  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 40 sorting queue size 0   FPS: 20.0103
+I1014 12:07:07.245635  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.284854  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.285033  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.285071  5677 work_detect.cpp:102] Succeeded to add det start for frame 41
+I1014 12:07:07.291678  5677 work_detect.cpp:70] Frame :41 detect result :1 face(s)
+W1014 12:07:07.291721  5677 work_detect.cpp:83] Invalid bbox: [189 x 220 from (277, 158)]
+I1014 12:07:07.291792  5677 work_detect.cpp:120] Succeeded to add det end for frame 41
+I1014 12:07:07.291810  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.291837  5677 work_track.cpp:102] Succeeded to set track lock for frame 41
+I1014 12:07:07.291867  5677 work_track.cpp:116] Succeeded to release track lock for frame 41
+I1014 12:07:07.291882  5677 work_track.cpp:120] Track results of frame 41: 0 objects input, 0 objects tracked!
+I1014 12:07:07.291901  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :41 split
+I1014 12:07:07.291947  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :41
+I1014 12:07:07.293447  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 41 sorting queue size 0   FPS: 20.03
+I1014 12:07:07.293516  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.338729  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.338835  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.338873  5677 work_detect.cpp:102] Succeeded to add det start for frame 42
+I1014 12:07:07.345567  5677 work_detect.cpp:70] Frame :42 detect result :1 face(s)
+W1014 12:07:07.345614  5677 work_detect.cpp:83] Invalid bbox: [191 x 218 from (279, 163)]
+I1014 12:07:07.345688  5677 work_detect.cpp:120] Succeeded to add det end for frame 42
+I1014 12:07:07.345705  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.345732  5677 work_track.cpp:102] Succeeded to set track lock for frame 42
+I1014 12:07:07.345767  5677 work_track.cpp:116] Succeeded to release track lock for frame 42
+I1014 12:07:07.345780  5677 work_track.cpp:120] Track results of frame 42: 0 objects input, 0 objects tracked!
+I1014 12:07:07.345799  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :42 split
+I1014 12:07:07.345844  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :42
+I1014 12:07:07.347359  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 42 sorting queue size 0   FPS: 19.9902
+I1014 12:07:07.347430  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.386826  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.386925  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.386963  5677 work_detect.cpp:102] Succeeded to add det start for frame 43
+I1014 12:07:07.393623  5677 work_detect.cpp:70] Frame :43 detect result :1 face(s)
+W1014 12:07:07.393664  5677 work_detect.cpp:83] Invalid bbox: [188 x 217 from (277, 161)]
+I1014 12:07:07.393739  5677 work_detect.cpp:120] Succeeded to add det end for frame 43
+I1014 12:07:07.393756  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.393784  5677 work_track.cpp:102] Succeeded to set track lock for frame 43
+I1014 12:07:07.393811  5677 work_track.cpp:116] Succeeded to release track lock for frame 43
+I1014 12:07:07.393826  5677 work_track.cpp:120] Track results of frame 43: 0 objects input, 0 objects tracked!
+I1014 12:07:07.393843  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :43 split
+I1014 12:07:07.393914  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :43
+I1014 12:07:07.395443  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 43 sorting queue size 0   FPS: 19.9805
+I1014 12:07:07.395524  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.434962  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.435068  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.435106  5677 work_detect.cpp:102] Succeeded to add det start for frame 44
+I1014 12:07:07.441790  5677 work_detect.cpp:70] Frame :44 detect result :1 face(s)
+W1014 12:07:07.441906  5677 work_detect.cpp:83] Invalid bbox: [189 x 219 from (280, 162)]
+I1014 12:07:07.442186  5677 work_detect.cpp:120] Succeeded to add det end for frame 44
+I1014 12:07:07.442206  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.442234  5677 work_track.cpp:102] Succeeded to set track lock for frame 44
+I1014 12:07:07.442262  5677 work_track.cpp:116] Succeeded to release track lock for frame 44
+I1014 12:07:07.442276  5677 work_track.cpp:120] Track results of frame 44: 0 objects input, 0 objects tracked!
+I1014 12:07:07.442296  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :44 split
+I1014 12:07:07.442344  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :44
+I1014 12:07:07.443841  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 44 sorting queue size 0   FPS: 20.0391
+I1014 12:07:07.443917  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.488770  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.488871  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.488909  5677 work_detect.cpp:102] Succeeded to add det start for frame 45
+I1014 12:07:07.495681  5677 work_detect.cpp:70] Frame :45 detect result :1 face(s)
+W1014 12:07:07.495728  5677 work_detect.cpp:83] Invalid bbox: [187 x 219 from (278, 157)]
+I1014 12:07:07.495888  5677 work_detect.cpp:120] Succeeded to add det end for frame 45
+I1014 12:07:07.495908  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.495934  5677 work_track.cpp:102] Succeeded to set track lock for frame 45
+I1014 12:07:07.495961  5677 work_track.cpp:116] Succeeded to release track lock for frame 45
+I1014 12:07:07.495976  5677 work_track.cpp:120] Track results of frame 45: 0 objects input, 0 objects tracked!
+I1014 12:07:07.495995  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :45 split
+I1014 12:07:07.496049  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :45
+I1014 12:07:07.497556  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 45 sorting queue size 0   FPS: 19.9805
+I1014 12:07:07.497623  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.536823  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.536968  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.537006  5677 work_detect.cpp:102] Succeeded to add det start for frame 46
+I1014 12:07:07.543679  5677 work_detect.cpp:70] Frame :46 detect result :1 face(s)
+W1014 12:07:07.543722  5677 work_detect.cpp:83] Invalid bbox: [179 x 203 from (295, 166)]
+I1014 12:07:07.543819  5677 work_detect.cpp:120] Succeeded to add det end for frame 46
+I1014 12:07:07.543838  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.543864  5677 work_track.cpp:102] Succeeded to set track lock for frame 46
+I1014 12:07:07.543891  5677 work_track.cpp:116] Succeeded to release track lock for frame 46
+I1014 12:07:07.543906  5677 work_track.cpp:120] Track results of frame 46: 0 objects input, 0 objects tracked!
+I1014 12:07:07.543926  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :46 split
+I1014 12:07:07.543974  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :46
+I1014 12:07:07.545490  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 46 sorting queue size 0   FPS: 19.9805
+I1014 12:07:07.562764  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.584939  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.585038  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.585077  5677 work_detect.cpp:102] Succeeded to add det start for frame 47
+I1014 12:07:07.592689  5677 work_detect.cpp:70] Frame :47 detect result :1 face(s)
+W1014 12:07:07.592751  5677 work_detect.cpp:83] Invalid bbox: [183 x 212 from (279, 162)]
+I1014 12:07:07.592931  5677 work_detect.cpp:120] Succeeded to add det end for frame 47
+I1014 12:07:07.592949  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.593031  5677 work_track.cpp:102] Succeeded to set track lock for frame 47
+I1014 12:07:07.593060  5677 work_track.cpp:116] Succeeded to release track lock for frame 47
+I1014 12:07:07.593075  5677 work_track.cpp:120] Track results of frame 47: 0 objects input, 0 objects tracked!
+I1014 12:07:07.593103  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :47 split
+I1014 12:07:07.593180  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :47
+I1014 12:07:07.594664  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 47 sorting queue size 0   FPS: 20.0293
+I1014 12:07:07.639181  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.639334  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.639372  5677 work_detect.cpp:102] Succeeded to add det start for frame 48
+I1014 12:07:07.646056  5677 work_detect.cpp:70] Frame :48 detect result :1 face(s)
+W1014 12:07:07.646104  5677 work_detect.cpp:83] Invalid bbox: [185 x 220 from (279, 156)]
+I1014 12:07:07.646226  5677 work_detect.cpp:120] Succeeded to add det end for frame 48
+I1014 12:07:07.646245  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.646271  5677 work_track.cpp:102] Succeeded to set track lock for frame 48
+I1014 12:07:07.646297  5677 work_track.cpp:116] Succeeded to release track lock for frame 48
+I1014 12:07:07.646312  5677 work_track.cpp:120] Track results of frame 48: 0 objects input, 0 objects tracked!
+I1014 12:07:07.646330  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :48 split
+I1014 12:07:07.646383  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :48
+I1014 12:07:07.647363  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.648008  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 48 sorting queue size 0   FPS: 19.9902
+I1014 12:07:07.686939  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.687039  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.687075  5677 work_detect.cpp:102] Succeeded to add det start for frame 49
+I1014 12:07:07.693804  5677 work_detect.cpp:70] Frame :49 detect result :1 face(s)
+W1014 12:07:07.693850  5677 work_detect.cpp:83] Invalid bbox: [184 x 206 from (293, 165)]
+I1014 12:07:07.693946  5677 work_detect.cpp:120] Succeeded to add det end for frame 49
+I1014 12:07:07.693964  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.693991  5677 work_track.cpp:102] Succeeded to set track lock for frame 49
+I1014 12:07:07.694020  5677 work_track.cpp:116] Succeeded to release track lock for frame 49
+I1014 12:07:07.694033  5677 work_track.cpp:120] Track results of frame 49: 0 objects input, 0 objects tracked!
+I1014 12:07:07.694052  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :49 split
+I1014 12:07:07.694106  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :49
+I1014 12:07:07.695624  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 49 sorting queue size 1   FPS: 19.9902
+I1014 12:07:07.713587  5675 demo_inner.hpp:260]  gui queue size 1, state = running
+I1014 12:07:07.737370  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.737638  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.737675  5677 work_detect.cpp:102] Succeeded to add det start for frame 50
+I1014 12:07:07.744935  5677 work_detect.cpp:70] Frame :50 detect result :1 face(s)
+W1014 12:07:07.745012  5677 work_detect.cpp:83] Invalid bbox: [190 x 220 from (277, 158)]
+I1014 12:07:07.745131  5677 work_detect.cpp:120] Succeeded to add det end for frame 50
+I1014 12:07:07.745148  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.745177  5677 work_track.cpp:102] Succeeded to set track lock for frame 50
+I1014 12:07:07.745205  5677 work_track.cpp:116] Succeeded to release track lock for frame 50
+I1014 12:07:07.745218  5677 work_track.cpp:120] Track results of frame 50: 0 objects input, 0 objects tracked!
+I1014 12:07:07.745237  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :50 split
+I1014 12:07:07.745374  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :50
+I1014 12:07:07.746886  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 50 sorting queue size 0   FPS: 20.0098
+I1014 12:07:07.787272  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:07.790899  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.791045  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.791082  5677 work_detect.cpp:102] Succeeded to add det start for frame 51
+I1014 12:07:07.797777  5677 work_detect.cpp:70] Frame :51 detect result :1 face(s)
+W1014 12:07:07.797825  5677 work_detect.cpp:83] Invalid bbox: [184 x 215 from (280, 161)]
+I1014 12:07:07.797924  5677 work_detect.cpp:120] Succeeded to add det end for frame 51
+I1014 12:07:07.797941  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.797969  5677 work_track.cpp:102] Succeeded to set track lock for frame 51
+I1014 12:07:07.797996  5677 work_track.cpp:116] Succeeded to release track lock for frame 51
+I1014 12:07:07.798010  5677 work_track.cpp:120] Track results of frame 51: 0 objects input, 0 objects tracked!
+I1014 12:07:07.798029  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :51 split
+I1014 12:07:07.798076  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :51
+I1014 12:07:07.799523  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 51 sorting queue size 0   FPS: 19.9708
+I1014 12:07:07.838716  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.838883  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.838922  5677 work_detect.cpp:102] Succeeded to add det start for frame 52
+I1014 12:07:07.845628  5677 work_detect.cpp:70] Frame :52 detect result :1 face(s)
+W1014 12:07:07.845675  5677 work_detect.cpp:83] Invalid bbox: [181 x 201 from (295, 168)]
+I1014 12:07:07.845772  5677 work_detect.cpp:120] Succeeded to add det end for frame 52
+I1014 12:07:07.845789  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.845818  5677 work_track.cpp:102] Succeeded to set track lock for frame 52
+I1014 12:07:07.845844  5677 work_track.cpp:116] Succeeded to release track lock for frame 52
+I1014 12:07:07.845860  5677 work_track.cpp:120] Track results of frame 52: 0 objects input, 0 objects tracked!
+I1014 12:07:07.845878  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :52 split
+I1014 12:07:07.845928  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :52
+I1014 12:07:07.847375  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 52 sorting queue size 1   FPS: 19.9708
+I1014 12:07:07.880878  5675 demo_inner.hpp:260]  gui queue size 1, state = running
+I1014 12:07:07.887157  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.887310  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.887346  5677 work_detect.cpp:102] Succeeded to add det start for frame 53
+I1014 12:07:07.894989  5677 work_detect.cpp:70] Frame :53 detect result :1 face(s)
+W1014 12:07:07.895047  5677 work_detect.cpp:83] Invalid bbox: [189 x 220 from (278, 159)]
+I1014 12:07:07.895153  5677 work_detect.cpp:120] Succeeded to add det end for frame 53
+I1014 12:07:07.895189  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.895216  5677 work_track.cpp:102] Succeeded to set track lock for frame 53
+I1014 12:07:07.895244  5677 work_track.cpp:116] Succeeded to release track lock for frame 53
+I1014 12:07:07.895258  5677 work_track.cpp:120] Track results of frame 53: 0 objects input, 0 objects tracked!
+I1014 12:07:07.895285  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :53 split
+I1014 12:07:07.895331  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :53
+I1014 12:07:07.896805  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 53 sorting queue size 0   FPS: 20.0195
+I1014 12:07:07.940688  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.940878  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.941097  5677 work_detect.cpp:102] Succeeded to add det start for frame 54
+I1014 12:07:07.948629  5677 work_detect.cpp:70] Frame :54 detect result :1 face(s)
+W1014 12:07:07.948689  5677 work_detect.cpp:83] Invalid bbox: [188 x 211 from (291, 163)]
+I1014 12:07:07.948786  5677 work_detect.cpp:120] Succeeded to add det end for frame 54
+I1014 12:07:07.948812  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.948860  5677 work_track.cpp:102] Succeeded to set track lock for frame 54
+I1014 12:07:07.948889  5677 work_track.cpp:116] Succeeded to release track lock for frame 54
+I1014 12:07:07.948904  5677 work_track.cpp:120] Track results of frame 54: 0 objects input, 0 objects tracked!
+I1014 12:07:07.948930  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :54 split
+I1014 12:07:07.948976  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :54
+I1014 12:07:07.950487  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 54 sorting queue size 1   FPS: 19.9805
+I1014 12:07:07.953645  5675 demo_inner.hpp:260]  gui queue size 1, state = running
+I1014 12:07:07.986881  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:07.987022  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:07.987063  5677 work_detect.cpp:102] Succeeded to add det start for frame 55
+I1014 12:07:07.994621  5677 work_detect.cpp:70] Frame :55 detect result :1 face(s)
+W1014 12:07:07.994662  5677 work_detect.cpp:83] Invalid bbox: [184 x 208 from (294, 166)]
+I1014 12:07:07.995483  5677 work_detect.cpp:120] Succeeded to add det end for frame 55
+I1014 12:07:07.995502  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:07.995530  5677 work_track.cpp:102] Succeeded to set track lock for frame 55
+I1014 12:07:07.995565  5677 work_track.cpp:116] Succeeded to release track lock for frame 55
+I1014 12:07:07.995580  5677 work_track.cpp:120] Track results of frame 55: 0 objects input, 0 objects tracked!
+I1014 12:07:07.995600  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :55 split
+I1014 12:07:07.995640  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :55
+I1014 12:07:07.997087  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 55 sorting queue size 0   FPS: 19.9708
+I1014 12:07:08.020421  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:08.034889  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.035058  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.035095  5677 work_detect.cpp:102] Succeeded to add det start for frame 56
+I1014 12:07:08.042325  5677 work_detect.cpp:70] Frame :56 detect result :1 face(s)
+W1014 12:07:08.042368  5677 work_detect.cpp:83] Invalid bbox: [191 x 224 from (277, 156)]
+I1014 12:07:08.042516  5677 work_detect.cpp:120] Succeeded to add det end for frame 56
+I1014 12:07:08.042534  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.042572  5677 work_track.cpp:102] Succeeded to set track lock for frame 56
+I1014 12:07:08.042599  5677 work_track.cpp:116] Succeeded to release track lock for frame 56
+I1014 12:07:08.042614  5677 work_track.cpp:120] Track results of frame 56: 0 objects input, 0 objects tracked!
+I1014 12:07:08.042634  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :56 split
+I1014 12:07:08.042675  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :56
+I1014 12:07:08.044247  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 56 sorting queue size 0   FPS: 20.0489
+I1014 12:07:08.088783  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.088901  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.088937  5677 work_detect.cpp:102] Succeeded to add det start for frame 57
+I1014 12:07:08.096429  5677 work_detect.cpp:70] Frame :57 detect result :1 face(s)
+W1014 12:07:08.096482  5677 work_detect.cpp:83] Invalid bbox: [175 x 207 from (283, 180)]
+I1014 12:07:08.096583  5677 work_detect.cpp:120] Succeeded to add det end for frame 57
+I1014 12:07:08.096664  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.096702  5677 work_track.cpp:102] Succeeded to set track lock for frame 57
+I1014 12:07:08.096731  5677 work_track.cpp:116] Succeeded to release track lock for frame 57
+I1014 12:07:08.096746  5677 work_track.cpp:120] Track results of frame 57: 0 objects input, 0 objects tracked!
+I1014 12:07:08.096817  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :57 split
+I1014 12:07:08.096881  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :57
+I1014 12:07:08.098387  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 57 sorting queue size 1   FPS: 19.9805
+I1014 12:07:08.120843  5675 demo_inner.hpp:260]  gui queue size 1, state = running
+I1014 12:07:08.136842  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.136967  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.137006  5677 work_detect.cpp:102] Succeeded to add det start for frame 58
+I1014 12:07:08.144660  5677 work_detect.cpp:70] Frame :58 detect result :1 face(s)
+W1014 12:07:08.144742  5677 work_detect.cpp:83] Invalid bbox: [188 x 216 from (281, 166)]
+I1014 12:07:08.144899  5677 work_detect.cpp:120] Succeeded to add det end for frame 58
+I1014 12:07:08.144918  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.144970  5677 work_track.cpp:102] Succeeded to set track lock for frame 58
+I1014 12:07:08.144999  5677 work_track.cpp:116] Succeeded to release track lock for frame 58
+I1014 12:07:08.145014  5677 work_track.cpp:120] Track results of frame 58: 0 objects input, 0 objects tracked!
+I1014 12:07:08.145032  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :58 split
+I1014 12:07:08.145095  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :58
+I1014 12:07:08.146616  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 58 sorting queue size 0   FPS: 19.9902
+I1014 12:07:08.182235  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:08.185065  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.185240  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.185281  5677 work_detect.cpp:102] Succeeded to add det start for frame 59
+I1014 12:07:08.192852  5677 work_detect.cpp:70] Frame :59 detect result :1 face(s)
+W1014 12:07:08.192894  5677 work_detect.cpp:83] Invalid bbox: [191 x 223 from (276, 157)]
+I1014 12:07:08.193028  5677 work_detect.cpp:120] Succeeded to add det end for frame 59
+I1014 12:07:08.193054  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.193084  5677 work_track.cpp:102] Succeeded to set track lock for frame 59
+I1014 12:07:08.193110  5677 work_track.cpp:116] Succeeded to release track lock for frame 59
+I1014 12:07:08.193125  5677 work_track.cpp:120] Track results of frame 59: 0 objects input, 0 objects tracked!
+I1014 12:07:08.193145  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :59 split
+I1014 12:07:08.193219  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :59
+I1014 12:07:08.194705  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 59 sorting queue size 0   FPS: 20.0293
+I1014 12:07:08.238764  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.238883  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.238922  5677 work_detect.cpp:102] Succeeded to add det start for frame 60
+I1014 12:07:08.246441  5677 work_detect.cpp:70] Frame :60 detect result :1 face(s)
+W1014 12:07:08.246492  5677 work_detect.cpp:83] Invalid bbox: [187 x 219 from (278, 159)]
+I1014 12:07:08.246611  5677 work_detect.cpp:120] Succeeded to add det end for frame 60
+I1014 12:07:08.246629  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.246657  5677 work_track.cpp:102] Succeeded to set track lock for frame 60
+I1014 12:07:08.246693  5677 work_track.cpp:116] Succeeded to release track lock for frame 60
+I1014 12:07:08.246708  5677 work_track.cpp:120] Track results of frame 60: 0 objects input, 0 objects tracked!
+I1014 12:07:08.246845  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :60 split
+I1014 12:07:08.246896  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :60
+I1014 12:07:08.248422  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 60 sorting queue size 1   FPS: 19.9805
+I1014 12:07:08.277068  5675 demo_inner.hpp:260]  gui queue size 1, state = running
+I1014 12:07:08.286875  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.286996  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.287034  5677 work_detect.cpp:102] Succeeded to add det start for frame 61
+I1014 12:07:08.294721  5677 work_detect.cpp:70] Frame :61 detect result :1 face(s)
+W1014 12:07:08.294842  5677 work_detect.cpp:83] Invalid bbox: [177 x 210 from (282, 180)]
+I1014 12:07:08.294948  5677 work_detect.cpp:120] Succeeded to add det end for frame 61
+I1014 12:07:08.294965  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.294994  5677 work_track.cpp:102] Succeeded to set track lock for frame 61
+I1014 12:07:08.295022  5677 work_track.cpp:116] Succeeded to release track lock for frame 61
+I1014 12:07:08.295130  5677 work_track.cpp:120] Track results of frame 61: 0 objects input, 0 objects tracked!
+I1014 12:07:08.295151  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :61 split
+I1014 12:07:08.295959  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :61
+I1014 12:07:08.297413  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 61 sorting queue size 0   FPS: 19.9708
+I1014 12:07:08.334794  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.334933  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.334969  5677 work_detect.cpp:102] Succeeded to add det start for frame 62
+I1014 12:07:08.342506  5677 work_detect.cpp:70] Frame :62 detect result :1 face(s)
+W1014 12:07:08.342561  5677 work_detect.cpp:83] Invalid bbox: [185 x 216 from (282, 162)]
+I1014 12:07:08.342664  5677 work_detect.cpp:120] Succeeded to add det end for frame 62
+I1014 12:07:08.342697  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.342726  5677 work_track.cpp:102] Succeeded to set track lock for frame 62
+I1014 12:07:08.342753  5677 work_track.cpp:116] Succeeded to release track lock for frame 62
+I1014 12:07:08.342826  5677 work_track.cpp:120] Track results of frame 62: 0 objects input, 0 objects tracked!
+I1014 12:07:08.342846  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :62 split
+I1014 12:07:08.342895  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :62
+I1014 12:07:08.344494  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 62 sorting queue size 1   FPS: 20.0293
+I1014 12:07:08.344758  5675 demo_inner.hpp:260]  gui queue size 1, state = running
+I1014 12:07:08.388733  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.388844  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.388881  5677 work_detect.cpp:102] Succeeded to add det start for frame 63
+I1014 12:07:08.396431  5677 work_detect.cpp:70] Frame :63 detect result :1 face(s)
+W1014 12:07:08.396476  5677 work_detect.cpp:83] Invalid bbox: [184 x 219 from (280, 158)]
+I1014 12:07:08.396596  5677 work_detect.cpp:120] Succeeded to add det end for frame 63
+I1014 12:07:08.396615  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.396642  5677 work_track.cpp:102] Succeeded to set track lock for frame 63
+I1014 12:07:08.396678  5677 work_track.cpp:116] Succeeded to release track lock for frame 63
+I1014 12:07:08.396692  5677 work_track.cpp:120] Track results of frame 63: 0 objects input, 0 objects tracked!
+I1014 12:07:08.396711  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :63 split
+I1014 12:07:08.396831  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :63
+I1014 12:07:08.398340  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 63 sorting queue size 0   FPS: 19.9805
+I1014 12:07:08.436765  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.436888  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.436934  5677 work_detect.cpp:102] Succeeded to add det start for frame 64
+I1014 12:07:08.444478  5677 work_detect.cpp:70] Frame :64 detect result :1 face(s)
+W1014 12:07:08.444540  5677 work_detect.cpp:83] Invalid bbox: [189 x 217 from (277, 161)]
+I1014 12:07:08.444692  5677 work_detect.cpp:120] Succeeded to add det end for frame 64
+I1014 12:07:08.444710  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.444739  5677 work_track.cpp:102] Succeeded to set track lock for frame 64
+I1014 12:07:08.444913  5677 work_track.cpp:116] Succeeded to release track lock for frame 64
+I1014 12:07:08.444929  5677 work_track.cpp:120] Track results of frame 64: 0 objects input, 0 objects tracked!
+I1014 12:07:08.444949  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :64 split
+I1014 12:07:08.445004  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :64
+I1014 12:07:08.446457  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 64 sorting queue size 1   FPS: 19.9708
+I1014 12:07:08.485226  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.485352  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.485399  5677 work_detect.cpp:102] Succeeded to add det start for frame 65
+I1014 12:07:08.492990  5677 work_detect.cpp:70] Frame :65 detect result :1 face(s)
+W1014 12:07:08.493044  5677 work_detect.cpp:83] Invalid bbox: [191 x 220 from (279, 162)]
+I1014 12:07:08.493162  5677 work_detect.cpp:120] Succeeded to add det end for frame 65
+I1014 12:07:08.493181  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.493208  5677 work_track.cpp:102] Succeeded to set track lock for frame 65
+I1014 12:07:08.493237  5677 work_track.cpp:116] Succeeded to release track lock for frame 65
+I1014 12:07:08.493257  5677 work_track.cpp:120] Track results of frame 65: 0 objects input, 0 objects tracked!
+I1014 12:07:08.493278  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :65 split
+I1014 12:07:08.493328  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :65
+I1014 12:07:08.494798  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 65 sorting queue size 2   FPS: 20.0293
+I1014 12:07:08.539111  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.539242  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.539290  5677 work_detect.cpp:102] Succeeded to add det start for frame 66
+I1014 12:07:08.546689  5677 work_detect.cpp:70] Frame :66 detect result :1 face(s)
+W1014 12:07:08.546736  5677 work_detect.cpp:83] Invalid bbox: [189 x 220 from (277, 160)]
+I1014 12:07:08.546937  5677 work_detect.cpp:120] Succeeded to add det end for frame 66
+I1014 12:07:08.546957  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.546984  5677 work_track.cpp:102] Succeeded to set track lock for frame 66
+I1014 12:07:08.547011  5677 work_track.cpp:116] Succeeded to release track lock for frame 66
+I1014 12:07:08.547034  5677 work_track.cpp:120] Track results of frame 66: 0 objects input, 0 objects tracked!
+I1014 12:07:08.547053  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :66 split
+I1014 12:07:08.547101  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :66
+I1014 12:07:08.548633  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 66 sorting queue size 3   FPS: 20.0098
+I1014 12:07:08.587105  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.587237  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.587306  5677 work_detect.cpp:102] Succeeded to add det start for frame 67
+I1014 12:07:08.594909  5677 work_detect.cpp:70] Frame :67 detect result :1 face(s)
+W1014 12:07:08.594957  5677 work_detect.cpp:83] Invalid bbox: [183 x 217 from (280, 160)]
+I1014 12:07:08.595103  5677 work_detect.cpp:120] Succeeded to add det end for frame 67
+I1014 12:07:08.595181  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.595213  5677 work_track.cpp:102] Succeeded to set track lock for frame 67
+I1014 12:07:08.595242  5677 work_track.cpp:116] Succeeded to release track lock for frame 67
+I1014 12:07:08.595283  5677 work_track.cpp:120] Track results of frame 67: 0 objects input, 0 objects tracked!
+I1014 12:07:08.595305  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :67 split
+I1014 12:07:08.595357  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :67
+I1014 12:07:08.596873  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 67 sorting queue size 4   FPS: 19.9708
+I1014 12:07:08.635283  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.635438  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.635475  5677 work_detect.cpp:102] Succeeded to add det start for frame 68
+I1014 12:07:08.643201  5677 work_detect.cpp:70] Frame :68 detect result :1 face(s)
+W1014 12:07:08.643252  5677 work_detect.cpp:83] Invalid bbox: [189 x 215 from (279, 162)]
+I1014 12:07:08.643460  5677 work_detect.cpp:120] Succeeded to add det end for frame 68
+I1014 12:07:08.643478  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.643514  5677 work_track.cpp:102] Succeeded to set track lock for frame 68
+I1014 12:07:08.643543  5677 work_track.cpp:116] Succeeded to release track lock for frame 68
+I1014 12:07:08.643556  5677 work_track.cpp:120] Track results of frame 68: 0 objects input, 0 objects tracked!
+I1014 12:07:08.643575  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :68 split
+I1014 12:07:08.643651  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :68
+I1014 12:07:08.645118  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 68 sorting queue size 5   FPS: 20.0293
+I1014 12:07:08.689119  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.689249  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.689297  5677 work_detect.cpp:102] Succeeded to add det start for frame 69
+I1014 12:07:08.696907  5677 work_detect.cpp:70] Frame :69 detect result :1 face(s)
+W1014 12:07:08.696970  5677 work_detect.cpp:83] Invalid bbox: [187 x 222 from (279, 156)]
+I1014 12:07:08.697073  5677 work_detect.cpp:120] Succeeded to add det end for frame 69
+I1014 12:07:08.697091  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.697118  5677 work_track.cpp:102] Succeeded to set track lock for frame 69
+I1014 12:07:08.697154  5677 work_track.cpp:116] Succeeded to release track lock for frame 69
+I1014 12:07:08.697185  5677 work_track.cpp:120] Track results of frame 69: 0 objects input, 0 objects tracked!
+I1014 12:07:08.697204  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :69 split
+I1014 12:07:08.697260  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :69
+I1014 12:07:08.698693  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 69 sorting queue size 6   FPS: 19.9708
+I1014 12:07:08.737237  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.737370  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.737406  5677 work_detect.cpp:102] Succeeded to add det start for frame 70
+I1014 12:07:08.745039  5677 work_detect.cpp:70] Frame :70 detect result :1 face(s)
+W1014 12:07:08.745084  5677 work_detect.cpp:83] Invalid bbox: [191 x 225 from (278, 157)]
+I1014 12:07:08.745213  5677 work_detect.cpp:120] Succeeded to add det end for frame 70
+I1014 12:07:08.745230  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.745282  5677 work_track.cpp:102] Succeeded to set track lock for frame 70
+I1014 12:07:08.745311  5677 work_track.cpp:116] Succeeded to release track lock for frame 70
+I1014 12:07:08.745326  5677 work_track.cpp:120] Track results of frame 70: 0 objects input, 0 objects tracked!
+I1014 12:07:08.745345  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :70 split
+I1014 12:07:08.745492  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :70
+I1014 12:07:08.746978  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 70 sorting queue size 7   FPS: 19.9708
+I1014 12:07:08.785295  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.785423  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.785460  5677 work_detect.cpp:102] Succeeded to add det start for frame 71
+I1014 12:07:08.793311  5677 work_detect.cpp:70] Frame :71 detect result :1 face(s)
+W1014 12:07:08.793362  5677 work_detect.cpp:83] Invalid bbox: [187 x 222 from (279, 156)]
+I1014 12:07:08.793568  5677 work_detect.cpp:120] Succeeded to add det end for frame 71
+I1014 12:07:08.793587  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.793622  5677 work_track.cpp:102] Succeeded to set track lock for frame 71
+I1014 12:07:08.793650  5677 work_track.cpp:116] Succeeded to release track lock for frame 71
+I1014 12:07:08.793665  5677 work_track.cpp:120] Track results of frame 71: 0 objects input, 0 objects tracked!
+I1014 12:07:08.793684  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :71 split
+I1014 12:07:08.793740  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :71
+I1014 12:07:08.795222  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 71 sorting queue size 8   FPS: 20.0293
+I1014 12:07:08.839159  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.839293  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.839329  5677 work_detect.cpp:102] Succeeded to add det start for frame 72
+I1014 12:07:08.846822  5677 work_detect.cpp:70] Frame :72 detect result :1 face(s)
+W1014 12:07:08.846873  5677 work_detect.cpp:83] Invalid bbox: [193 x 218 from (289, 161)]
+I1014 12:07:08.847026  5677 work_detect.cpp:120] Succeeded to add det end for frame 72
+I1014 12:07:08.847045  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.847074  5677 work_track.cpp:102] Succeeded to set track lock for frame 72
+I1014 12:07:08.847100  5677 work_track.cpp:116] Succeeded to release track lock for frame 72
+I1014 12:07:08.847122  5677 work_track.cpp:120] Track results of frame 72: 0 objects input, 0 objects tracked!
+I1014 12:07:08.847215  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :72 split
+I1014 12:07:08.847271  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :72
+I1014 12:07:08.848731  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 72 sorting queue size 9   FPS: 19.9708
+I1014 12:07:08.887156  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.887281  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.887320  5677 work_detect.cpp:102] Succeeded to add det start for frame 73
+I1014 12:07:08.894937  5677 work_detect.cpp:70] Frame :73 detect result :1 face(s)
+W1014 12:07:08.895007  5677 work_detect.cpp:83] Invalid bbox: [175 x 208 from (283, 182)]
+I1014 12:07:08.895114  5677 work_detect.cpp:120] Succeeded to add det end for frame 73
+I1014 12:07:08.895133  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.895159  5677 work_track.cpp:102] Succeeded to set track lock for frame 73
+I1014 12:07:08.895187  5677 work_track.cpp:116] Succeeded to release track lock for frame 73
+I1014 12:07:08.895201  5677 work_track.cpp:120] Track results of frame 73: 0 objects input, 0 objects tracked!
+I1014 12:07:08.895227  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :73 split
+I1014 12:07:08.895295  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :73
+I1014 12:07:08.896739  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 73 sorting queue size 10   FPS: 19.9708
+I1014 12:07:08.935217  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.935358  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.935395  5677 work_detect.cpp:102] Succeeded to add det start for frame 74
+I1014 12:07:08.943019  5677 work_detect.cpp:70] Frame :74 detect result :1 face(s)
+W1014 12:07:08.943068  5677 work_detect.cpp:83] Invalid bbox: [183 x 209 from (283, 167)]
+I1014 12:07:08.943326  5677 work_detect.cpp:120] Succeeded to add det end for frame 74
+I1014 12:07:08.943353  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.943439  5677 work_track.cpp:102] Succeeded to set track lock for frame 74
+I1014 12:07:08.943478  5677 work_track.cpp:116] Succeeded to release track lock for frame 74
+I1014 12:07:08.943511  5677 work_track.cpp:120] Track results of frame 74: 0 objects input, 0 objects tracked!
+I1014 12:07:08.943532  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :74 split
+I1014 12:07:08.943598  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :74
+I1014 12:07:08.989094  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:08.989233  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:08.989271  5677 work_detect.cpp:102] Succeeded to add det start for frame 75
+I1014 12:07:08.996740  5677 work_detect.cpp:70] Frame :75 detect result :1 face(s)
+W1014 12:07:08.996912  5677 work_detect.cpp:83] Invalid bbox: [185 x 214 from (278, 163)]
+I1014 12:07:08.997052  5677 work_detect.cpp:120] Succeeded to add det end for frame 75
+I1014 12:07:08.997071  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:08.997104  5677 work_track.cpp:102] Succeeded to set track lock for frame 75
+I1014 12:07:08.997133  5677 work_track.cpp:116] Succeeded to release track lock for frame 75
+I1014 12:07:08.997148  5677 work_track.cpp:120] Track results of frame 75: 0 objects input, 0 objects tracked!
+I1014 12:07:08.997166  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :75 split
+I1014 12:07:08.997215  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :75
+I1014 12:07:09.037233  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.037510  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.037547  5677 work_detect.cpp:102] Succeeded to add det start for frame 76
+I1014 12:07:09.045002  5677 work_detect.cpp:70] Frame :76 detect result :1 face(s)
+W1014 12:07:09.045095  5677 work_detect.cpp:83] Invalid bbox: [191 x 220 from (275, 160)]
+I1014 12:07:09.045243  5677 work_detect.cpp:120] Succeeded to add det end for frame 76
+I1014 12:07:09.045260  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.045287  5677 work_track.cpp:102] Succeeded to set track lock for frame 76
+I1014 12:07:09.045315  5677 work_track.cpp:116] Succeeded to release track lock for frame 76
+I1014 12:07:09.045336  5677 work_track.cpp:120] Track results of frame 76: 0 objects input, 0 objects tracked!
+I1014 12:07:09.045356  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :76 split
+I1014 12:07:09.045491  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :76
+I1014 12:07:09.085191  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.085423  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.085469  5677 work_detect.cpp:102] Succeeded to add det start for frame 77
+I1014 12:07:09.093086  5677 work_detect.cpp:70] Frame :77 detect result :1 face(s)
+W1014 12:07:09.093133  5677 work_detect.cpp:83] Invalid bbox: [191 x 214 from (279, 167)]
+I1014 12:07:09.093255  5677 work_detect.cpp:120] Succeeded to add det end for frame 77
+I1014 12:07:09.093274  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.093302  5677 work_track.cpp:102] Succeeded to set track lock for frame 77
+I1014 12:07:09.093338  5677 work_track.cpp:116] Succeeded to release track lock for frame 77
+I1014 12:07:09.093353  5677 work_track.cpp:120] Track results of frame 77: 0 objects input, 0 objects tracked!
+I1014 12:07:09.093371  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :77 split
+I1014 12:07:09.093505  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :77
+I1014 12:07:09.139106  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.139243  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.139389  5677 work_detect.cpp:102] Succeeded to add det start for frame 78
+I1014 12:07:09.147040  5677 work_detect.cpp:70] Frame :78 detect result :1 face(s)
+W1014 12:07:09.147094  5677 work_detect.cpp:83] Invalid bbox: [182 x 212 from (280, 162)]
+I1014 12:07:09.147238  5677 work_detect.cpp:120] Succeeded to add det end for frame 78
+I1014 12:07:09.147256  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.147284  5677 work_track.cpp:102] Succeeded to set track lock for frame 78
+I1014 12:07:09.147341  5677 work_track.cpp:116] Succeeded to release track lock for frame 78
+I1014 12:07:09.147357  5677 work_track.cpp:120] Track results of frame 78: 0 objects input, 0 objects tracked!
+I1014 12:07:09.147377  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :78 split
+I1014 12:07:09.147526  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :78
+I1014 12:07:09.187170  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.187299  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.187345  5677 work_detect.cpp:102] Succeeded to add det start for frame 79
+I1014 12:07:09.194703  5677 work_detect.cpp:70] Frame :79 detect result :1 face(s)
+W1014 12:07:09.194746  5677 work_detect.cpp:83] Invalid bbox: [187 x 219 from (278, 161)]
+I1014 12:07:09.194938  5677 work_detect.cpp:120] Succeeded to add det end for frame 79
+I1014 12:07:09.194964  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.194993  5677 work_track.cpp:102] Succeeded to set track lock for frame 79
+I1014 12:07:09.195020  5677 work_track.cpp:116] Succeeded to release track lock for frame 79
+I1014 12:07:09.195035  5677 work_track.cpp:120] Track results of frame 79: 0 objects input, 0 objects tracked!
+I1014 12:07:09.195055  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :79 split
+I1014 12:07:09.195128  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :79
+I1014 12:07:09.206291  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.216414  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.226512  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.235260  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.235406  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.235453  5677 work_detect.cpp:102] Succeeded to add det start for frame 80
+I1014 12:07:09.236629  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.243109  5677 work_detect.cpp:70] Frame :80 detect result :1 face(s)
+W1014 12:07:09.243132  5677 work_detect.cpp:83] Invalid bbox: [186 x 215 from (280, 163)]
+I1014 12:07:09.243335  5677 work_detect.cpp:120] Succeeded to add det end for frame 80
+I1014 12:07:09.243376  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.243468  5677 work_track.cpp:102] Succeeded to set track lock for frame 80
+I1014 12:07:09.243496  5677 work_track.cpp:116] Succeeded to release track lock for frame 80
+I1014 12:07:09.243510  5677 work_track.cpp:120] Track results of frame 80: 0 objects input, 0 objects tracked!
+I1014 12:07:09.243530  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :80 split
+I1014 12:07:09.246762  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.256855  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.266947  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.277047  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.287142  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.289003  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.289129  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.289274  5677 work_detect.cpp:102] Succeeded to add det start for frame 81
+I1014 12:07:09.296895  5677 work_detect.cpp:70] Frame :81 detect result :1 face(s)
+W1014 12:07:09.296931  5677 work_detect.cpp:83] Invalid bbox: [183 x 215 from (282, 162)]
+I1014 12:07:09.297049  5677 work_detect.cpp:120] Succeeded to add det end for frame 81
+I1014 12:07:09.297075  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.297102  5677 work_track.cpp:102] Succeeded to set track lock for frame 81
+I1014 12:07:09.297147  5677 work_track.cpp:116] Succeeded to release track lock for frame 81
+I1014 12:07:09.297163  5677 work_track.cpp:120] Track results of frame 81: 0 objects input, 0 objects tracked!
+I1014 12:07:09.297183  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :81 split
+I1014 12:07:09.297255  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.307341  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.317440  5680 thread_intergrate.hpp:95] T-Intergrate-intergrate Try push queue sorting again 5 vs 5
+I1014 12:07:09.325803  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :80
+I1014 12:07:09.326210  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 74 sorting queue size 10   FPS: 16.8863
+I1014 12:07:09.326274  5675 demo_inner.hpp:260]  gui queue size 10, state = running
+I1014 12:07:09.326944  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :81
+I1014 12:07:09.327284  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 75 sorting queue size 1   FPS: 17.2197
+I1014 12:07:09.327853  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 76 sorting queue size 2   FPS: 17.5664
+I1014 12:07:09.328387  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 77 sorting queue size 3   FPS: 17.9825
+I1014 12:07:09.328637  5675 demo_inner.hpp:260]  gui queue size 3, state = running
+I1014 12:07:09.328850  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 78 sorting queue size 0   FPS: 18.361
+I1014 12:07:09.329180  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 79 sorting queue size 1   FPS: 18.7643
+I1014 12:07:09.329491  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 80 sorting queue size 2   FPS: 19.2308
+I1014 12:07:09.329828  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 81 sorting queue size 3   FPS: 19.6737
+I1014 12:07:09.330235  5675 demo_inner.hpp:260]  gui queue size 3, state = running
+I1014 12:07:09.336737  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.336820  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.336854  5677 work_detect.cpp:102] Succeeded to add det start for frame 82
+I1014 12:07:09.343528  5677 work_detect.cpp:70] Frame :82 detect result :1 face(s)
+W1014 12:07:09.343562  5677 work_detect.cpp:83] Invalid bbox: [187 x 216 from (278, 160)]
+I1014 12:07:09.343660  5677 work_detect.cpp:120] Succeeded to add det end for frame 82
+I1014 12:07:09.343678  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.343704  5677 work_track.cpp:102] Succeeded to set track lock for frame 82
+I1014 12:07:09.343732  5677 work_track.cpp:116] Succeeded to release track lock for frame 82
+I1014 12:07:09.343747  5677 work_track.cpp:120] Track results of frame 82: 0 objects input, 0 objects tracked!
+I1014 12:07:09.343766  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :82 split
+I1014 12:07:09.343807  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :82
+I1014 12:07:09.345329  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 82 sorting queue size 0   FPS: 19.9902
+I1014 12:07:09.347892  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.384980  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.385093  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.385133  5677 work_detect.cpp:102] Succeeded to add det start for frame 83
+I1014 12:07:09.391831  5677 work_detect.cpp:70] Frame :83 detect result :1 face(s)
+W1014 12:07:09.391862  5677 work_detect.cpp:83] Invalid bbox: [187 x 218 from (278, 161)]
+I1014 12:07:09.391973  5677 work_detect.cpp:120] Succeeded to add det end for frame 83
+I1014 12:07:09.391989  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.392015  5677 work_track.cpp:102] Succeeded to set track lock for frame 83
+I1014 12:07:09.392042  5677 work_track.cpp:116] Succeeded to release track lock for frame 83
+I1014 12:07:09.392056  5677 work_track.cpp:120] Track results of frame 83: 0 objects input, 0 objects tracked!
+I1014 12:07:09.392076  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :83 split
+I1014 12:07:09.392117  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :83
+I1014 12:07:09.393641  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 83 sorting queue size 0   FPS: 20.0391
+I1014 12:07:09.393705  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.438948  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.439079  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.439118  5677 work_detect.cpp:102] Succeeded to add det start for frame 84
+I1014 12:07:09.445775  5677 work_detect.cpp:70] Frame :84 detect result :1 face(s)
+W1014 12:07:09.445802  5677 work_detect.cpp:83] Invalid bbox: [189 x 219 from (276, 158)]
+I1014 12:07:09.445924  5677 work_detect.cpp:120] Succeeded to add det end for frame 84
+I1014 12:07:09.445941  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.445966  5677 work_track.cpp:102] Succeeded to set track lock for frame 84
+I1014 12:07:09.445993  5677 work_track.cpp:116] Succeeded to release track lock for frame 84
+I1014 12:07:09.446007  5677 work_track.cpp:120] Track results of frame 84: 0 objects input, 0 objects tracked!
+I1014 12:07:09.446027  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :84 split
+I1014 12:07:09.446067  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :84
+I1014 12:07:09.447631  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 84 sorting queue size 0   FPS: 19.9805
+I1014 12:07:09.447710  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.486609  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.486706  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.486743  5677 work_detect.cpp:102] Succeeded to add det start for frame 85
+I1014 12:07:09.493438  5677 work_detect.cpp:70] Frame :85 detect result :2 face(s)
+W1014 12:07:09.493475  5677 work_detect.cpp:83] Invalid bbox: [181 x 210 from (280, 164)]
+I1014 12:07:09.493561  5677 work_detect.cpp:86] Detected bbox: [95 x 115 from (301, 231)]
+I1014 12:07:09.493603  5677 work_detect.cpp:120] Succeeded to add det end for frame 85
+I1014 12:07:09.493620  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.493643  5677 work_track.cpp:82] Frame: 85 build input_characts: [0.148438 x 0.319444 from (0.470313, 0.641667)], 0.909375, 0
+I1014 12:07:09.493698  5677 work_track.cpp:102] Succeeded to set track lock for frame 85
+I1014 12:07:09.493734  5677 work_track.cpp:116] Succeeded to release track lock for frame 85
+I1014 12:07:09.493749  5677 work_track.cpp:120] Track results of frame 85: 1 objects input, 0 objects tracked!
+I1014 12:07:09.493767  5677 work_track.cpp:162] Frame: 85 lid: 1 not tracked, will set invalid
+I1014 12:07:09.493782  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :85 split
+I1014 12:07:09.493799  5677 work_thread.hpp:124]  [T-Work-Detect_0] Invalid piece: lid = 1, drop it
+I1014 12:07:09.493841  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :85
+I1014 12:07:09.495352  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 85 sorting queue size 0   FPS: 19.9902
+I1014 12:07:09.495481  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.534641  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.534813  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.534850  5677 work_detect.cpp:102] Succeeded to add det start for frame 86
+I1014 12:07:09.541538  5677 work_detect.cpp:70] Frame :86 detect result :1 face(s)
+W1014 12:07:09.541573  5677 work_detect.cpp:83] Invalid bbox: [177 x 210 from (280, 162)]
+I1014 12:07:09.541687  5677 work_detect.cpp:120] Succeeded to add det end for frame 86
+I1014 12:07:09.541705  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.541730  5677 work_track.cpp:102] Succeeded to set track lock for frame 86
+I1014 12:07:09.541761  5677 work_track.cpp:116] Succeeded to release track lock for frame 86
+I1014 12:07:09.541775  5677 work_track.cpp:120] Track results of frame 86: 0 objects input, 0 objects tracked!
+I1014 12:07:09.541795  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :86 split
+I1014 12:07:09.541837  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :86
+I1014 12:07:09.543439  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 86 sorting queue size 0   FPS: 20.0489
+I1014 12:07:09.543510  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.588483  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.588577  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.588614  5677 work_detect.cpp:102] Succeeded to add det start for frame 87
+I1014 12:07:09.595257  5677 work_detect.cpp:70] Frame :87 detect result :1 face(s)
+W1014 12:07:09.595289  5677 work_detect.cpp:83] Invalid bbox: [172 x 202 from (282, 165)]
+I1014 12:07:09.595388  5677 work_detect.cpp:120] Succeeded to add det end for frame 87
+I1014 12:07:09.595405  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.595432  5677 work_track.cpp:102] Succeeded to set track lock for frame 87
+I1014 12:07:09.595466  5677 work_track.cpp:116] Succeeded to release track lock for frame 87
+I1014 12:07:09.595480  5677 work_track.cpp:120] Track results of frame 87: 0 objects input, 0 objects tracked!
+I1014 12:07:09.595499  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :87 split
+I1014 12:07:09.595541  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :87
+I1014 12:07:09.597106  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 87 sorting queue size 0   FPS: 19.9902
+I1014 12:07:09.597172  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.636699  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.636806  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.636842  5677 work_detect.cpp:102] Succeeded to add det start for frame 88
+I1014 12:07:09.643561  5677 work_detect.cpp:70] Frame :88 detect result :1 face(s)
+W1014 12:07:09.643597  5677 work_detect.cpp:83] Invalid bbox: [172 x 203 from (278, 165)]
+I1014 12:07:09.643697  5677 work_detect.cpp:120] Succeeded to add det end for frame 88
+I1014 12:07:09.643713  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.643740  5677 work_track.cpp:102] Succeeded to set track lock for frame 88
+I1014 12:07:09.643767  5677 work_track.cpp:116] Succeeded to release track lock for frame 88
+I1014 12:07:09.643781  5677 work_track.cpp:120] Track results of frame 88: 0 objects input, 0 objects tracked!
+I1014 12:07:09.643800  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :88 split
+I1014 12:07:09.643847  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :88
+I1014 12:07:09.645464  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 88 sorting queue size 0   FPS: 20
+I1014 12:07:09.645557  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.684764  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.684865  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.684903  5677 work_detect.cpp:102] Succeeded to add det start for frame 89
+I1014 12:07:09.691550  5677 work_detect.cpp:70] Frame :89 detect result :1 face(s)
+W1014 12:07:09.691584  5677 work_detect.cpp:83] Invalid bbox: [173 x 211 from (277, 158)]
+I1014 12:07:09.691727  5677 work_detect.cpp:120] Succeeded to add det end for frame 89
+I1014 12:07:09.691745  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.691772  5677 work_track.cpp:102] Succeeded to set track lock for frame 89
+I1014 12:07:09.691799  5677 work_track.cpp:116] Succeeded to release track lock for frame 89
+I1014 12:07:09.691814  5677 work_track.cpp:120] Track results of frame 89: 0 objects input, 0 objects tracked!
+I1014 12:07:09.691833  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :89 split
+I1014 12:07:09.691877  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :89
+I1014 12:07:09.693567  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 89 sorting queue size 0   FPS: 20.0489
+I1014 12:07:09.693636  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.738641  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.738744  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.738781  5677 work_detect.cpp:102] Succeeded to add det start for frame 90
+I1014 12:07:09.745481  5677 work_detect.cpp:70] Frame :90 detect result :1 face(s)
+W1014 12:07:09.745520  5677 work_detect.cpp:83] Invalid bbox: [177 x 212 from (272, 157)]
+I1014 12:07:09.745740  5677 work_detect.cpp:120] Succeeded to add det end for frame 90
+I1014 12:07:09.745759  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.745786  5677 work_track.cpp:102] Succeeded to set track lock for frame 90
+I1014 12:07:09.745813  5677 work_track.cpp:116] Succeeded to release track lock for frame 90
+I1014 12:07:09.745827  5677 work_track.cpp:120] Track results of frame 90: 0 objects input, 0 objects tracked!
+I1014 12:07:09.745846  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :90 split
+I1014 12:07:09.745887  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :90
+I1014 12:07:09.747561  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 90 sorting queue size 0   FPS: 19.9902
+I1014 12:07:09.747630  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.786690  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.786792  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.786828  5677 work_detect.cpp:102] Succeeded to add det start for frame 91
+I1014 12:07:09.793536  5677 work_detect.cpp:70] Frame :91 detect result :1 face(s)
+W1014 12:07:09.793578  5677 work_detect.cpp:83] Invalid bbox: [180 x 212 from (266, 157)]
+I1014 12:07:09.793716  5677 work_detect.cpp:120] Succeeded to add det end for frame 91
+I1014 12:07:09.793735  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.793761  5677 work_track.cpp:102] Succeeded to set track lock for frame 91
+I1014 12:07:09.793788  5677 work_track.cpp:116] Succeeded to release track lock for frame 91
+I1014 12:07:09.793802  5677 work_track.cpp:120] Track results of frame 91: 0 objects input, 0 objects tracked!
+I1014 12:07:09.793821  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :91 split
+I1014 12:07:09.793864  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :91
+I1014 12:07:09.795476  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 91 sorting queue size 0   FPS: 20.0195
+I1014 12:07:09.795552  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.834739  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.834844  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.834882  5677 work_detect.cpp:102] Succeeded to add det start for frame 92
+I1014 12:07:09.841549  5677 work_detect.cpp:70] Frame :92 detect result :1 face(s)
+W1014 12:07:09.841586  5677 work_detect.cpp:83] Invalid bbox: [184 x 224 from (248, 150)]
+I1014 12:07:09.841683  5677 work_detect.cpp:120] Succeeded to add det end for frame 92
+I1014 12:07:09.841701  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.841727  5677 work_track.cpp:102] Succeeded to set track lock for frame 92
+I1014 12:07:09.841797  5677 work_track.cpp:116] Succeeded to release track lock for frame 92
+I1014 12:07:09.841814  5677 work_track.cpp:120] Track results of frame 92: 0 objects input, 0 objects tracked!
+I1014 12:07:09.841832  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :92 split
+I1014 12:07:09.841895  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :92
+I1014 12:07:09.843521  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 92 sorting queue size 0   FPS: 20.0685
+I1014 12:07:09.843590  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.888842  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.888950  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.888988  5677 work_detect.cpp:102] Succeeded to add det start for frame 93
+I1014 12:07:09.895599  5677 work_detect.cpp:70] Frame :93 detect result :1 face(s)
+W1014 12:07:09.895640  5677 work_detect.cpp:83] Invalid bbox: [183 x 219 from (262, 151)]
+I1014 12:07:09.895740  5677 work_detect.cpp:120] Succeeded to add det end for frame 93
+I1014 12:07:09.895757  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.895786  5677 work_track.cpp:102] Succeeded to set track lock for frame 93
+I1014 12:07:09.895812  5677 work_track.cpp:116] Succeeded to release track lock for frame 93
+I1014 12:07:09.895826  5677 work_track.cpp:120] Track results of frame 93: 0 objects input, 0 objects tracked!
+I1014 12:07:09.895845  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :93 split
+I1014 12:07:09.895905  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :93
+I1014 12:07:09.897604  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 93 sorting queue size 0   FPS: 20
+I1014 12:07:09.897681  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.936764  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.936862  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.936900  5677 work_detect.cpp:102] Succeeded to add det start for frame 94
+I1014 12:07:09.943500  5677 work_detect.cpp:70] Frame :94 detect result :1 face(s)
+W1014 12:07:09.943538  5677 work_detect.cpp:83] Invalid bbox: [184 x 222 from (260, 149)]
+I1014 12:07:09.943636  5677 work_detect.cpp:120] Succeeded to add det end for frame 94
+I1014 12:07:09.943655  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.943683  5677 work_track.cpp:102] Succeeded to set track lock for frame 94
+I1014 12:07:09.943711  5677 work_track.cpp:116] Succeeded to release track lock for frame 94
+I1014 12:07:09.943724  5677 work_track.cpp:120] Track results of frame 94: 0 objects input, 0 objects tracked!
+I1014 12:07:09.943743  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :94 split
+I1014 12:07:09.943789  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :94
+I1014 12:07:09.945328  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 94 sorting queue size 0   FPS: 20.0195
+I1014 12:07:09.945469  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:09.984817  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:09.984915  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:09.984954  5677 work_detect.cpp:102] Succeeded to add det start for frame 95
+I1014 12:07:09.991506  5677 work_detect.cpp:70] Frame :95 detect result :1 face(s)
+I1014 12:07:09.991547  5677 work_detect.cpp:86] Detected bbox: [180 x 216 from (247, 136)]
+I1014 12:07:09.991592  5677 work_detect.cpp:120] Succeeded to add det end for frame 95
+I1014 12:07:09.991608  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:09.991632  5677 work_track.cpp:82] Frame: 95 build input_characts: [0.28125 x 0.6 from (0.385938, 0.377778)], 1.00019, 0
+I1014 12:07:09.991688  5677 work_track.cpp:102] Succeeded to set track lock for frame 95
+I1014 12:07:09.991724  5677 work_track.cpp:116] Succeeded to release track lock for frame 95
+I1014 12:07:09.991813  5677 work_track.cpp:120] Track results of frame 95: 1 objects input, 0 objects tracked!
+I1014 12:07:09.991833  5677 work_track.cpp:162] Frame: 95 lid: 0 not tracked, will set invalid
+I1014 12:07:09.991850  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :95 split
+I1014 12:07:09.991868  5677 work_thread.hpp:124]  [T-Work-Detect_0] Invalid piece: lid = 0, drop it
+I1014 12:07:09.991912  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :95
+I1014 12:07:09.993532  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 95 sorting queue size 0   FPS: 20.0784
+I1014 12:07:09.993597  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.038687  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.038801  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.038841  5677 work_detect.cpp:102] Succeeded to add det start for frame 96
+I1014 12:07:10.045514  5677 work_detect.cpp:70] Frame :96 detect result :1 face(s)
+I1014 12:07:10.045559  5677 work_detect.cpp:86] Detected bbox: [177 x 217 from (247, 135)]
+I1014 12:07:10.045603  5677 work_detect.cpp:120] Succeeded to add det end for frame 96
+I1014 12:07:10.045619  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.045644  5677 work_track.cpp:82] Frame: 96 build input_characts: [0.276563 x 0.602778 from (0.385938, 0.375)], 0.999622, 0
+I1014 12:07:10.045699  5677 work_track.cpp:102] Succeeded to set track lock for frame 96
+I1014 12:07:10.045763  5677 work_track.cpp:116] Succeeded to release track lock for frame 96
+I1014 12:07:10.045778  5677 work_track.cpp:120] Track results of frame 96: 1 objects input, 0 objects tracked!
+I1014 12:07:10.045797  5677 work_track.cpp:162] Frame: 96 lid: 0 not tracked, will set invalid
+I1014 12:07:10.045812  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :96 split
+I1014 12:07:10.045830  5677 work_thread.hpp:124]  [T-Work-Detect_0] Invalid piece: lid = 0, drop it
+I1014 12:07:10.045876  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :96
+I1014 12:07:10.047556  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 96 sorting queue size 0   FPS: 20
+I1014 12:07:10.047739  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.086797  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.086899  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.086935  5677 work_detect.cpp:102] Succeeded to add det start for frame 97
+I1014 12:07:10.093598  5677 work_detect.cpp:70] Frame :97 detect result :1 face(s)
+W1014 12:07:10.093637  5677 work_detect.cpp:83] Invalid bbox: [161 x 204 from (252, 157)]
+I1014 12:07:10.093739  5677 work_detect.cpp:120] Succeeded to add det end for frame 97
+I1014 12:07:10.093756  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.093785  5677 work_track.cpp:102] Succeeded to set track lock for frame 97
+I1014 12:07:10.093816  5677 work_track.cpp:116] Succeeded to release track lock for frame 97
+I1014 12:07:10.093829  5677 work_track.cpp:120] Track results of frame 97: 0 objects input, 0 objects tracked!
+I1014 12:07:10.093848  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :97 split
+I1014 12:07:10.093895  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :97
+I1014 12:07:10.095546  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 97 sorting queue size 0   FPS: 19.9902
+I1014 12:07:10.095614  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.134848  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.134948  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.134985  5677 work_detect.cpp:102] Succeeded to add det start for frame 98
+I1014 12:07:10.141605  5677 work_detect.cpp:70] Frame :98 detect result :1 face(s)
+W1014 12:07:10.141651  5677 work_detect.cpp:83] Invalid bbox: [160 x 204 from (255, 158)]
+I1014 12:07:10.141757  5677 work_detect.cpp:120] Succeeded to add det end for frame 98
+I1014 12:07:10.141773  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.141845  5677 work_track.cpp:102] Succeeded to set track lock for frame 98
+I1014 12:07:10.141882  5677 work_track.cpp:116] Succeeded to release track lock for frame 98
+I1014 12:07:10.141896  5677 work_track.cpp:120] Track results of frame 98: 0 objects input, 0 objects tracked!
+I1014 12:07:10.141916  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :98 split
+I1014 12:07:10.141965  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :98
+I1014 12:07:10.143656  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 98 sorting queue size 0   FPS: 20.0489
+I1014 12:07:10.143724  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.188720  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.188832  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.188869  5677 work_detect.cpp:102] Succeeded to add det start for frame 99
+I1014 12:07:10.195446  5677 work_detect.cpp:70] Frame :99 detect result :1 face(s)
+I1014 12:07:10.195482  5677 work_detect.cpp:86] Detected bbox: [182 x 224 from (246, 133)]
+I1014 12:07:10.195524  5677 work_detect.cpp:120] Succeeded to add det end for frame 99
+I1014 12:07:10.195540  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.195564  5677 work_track.cpp:82] Frame: 99 build input_characts: [0.284375 x 0.622222 from (0.384375, 0.369444)], 1.00019, 0
+I1014 12:07:10.195619  5677 work_track.cpp:102] Succeeded to set track lock for frame 99
+I1014 12:07:10.195654  5677 work_track.cpp:116] Succeeded to release track lock for frame 99
+I1014 12:07:10.195669  5677 work_track.cpp:120] Track results of frame 99: 1 objects input, 0 objects tracked!
+I1014 12:07:10.195688  5677 work_track.cpp:162] Frame: 99 lid: 0 not tracked, will set invalid
+I1014 12:07:10.195703  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :99 split
+I1014 12:07:10.195719  5677 work_thread.hpp:124]  [T-Work-Detect_0] Invalid piece: lid = 0, drop it
+I1014 12:07:10.195778  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :99
+I1014 12:07:10.197365  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 99 sorting queue size 0   FPS: 20
+I1014 12:07:10.197487  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.236745  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.236853  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.236891  5677 work_detect.cpp:102] Succeeded to add det start for frame 100
+I1014 12:07:10.243479  5677 work_detect.cpp:70] Frame :100 detect result :1 face(s)
+I1014 12:07:10.243515  5677 work_detect.cpp:86] Detected bbox: [184 x 225 from (245, 133)]
+I1014 12:07:10.243557  5677 work_detect.cpp:120] Succeeded to add det end for frame 100
+I1014 12:07:10.243573  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.243597  5677 work_track.cpp:82] Frame: 100 build input_characts: [0.2875 x 0.625 from (0.382812, 0.369444)], 0.999622, 0
+I1014 12:07:10.243654  5677 work_track.cpp:102] Succeeded to set track lock for frame 100
+I1014 12:07:10.243695  5677 work_track.cpp:116] Succeeded to release track lock for frame 100
+I1014 12:07:10.243710  5677 work_track.cpp:120] Track results of frame 100: 1 objects input, 0 objects tracked!
+I1014 12:07:10.243727  5677 work_track.cpp:162] Frame: 100 lid: 0 not tracked, will set invalid
+I1014 12:07:10.243742  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :100 split
+I1014 12:07:10.243760  5677 work_thread.hpp:124]  [T-Work-Detect_0] Invalid piece: lid = 0, drop it
+I1014 12:07:10.243805  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :100
+I1014 12:07:10.245364  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 100 sorting queue size 0   FPS: 20
+I1014 12:07:10.245503  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.284823  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.284925  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.285035  5677 work_detect.cpp:102] Succeeded to add det start for frame 101
+I1014 12:07:10.291594  5677 work_detect.cpp:70] Frame :101 detect result :1 face(s)
+W1014 12:07:10.291636  5677 work_detect.cpp:83] Invalid bbox: [167 x 207 from (254, 159)]
+I1014 12:07:10.291733  5677 work_detect.cpp:120] Succeeded to add det end for frame 101
+I1014 12:07:10.291751  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.291779  5677 work_track.cpp:102] Succeeded to set track lock for frame 101
+I1014 12:07:10.291810  5677 work_track.cpp:116] Succeeded to release track lock for frame 101
+I1014 12:07:10.291823  5677 work_track.cpp:120] Track results of frame 101: 0 objects input, 0 objects tracked!
+I1014 12:07:10.291843  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :101 split
+I1014 12:07:10.291893  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :101
+I1014 12:07:10.293558  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 101 sorting queue size 0   FPS: 20.0489
+I1014 12:07:10.293632  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.338743  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.338846  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.338883  5677 work_detect.cpp:102] Succeeded to add det start for frame 102
+I1014 12:07:10.345549  5677 work_detect.cpp:70] Frame :102 detect result :1 face(s)
+W1014 12:07:10.345592  5677 work_detect.cpp:83] Invalid bbox: [165 x 206 from (257, 160)]
+I1014 12:07:10.345690  5677 work_detect.cpp:120] Succeeded to add det end for frame 102
+I1014 12:07:10.345706  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.345734  5677 work_track.cpp:102] Succeeded to set track lock for frame 102
+I1014 12:07:10.345768  5677 work_track.cpp:116] Succeeded to release track lock for frame 102
+I1014 12:07:10.345783  5677 work_track.cpp:120] Track results of frame 102: 0 objects input, 0 objects tracked!
+I1014 12:07:10.345801  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :102 split
+I1014 12:07:10.345844  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :102
+I1014 12:07:10.347488  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 102 sorting queue size 0   FPS: 20.0098
+I1014 12:07:10.347555  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.386734  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.386835  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.386873  5677 work_detect.cpp:102] Succeeded to add det start for frame 103
+I1014 12:07:10.393543  5677 work_detect.cpp:70] Frame :103 detect result :1 face(s)
+W1014 12:07:10.393589  5677 work_detect.cpp:83] Invalid bbox: [169 x 212 from (258, 157)]
+I1014 12:07:10.393687  5677 work_detect.cpp:120] Succeeded to add det end for frame 103
+I1014 12:07:10.393704  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.393733  5677 work_track.cpp:102] Succeeded to set track lock for frame 103
+I1014 12:07:10.393759  5677 work_track.cpp:116] Succeeded to release track lock for frame 103
+I1014 12:07:10.393772  5677 work_track.cpp:120] Track results of frame 103: 0 objects input, 0 objects tracked!
+I1014 12:07:10.393791  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :103 split
+I1014 12:07:10.393849  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :103
+I1014 12:07:10.395499  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 103 sorting queue size 0   FPS: 20
+I1014 12:07:10.395566  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.434795  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.434903  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.434940  5677 work_detect.cpp:102] Succeeded to add det start for frame 104
+I1014 12:07:10.441562  5677 work_detect.cpp:70] Frame :104 detect result :1 face(s)
+W1014 12:07:10.441603  5677 work_detect.cpp:83] Invalid bbox: [170 x 212 from (257, 157)]
+I1014 12:07:10.441745  5677 work_detect.cpp:120] Succeeded to add det end for frame 104
+I1014 12:07:10.441763  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.441789  5677 work_track.cpp:102] Succeeded to set track lock for frame 104
+I1014 12:07:10.441817  5677 work_track.cpp:116] Succeeded to release track lock for frame 104
+I1014 12:07:10.441830  5677 work_track.cpp:120] Track results of frame 104: 0 objects input, 0 objects tracked!
+I1014 12:07:10.441849  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :104 split
+I1014 12:07:10.441898  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :104
+I1014 12:07:10.443576  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 104 sorting queue size 0   FPS: 20.0489
+I1014 12:07:10.443645  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.488755  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.488860  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.488900  5677 work_detect.cpp:102] Succeeded to add det start for frame 105
+I1014 12:07:10.495504  5677 work_detect.cpp:70] Frame :105 detect result :1 face(s)
+W1014 12:07:10.495543  5677 work_detect.cpp:83] Invalid bbox: [177 x 216 from (268, 154)]
+I1014 12:07:10.495643  5677 work_detect.cpp:120] Succeeded to add det end for frame 105
+I1014 12:07:10.495661  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.495688  5677 work_track.cpp:102] Succeeded to set track lock for frame 105
+I1014 12:07:10.495715  5677 work_track.cpp:116] Succeeded to release track lock for frame 105
+I1014 12:07:10.495729  5677 work_track.cpp:120] Track results of frame 105: 0 objects input, 0 objects tracked!
+I1014 12:07:10.495748  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :105 split
+I1014 12:07:10.495792  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :105
+I1014 12:07:10.497362  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 105 sorting queue size 0   FPS: 20
+I1014 12:07:10.497491  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.536767  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.536868  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.536906  5677 work_detect.cpp:102] Succeeded to add det start for frame 106
+I1014 12:07:10.543491  5677 work_detect.cpp:70] Frame :106 detect result :1 face(s)
+W1014 12:07:10.543534  5677 work_detect.cpp:83] Invalid bbox: [175 x 212 from (271, 158)]
+I1014 12:07:10.543639  5677 work_detect.cpp:120] Succeeded to add det end for frame 106
+I1014 12:07:10.543658  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.543684  5677 work_track.cpp:102] Succeeded to set track lock for frame 106
+I1014 12:07:10.543711  5677 work_track.cpp:116] Succeeded to release track lock for frame 106
+I1014 12:07:10.543725  5677 work_track.cpp:120] Track results of frame 106: 0 objects input, 0 objects tracked!
+I1014 12:07:10.543745  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :106 split
+I1014 12:07:10.543797  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :106
+I1014 12:07:10.545367  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 106 sorting queue size 0   FPS: 20
+I1014 12:07:10.545509  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.584803  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.584900  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.584939  5677 work_detect.cpp:102] Succeeded to add det start for frame 107
+I1014 12:07:10.591578  5677 work_detect.cpp:70] Frame :107 detect result :1 face(s)
+W1014 12:07:10.591619  5677 work_detect.cpp:83] Invalid bbox: [172 x 208 from (276, 161)]
+I1014 12:07:10.591718  5677 work_detect.cpp:120] Succeeded to add det end for frame 107
+I1014 12:07:10.591737  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.591763  5677 work_track.cpp:102] Succeeded to set track lock for frame 107
+I1014 12:07:10.591840  5677 work_track.cpp:116] Succeeded to release track lock for frame 107
+I1014 12:07:10.591856  5677 work_track.cpp:120] Track results of frame 107: 0 objects input, 0 objects tracked!
+I1014 12:07:10.591876  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :107 split
+I1014 12:07:10.591922  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :107
+I1014 12:07:10.593605  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 107 sorting queue size 0   FPS: 20.0587
+I1014 12:07:10.593673  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.638712  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.638818  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.638856  5677 work_detect.cpp:102] Succeeded to add det start for frame 108
+I1014 12:07:10.645532  5677 work_detect.cpp:70] Frame :108 detect result :1 face(s)
+W1014 12:07:10.645571  5677 work_detect.cpp:83] Invalid bbox: [174 x 207 from (273, 161)]
+I1014 12:07:10.645675  5677 work_detect.cpp:120] Succeeded to add det end for frame 108
+I1014 12:07:10.645694  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.645720  5677 work_track.cpp:102] Succeeded to set track lock for frame 108
+I1014 12:07:10.645748  5677 work_track.cpp:116] Succeeded to release track lock for frame 108
+I1014 12:07:10.645762  5677 work_track.cpp:120] Track results of frame 108: 0 objects input, 0 objects tracked!
+I1014 12:07:10.645781  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :108 split
+I1014 12:07:10.645824  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :108
+I1014 12:07:10.647476  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 108 sorting queue size 0   FPS: 20
+I1014 12:07:10.647545  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.686744  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.686848  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.686887  5677 work_detect.cpp:102] Succeeded to add det start for frame 109
+I1014 12:07:10.693540  5677 work_detect.cpp:70] Frame :109 detect result :1 face(s)
+W1014 12:07:10.693584  5677 work_detect.cpp:83] Invalid bbox: [169 x 204 from (276, 164)]
+I1014 12:07:10.693683  5677 work_detect.cpp:120] Succeeded to add det end for frame 109
+I1014 12:07:10.693701  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.693729  5677 work_track.cpp:102] Succeeded to set track lock for frame 109
+I1014 12:07:10.693756  5677 work_track.cpp:116] Succeeded to release track lock for frame 109
+I1014 12:07:10.693770  5677 work_track.cpp:120] Track results of frame 109: 0 objects input, 0 objects tracked!
+I1014 12:07:10.693789  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :109 split
+I1014 12:07:10.693845  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :109
+I1014 12:07:10.695483  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 109 sorting queue size 0   FPS: 20
+I1014 12:07:10.695550  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.734796  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.734896  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.734935  5677 work_detect.cpp:102] Succeeded to add det start for frame 110
+I1014 12:07:10.741588  5677 work_detect.cpp:70] Frame :110 detect result :1 face(s)
+W1014 12:07:10.741631  5677 work_detect.cpp:83] Invalid bbox: [163 x 201 from (281, 165)]
+I1014 12:07:10.741727  5677 work_detect.cpp:120] Succeeded to add det end for frame 110
+I1014 12:07:10.741744  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.741771  5677 work_track.cpp:102] Succeeded to set track lock for frame 110
+I1014 12:07:10.741798  5677 work_track.cpp:116] Succeeded to release track lock for frame 110
+I1014 12:07:10.741812  5677 work_track.cpp:120] Track results of frame 110: 0 objects input, 0 objects tracked!
+I1014 12:07:10.741881  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :110 split
+I1014 12:07:10.741950  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :110
+I1014 12:07:10.743594  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 110 sorting queue size 0   FPS: 20.0587
+I1014 12:07:10.743660  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.788657  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.788759  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.788800  5677 work_detect.cpp:102] Succeeded to add det start for frame 111
+I1014 12:07:10.795363  5677 work_detect.cpp:70] Frame :111 detect result :1 face(s)
+W1014 12:07:10.795406  5677 work_detect.cpp:83] Invalid bbox: [161 x 198 from (286, 165)]
+I1014 12:07:10.795507  5677 work_detect.cpp:120] Succeeded to add det end for frame 111
+I1014 12:07:10.795526  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.795552  5677 work_track.cpp:102] Succeeded to set track lock for frame 111
+I1014 12:07:10.795580  5677 work_track.cpp:116] Succeeded to release track lock for frame 111
+I1014 12:07:10.795594  5677 work_track.cpp:120] Track results of frame 111: 0 objects input, 0 objects tracked!
+I1014 12:07:10.795614  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :111 split
+I1014 12:07:10.795655  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :111
+I1014 12:07:10.797274  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 111 sorting queue size 0   FPS: 20
+I1014 12:07:10.797363  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.836777  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.836884  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.836921  5677 work_detect.cpp:102] Succeeded to add det start for frame 112
+I1014 12:07:10.843505  5677 work_detect.cpp:70] Frame :112 detect result :1 face(s)
+W1014 12:07:10.843544  5677 work_detect.cpp:83] Invalid bbox: [162 x 202 from (283, 164)]
+I1014 12:07:10.843642  5677 work_detect.cpp:120] Succeeded to add det end for frame 112
+I1014 12:07:10.843660  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.843688  5677 work_track.cpp:102] Succeeded to set track lock for frame 112
+I1014 12:07:10.843714  5677 work_track.cpp:116] Succeeded to release track lock for frame 112
+I1014 12:07:10.843729  5677 work_track.cpp:120] Track results of frame 112: 0 objects input, 0 objects tracked!
+I1014 12:07:10.843747  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :112 split
+I1014 12:07:10.843794  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :112
+I1014 12:07:10.845525  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 112 sorting queue size 0   FPS: 20
+I1014 12:07:10.845615  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.884886  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.884989  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.885025  5677 work_detect.cpp:102] Succeeded to add det start for frame 113
+I1014 12:07:10.891654  5677 work_detect.cpp:70] Frame :113 detect result :1 face(s)
+W1014 12:07:10.891695  5677 work_detect.cpp:83] Invalid bbox: [163 x 204 from (281, 161)]
+I1014 12:07:10.891790  5677 work_detect.cpp:120] Succeeded to add det end for frame 113
+I1014 12:07:10.891808  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.891835  5677 work_track.cpp:102] Succeeded to set track lock for frame 113
+I1014 12:07:10.891862  5677 work_track.cpp:116] Succeeded to release track lock for frame 113
+I1014 12:07:10.891876  5677 work_track.cpp:120] Track results of frame 113: 0 objects input, 0 objects tracked!
+I1014 12:07:10.891896  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :113 split
+I1014 12:07:10.891957  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :113
+I1014 12:07:10.893596  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 113 sorting queue size 0   FPS: 20.0587
+I1014 12:07:10.893738  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.938632  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.938737  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.938776  5677 work_detect.cpp:102] Succeeded to add det start for frame 114
+I1014 12:07:10.945466  5677 work_detect.cpp:70] Frame :114 detect result :1 face(s)
+W1014 12:07:10.945515  5677 work_detect.cpp:83] Invalid bbox: [165 x 203 from (281, 162)]
+I1014 12:07:10.945641  5677 work_detect.cpp:120] Succeeded to add det end for frame 114
+I1014 12:07:10.945658  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.945685  5677 work_track.cpp:102] Succeeded to set track lock for frame 114
+I1014 12:07:10.945713  5677 work_track.cpp:116] Succeeded to release track lock for frame 114
+I1014 12:07:10.945727  5677 work_track.cpp:120] Track results of frame 114: 0 objects input, 0 objects tracked!
+I1014 12:07:10.945746  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :114 split
+I1014 12:07:10.945789  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :114
+I1014 12:07:10.947448  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 114 sorting queue size 0   FPS: 20
+I1014 12:07:10.947513  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:10.986672  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:10.986771  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:10.986810  5677 work_detect.cpp:102] Succeeded to add det start for frame 115
+I1014 12:07:10.993456  5677 work_detect.cpp:70] Frame :115 detect result :1 face(s)
+W1014 12:07:10.993496  5677 work_detect.cpp:83] Invalid bbox: [167 x 203 from (279, 162)]
+I1014 12:07:10.993594  5677 work_detect.cpp:120] Succeeded to add det end for frame 115
+I1014 12:07:10.993611  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:10.993639  5677 work_track.cpp:102] Succeeded to set track lock for frame 115
+I1014 12:07:10.993666  5677 work_track.cpp:116] Succeeded to release track lock for frame 115
+I1014 12:07:10.993680  5677 work_track.cpp:120] Track results of frame 115: 0 objects input, 0 objects tracked!
+I1014 12:07:10.993698  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :115 split
+I1014 12:07:10.993744  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :115
+I1014 12:07:10.995288  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 115 sorting queue size 0   FPS: 24.5656
+I1014 12:07:10.995353  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:11.034795  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:11.034904  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:11.034942  5677 work_detect.cpp:102] Succeeded to add det start for frame 116
+I1014 12:07:11.041591  5677 work_detect.cpp:70] Frame :116 detect result :1 face(s)
+W1014 12:07:11.041630  5677 work_detect.cpp:83] Invalid bbox: [167 x 203 from (277, 164)]
+I1014 12:07:11.041725  5677 work_detect.cpp:120] Succeeded to add det end for frame 116
+I1014 12:07:11.041743  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:11.041770  5677 work_track.cpp:102] Succeeded to set track lock for frame 116
+I1014 12:07:11.041798  5677 work_track.cpp:116] Succeeded to release track lock for frame 116
+I1014 12:07:11.041812  5677 work_track.cpp:120] Track results of frame 116: 0 objects input, 0 objects tracked!
+I1014 12:07:11.041831  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :116 split
+I1014 12:07:11.041877  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :116
+I1014 12:07:11.043462  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 116 sorting queue size 0   FPS: 24.4613
+I1014 12:07:11.043532  5675 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:07:11.088685  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:11.088795  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:11.088909  5677 work_detect.cpp:102] Succeeded to add det start for frame 117
+I1014 12:07:11.095504  5677 work_detect.cpp:70] Frame :117 detect result :1 face(s)
+W1014 12:07:11.095544  5677 work_detect.cpp:83] Invalid bbox: [167 x 207 from (278, 161)]
+I1014 12:07:11.095640  5677 work_detect.cpp:120] Succeeded to add det end for frame 117
+I1014 12:07:11.095657  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:11.095685  5677 work_track.cpp:102] Succeeded to set track lock for frame 117
+I1014 12:07:11.095711  5677 work_track.cpp:116] Succeeded to release track lock for frame 117
+I1014 12:07:11.095726  5677 work_track.cpp:120] Track results of frame 117: 0 objects input, 0 objects tracked!
+I1014 12:07:11.095744  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :117 split
+I1014 12:07:11.095788  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :117
+I1014 12:07:11.097343  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 117 sorting queue size 0   FPS: 24.2801
+I1014 12:07:11.137123  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:11.137238  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:11.137271  5677 work_detect.cpp:102] Succeeded to add det start for frame 118
+I1014 12:07:11.143831  5677 work_detect.cpp:70] Frame :118 detect result :1 face(s)
+W1014 12:07:11.143870  5677 work_detect.cpp:83] Invalid bbox: [170 x 204 from (273, 163)]
+I1014 12:07:11.143996  5677 work_detect.cpp:120] Succeeded to add det end for frame 118
+I1014 12:07:11.144013  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:11.144040  5677 work_track.cpp:102] Succeeded to set track lock for frame 118
+I1014 12:07:11.144068  5677 work_track.cpp:116] Succeeded to release track lock for frame 118
+I1014 12:07:11.144081  5677 work_track.cpp:120] Track results of frame 118: 0 objects input, 0 objects tracked!
+I1014 12:07:11.144100  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :118 split
+I1014 12:07:11.144147  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :118
+I1014 12:07:11.145722  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 118 sorting queue size 1   FPS: 24.1891
+I1014 12:07:11.185264  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:11.185369  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:11.185403  5677 work_detect.cpp:102] Succeeded to add det start for frame 119
+I1014 12:07:11.192005  5677 work_detect.cpp:70] Frame :119 detect result :1 face(s)
+W1014 12:07:11.192046  5677 work_detect.cpp:83] Invalid bbox: [175 x 208 from (272, 160)]
+I1014 12:07:11.192143  5677 work_detect.cpp:120] Succeeded to add det end for frame 119
+I1014 12:07:11.192183  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:11.192210  5677 work_track.cpp:102] Succeeded to set track lock for frame 119
+I1014 12:07:11.192237  5677 work_track.cpp:116] Succeeded to release track lock for frame 119
+I1014 12:07:11.192251  5677 work_track.cpp:120] Track results of frame 119: 0 objects input, 0 objects tracked!
+I1014 12:07:11.192270  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :119 split
+I1014 12:07:11.192317  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :119
+I1014 12:07:11.194026  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 119 sorting queue size 2   FPS: 24.1028
+I1014 12:07:11.239040  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:11.239159  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:11.239192  5677 work_detect.cpp:102] Succeeded to add det start for frame 120
+I1014 12:07:11.245836  5677 work_detect.cpp:70] Frame :120 detect result :1 face(s)
+W1014 12:07:11.245880  5677 work_detect.cpp:83] Invalid bbox: [175 x 208 from (268, 160)]
+I1014 12:07:11.246007  5677 work_detect.cpp:120] Succeeded to add det end for frame 120
+I1014 12:07:11.246026  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:11.246052  5677 work_track.cpp:102] Succeeded to set track lock for frame 120
+I1014 12:07:11.246124  5677 work_track.cpp:116] Succeeded to release track lock for frame 120
+I1014 12:07:11.246140  5677 work_track.cpp:120] Track results of frame 120: 0 objects input, 0 objects tracked!
+I1014 12:07:11.246158  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :120 split
+I1014 12:07:11.246201  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :120
+I1014 12:07:11.247905  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 120 sorting queue size 3   FPS: 23.9459
+I1014 12:07:11.287151  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:11.287257  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:11.287290  5677 work_detect.cpp:102] Succeeded to add det start for frame 121
+I1014 12:07:11.293968  5677 work_detect.cpp:70] Frame :121 detect result :1 face(s)
+W1014 12:07:11.294014  5677 work_detect.cpp:83] Invalid bbox: [173 x 206 from (270, 162)]
+I1014 12:07:11.294131  5677 work_detect.cpp:120] Succeeded to add det end for frame 121
+I1014 12:07:11.294149  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:11.294175  5677 work_track.cpp:102] Succeeded to set track lock for frame 121
+I1014 12:07:11.294203  5677 work_track.cpp:116] Succeeded to release track lock for frame 121
+I1014 12:07:11.294217  5677 work_track.cpp:120] Track results of frame 121: 0 objects input, 0 objects tracked!
+I1014 12:07:11.294236  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :121 split
+I1014 12:07:11.294289  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :121
+I1014 12:07:11.296047  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 121 sorting queue size 4   FPS: 23.87
+I1014 12:07:11.335350  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:11.335472  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:11.335506  5677 work_detect.cpp:102] Succeeded to add det start for frame 122
+I1014 12:07:11.342124  5677 work_detect.cpp:70] Frame :122 detect result :1 face(s)
+W1014 12:07:11.342164  5677 work_detect.cpp:83] Invalid bbox: [169 x 203 from (273, 164)]
+I1014 12:07:11.342286  5677 work_detect.cpp:120] Succeeded to add det end for frame 122
+I1014 12:07:11.342304  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:11.342329  5677 work_track.cpp:102] Succeeded to set track lock for frame 122
+I1014 12:07:11.342356  5677 work_track.cpp:116] Succeeded to release track lock for frame 122
+I1014 12:07:11.342370  5677 work_track.cpp:120] Track results of frame 122: 0 objects input, 0 objects tracked!
+I1014 12:07:11.342389  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :122 split
+I1014 12:07:11.342435  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :122
+I1014 12:07:11.343935  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 122 sorting queue size 5   FPS: 23.7977
+I1014 12:07:11.389080  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:11.389187  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:11.389220  5677 work_detect.cpp:102] Succeeded to add det start for frame 123
+I1014 12:07:11.395798  5677 work_detect.cpp:70] Frame :123 detect result :1 face(s)
+W1014 12:07:11.395838  5677 work_detect.cpp:83] Invalid bbox: [170 x 208 from (273, 162)]
+I1014 12:07:11.395970  5677 work_detect.cpp:120] Succeeded to add det end for frame 123
+I1014 12:07:11.395988  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:11.396015  5677 work_track.cpp:102] Succeeded to set track lock for frame 123
+I1014 12:07:11.396042  5677 work_track.cpp:116] Succeeded to release track lock for frame 123
+I1014 12:07:11.396057  5677 work_track.cpp:120] Track results of frame 123: 0 objects input, 0 objects tracked!
+I1014 12:07:11.396077  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :123 split
+I1014 12:07:11.396119  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :123
+I1014 12:07:11.397840  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 123 sorting queue size 6   FPS: 23.1884
+I1014 12:07:11.437165  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:11.437279  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:07:11.437314  5677 work_detect.cpp:102] Succeeded to add det start for frame 124
+I1014 12:07:11.443946  5677 work_detect.cpp:70] Frame :124 detect result :1 face(s)
+W1014 12:07:11.443987  5677 work_detect.cpp:83] Invalid bbox: [174 x 212 from (270, 157)]
+I1014 12:07:11.444110  5677 work_detect.cpp:120] Succeeded to add det end for frame 124
+I1014 12:07:11.444128  5677 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:07:11.444177  5677 work_track.cpp:102] Succeeded to set track lock for frame 124
+I1014 12:07:11.444206  5677 work_track.cpp:116] Succeeded to release track lock for frame 124
+I1014 12:07:11.444221  5677 work_track.cpp:120] Track results of frame 124: 0 objects input, 0 objects tracked!
+I1014 12:07:11.444239  5677 work_thread.hpp:88]  [T-Work-Detect_0] Frame :124 split
+I1014 12:07:11.444296  5680 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :124
+I1014 12:07:11.446003  5676 demo_inner.hpp:435] thread [SORT-0]  frame id 124 sorting queue size 7   FPS: 22.6629
+I1014 12:07:11.462961  5672 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 12:07:11.463007  5672 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 12:07:11.463023  5672 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 12:07:11.463038  5672 demo_inner.hpp:131] thread [T-Work-Detect_0] is stopped.
+I1014 12:07:11.463052  5672 demo_inner.hpp:131] thread [T-Work-Recog_0] is stopped.
+I1014 12:07:11.463066  5672 demo_inner.hpp:131] thread [T-Work-Recog_1] is stopped.
+I1014 12:07:11.463079  5672 demo_inner.hpp:131] thread [T-Intergrate-intergrate] is stopped.
+I1014 12:07:11.464397  5677 demo_inner.hpp:108] thread [T-Work-Detect_0] is ended
+I1014 12:07:11.465590  5680 demo_inner.hpp:108] thread [T-Intergrate-intergrate] is ended
+I1014 12:07:11.472616  5679 demo_inner.hpp:108] thread [T-Work-Recog_1] is ended
+I1014 12:07:11.472712  5678 demo_inner.hpp:108] thread [T-Work-Recog_0] is ended
+I1014 12:07:11.485175  5674 demo_inner.hpp:177] decode queue size 0
+I1014 12:07:11.485252  5674 demo_inner.hpp:108] thread [DedodeThread-0] is ended
+I1014 12:07:11.630872  5672 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 12:07:11.630947  5672 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 12:07:11.630964  5672 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 12:07:11.630980  5672 demo_inner.hpp:131] thread [T-Work-Detect_0] is stopped.
+I1014 12:07:11.630993  5672 demo_inner.hpp:131] thread [T-Work-Recog_0] is stopped.
+I1014 12:07:11.631007  5672 demo_inner.hpp:131] thread [T-Work-Recog_1] is stopped.
+I1014 12:07:11.631021  5672 demo_inner.hpp:131] thread [T-Intergrate-intergrate] is stopped.
+I1014 12:07:11.799109  5672 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 12:07:11.799185  5672 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 12:07:11.799201  5672 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 12:07:11.799216  5672 demo_inner.hpp:131] thread [T-Work-Detect_0] is stopped.
+I1014 12:07:11.799230  5672 demo_inner.hpp:131] thread [T-Work-Recog_0] is stopped.
+I1014 12:07:11.799244  5672 demo_inner.hpp:131] thread [T-Work-Recog_1] is stopped.
+I1014 12:07:11.799258  5672 demo_inner.hpp:131] thread [T-Intergrate-intergrate] is stopped.
+I1014 12:07:11.879467  5675 demo_inner.hpp:108] thread [GUIThread] is ended
+I1014 12:07:11.879736  5672 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 12:07:11.879765  5672 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 12:07:11.879781  5672 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 12:07:11.879794  5672 demo_inner.hpp:131] thread [T-Work-Detect_0] is stopped.
+I1014 12:07:11.879808  5672 demo_inner.hpp:131] thread [T-Work-Recog_0] is stopped.
+I1014 12:07:11.879822  5672 demo_inner.hpp:131] thread [T-Work-Recog_1] is stopped.
+I1014 12:07:11.879911  5672 demo_inner.hpp:131] thread [T-Intergrate-intergrate] is stopped.
+I1014 12:07:11.879930  5672 demo_inner.hpp:137] waiting for [DedodeThread-0] ended
+I1014 12:07:11.879951  5672 demo_inner.hpp:137] waiting for [SORT-0] ended
+I1014 12:07:11.946177  5676 demo_inner.hpp:108] thread [SORT-0] is ended
+I1014 12:07:11.946245  5672 demo_inner.hpp:137] waiting for [T-Work-Detect_0] ended
+I1014 12:07:11.946265  5672 demo_inner.hpp:137] waiting for [T-Work-Recog_0] ended
+I1014 12:07:11.946350  5672 demo_inner.hpp:137] waiting for [T-Work-Recog_1] ended
+I1014 12:07:11.946382  5672 demo_inner.hpp:137] waiting for [T-Intergrate-intergrate] ended
+I1014 12:07:11.952458  5672 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 12:07:11.952522  5672 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 12:07:11.952538  5672 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 12:07:11.952551  5672 demo_inner.hpp:131] thread [T-Work-Recog_1] is stopped.
+I1014 12:07:11.952565  5672 demo_inner.hpp:131] thread [T-Intergrate-intergrate] is stopped.
+I1014 12:07:11.965559  5672 test_video_face_recog_multi.cpp:179] BYEBYE

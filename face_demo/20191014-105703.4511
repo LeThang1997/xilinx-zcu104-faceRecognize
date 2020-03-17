@@ -1,0 +1,51 @@
+Log file created at: 2019/10/14 10:57:03
+Running on machine: zcu104
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1014 10:57:03.425752  4511 feature_lib.cpp:107] Feature lib read name: images/thanglmb.jpg
+I1014 10:57:03.426695  4511 feature_lib.cpp:129] Read lib face : images/thanglmb.jpg
+I1014 10:57:03.426753  4511 feature_lib.cpp:143] Loading normal image: images/thanglmb.jpg...
+I1014 10:57:03.434664  4511 feature_lib.cpp:148] Load normal image: images/thanglmb.jpg done size: 640 * 360
+I1014 10:57:03.802635  4511 demo_inner.hpp:126] thread [DedodeThread-0] is starting
+I1014 10:57:03.802798  4511 demo_inner.hpp:126] thread [GUIThread] is starting
+I1014 10:57:03.802892  4513 demo_inner.hpp:101] thread [DedodeThread-0] is started
+I1014 10:57:03.802908  4511 demo_inner.hpp:126] thread [SORT-0] is starting
+I1014 10:57:03.802963  4514 demo_inner.hpp:101] thread [GUIThread] is started
+I1014 10:57:03.802980  4511 demo_inner.hpp:126] thread [T-Work-Detect_0] is starting
+I1014 10:57:03.803041  4515 demo_inner.hpp:101] thread [SORT-0] is started
+I1014 10:57:03.803042  4511 demo_inner.hpp:126] thread [T-Work-Recog_0] is starting
+I1014 10:57:03.803064  4516 demo_inner.hpp:101] thread [T-Work-Detect_0] is started
+I1014 10:57:03.803108  4511 demo_inner.hpp:126] thread [T-Work-Recog_1] is starting
+I1014 10:57:03.803160  4517 demo_inner.hpp:101] thread [T-Work-Recog_0] is started
+I1014 10:57:03.803179  4511 demo_inner.hpp:126] thread [T-Intergrate-intergrate] is starting
+I1014 10:57:03.803201  4518 demo_inner.hpp:101] thread [T-Work-Recog_1] is started
+I1014 10:57:03.803237  4511 demo_inner.hpp:137] waiting for [GUIThread] ended
+I1014 10:57:03.803267  4519 demo_inner.hpp:101] thread [T-Intergrate-intergrate] is started
+I1014 10:57:04.137445  4511 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 10:57:04.137516  4511 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 10:57:04.137532  4511 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 10:57:04.137547  4511 demo_inner.hpp:131] thread [T-Work-Detect_0] is stopped.
+I1014 10:57:04.137562  4511 demo_inner.hpp:131] thread [T-Work-Recog_0] is stopped.
+I1014 10:57:04.137575  4511 demo_inner.hpp:131] thread [T-Work-Recog_1] is stopped.
+I1014 10:57:04.137588  4511 demo_inner.hpp:131] thread [T-Intergrate-intergrate] is stopped.
+I1014 10:57:04.145157  4516 demo_inner.hpp:108] thread [T-Work-Detect_0] is ended
+I1014 10:57:04.145197  4517 demo_inner.hpp:108] thread [T-Work-Recog_0] is ended
+I1014 10:57:04.145295  4518 demo_inner.hpp:108] thread [T-Work-Recog_1] is ended
+I1014 10:57:04.145344  4519 demo_inner.hpp:108] thread [T-Intergrate-intergrate] is ended
+I1014 10:57:04.303079  4514 demo_inner.hpp:108] thread [GUIThread] is ended
+I1014 10:57:04.303128  4511 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 10:57:04.303148  4515 demo_inner.hpp:108] thread [SORT-0] is ended
+I1014 10:57:04.303151  4511 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 10:57:04.303170  4511 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 10:57:04.303186  4511 demo_inner.hpp:131] thread [T-Work-Detect_0] is stopped.
+I1014 10:57:04.303200  4511 demo_inner.hpp:131] thread [T-Work-Recog_0] is stopped.
+I1014 10:57:04.303213  4511 demo_inner.hpp:131] thread [T-Work-Recog_1] is stopped.
+I1014 10:57:04.303227  4511 demo_inner.hpp:131] thread [T-Intergrate-intergrate] is stopped.
+I1014 10:57:04.303243  4511 demo_inner.hpp:137] waiting for [DedodeThread-0] ended
+I1014 10:57:04.504112  4513 demo_inner.hpp:177] decode queue size 0
+I1014 10:57:04.504257  4513 demo_inner.hpp:108] thread [DedodeThread-0] is ended
+I1014 10:57:04.504372  4511 demo_inner.hpp:137] waiting for [SORT-0] ended
+I1014 10:57:04.504395  4511 demo_inner.hpp:137] waiting for [T-Work-Detect_0] ended
+I1014 10:57:04.504413  4511 demo_inner.hpp:137] waiting for [T-Work-Recog_0] ended
+I1014 10:57:04.504492  4511 demo_inner.hpp:137] waiting for [T-Work-Recog_1] ended
+I1014 10:57:04.504523  4511 demo_inner.hpp:137] waiting for [T-Intergrate-intergrate] ended
+I1014 10:57:04.518519  4511 test_video_face_recog_multi.cpp:179] BYEBYE

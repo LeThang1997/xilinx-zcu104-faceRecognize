@@ -1,0 +1,6 @@
+Log file created at: 2019/10/12 13:47:58
+Running on machine: zcu104
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1012 13:47:58.284394  6910 work_recog.hpp:118] Face id: 0 has low quality : 0.0332446, no need to recog
+W1012 13:47:58.337482  6911 work_recog.hpp:118] Face id: 0 has low quality : 0.0613326, no need to recog
+W1012 13:47:58.568706  6911 work_recog.hpp:118] Face id: 0 has low quality : 0.0873019, no need to recog

@@ -1,0 +1,202 @@
+Log file created at: 2019/10/14 15:01:18
+Running on machine: zcu104
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1014 15:01:18.266494  8472 work_detect.cpp:83] Invalid bbox: [178 x 217 from (298, 151)]
+W1014 15:01:18.469964  8472 work_detect.cpp:83] Invalid bbox: [180 x 225 from (289, 147)]
+W1014 15:01:18.505875  8472 work_detect.cpp:83] Invalid bbox: [182 x 222 from (297, 150)]
+W1014 15:01:18.572358  8472 work_detect.cpp:83] Invalid bbox: [180 x 217 from (298, 151)]
+W1014 15:01:18.608196  8472 work_detect.cpp:83] Invalid bbox: [175 x 224 from (291, 149)]
+W1014 15:01:18.674974  8472 work_detect.cpp:83] Invalid bbox: [178 x 217 from (300, 152)]
+W1014 15:01:18.770164  8472 work_detect.cpp:83] Invalid bbox: [178 x 217 from (298, 150)]
+W1014 15:01:18.806145  8472 work_detect.cpp:83] Invalid bbox: [177 x 215 from (299, 153)]
+W1014 15:01:18.938427  8472 work_detect.cpp:83] Invalid bbox: [165 x 215 from (296, 153)]
+W1014 15:01:19.075925  8472 work_detect.cpp:83] Invalid bbox: [175 x 215 from (301, 154)]
+W1014 15:01:19.172549  8472 work_detect.cpp:83] Invalid bbox: [178 x 218 from (298, 154)]
+W1014 15:01:19.207903  8472 work_detect.cpp:83] Invalid bbox: [174 x 216 from (300, 154)]
+W1014 15:01:19.239270  8473 work_recog.hpp:118] Face id: 2 has low quality : 0.026676, no need to recog
+W1014 15:01:19.274535  8472 work_detect.cpp:83] Invalid bbox: [180 x 220 from (298, 152)]
+W1014 15:01:19.275504  8474 work_recog.hpp:118] Face id: 2 has low quality : 0.0298029, no need to recog
+W1014 15:01:19.339900  8472 work_detect.cpp:83] Invalid bbox: [176 x 217 from (299, 154)]
+W1014 15:01:19.376991  8472 work_detect.cpp:83] Invalid bbox: [179 x 218 from (298, 155)]
+W1014 15:01:19.406168  8472 work_detect.cpp:83] Invalid bbox: [176 x 212 from (299, 156)]
+W1014 15:01:19.545817  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0298036, no need to recog
+W1014 15:01:19.610102  8472 work_detect.cpp:83] Invalid bbox: [173 x 219 from (293, 154)]
+W1014 15:01:19.611125  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0212769, no need to recog
+W1014 15:01:19.640283  8472 work_detect.cpp:83] Invalid bbox: [171 x 218 from (293, 154)]
+W1014 15:01:19.641206  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0370148, no need to recog
+W1014 15:01:19.676956  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.026676, no need to recog
+W1014 15:01:19.707090  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0266747, no need to recog
+W1014 15:01:19.743888  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0105221, no need to recog
+W1014 15:01:19.772480  8472 work_detect.cpp:83] Invalid bbox: [175 x 216 from (299, 155)]
+W1014 15:01:19.809962  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0298021, no need to recog
+W1014 15:01:19.845782  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0133509, no need to recog
+W1014 15:01:19.874277  8472 work_detect.cpp:83] Invalid bbox: [176 x 215 from (299, 156)]
+W1014 15:01:19.875267  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0370142, no need to recog
+W1014 15:01:19.910137  8472 work_detect.cpp:83] Invalid bbox: [168 x 218 from (294, 155)]
+W1014 15:01:19.940464  8472 work_detect.cpp:83] Invalid bbox: [175 x 220 from (289, 155)]
+W1014 15:01:19.941510  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0298029, no need to recog
+W1014 15:01:19.976284  8472 work_detect.cpp:83] Invalid bbox: [173 x 222 from (292, 155)]
+W1014 15:01:19.977252  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.010522, no need to recog
+W1014 15:01:20.006186  8472 work_detect.cpp:83] Invalid bbox: [171 x 212 from (303, 157)]
+W1014 15:01:20.007131  8473 work_recog.hpp:118] Face id: 4 has low quality : 0.0266744, no need to recog
+W1014 15:01:20.043205  8473 work_recog.hpp:118] Face id: 4 has low quality : 0.0411346, no need to recog
+W1014 15:01:20.077919  8472 work_detect.cpp:83] Invalid bbox: [176 x 218 from (301, 152)]
+W1014 15:01:20.078841  8473 work_recog.hpp:118] Face id: 4 has low quality : 0.0168871, no need to recog
+W1014 15:01:20.108068  8472 work_detect.cpp:83] Invalid bbox: [174 x 212 from (302, 158)]
+W1014 15:01:20.109366  8473 work_recog.hpp:118] Face id: 4 has low quality : 0.0266735, no need to recog
+W1014 15:01:20.144094  8472 work_detect.cpp:83] Invalid bbox: [170 x 211 from (304, 157)]
+W1014 15:01:20.145072  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0212755, no need to recog
+W1014 15:01:20.174295  8472 work_detect.cpp:83] Invalid bbox: [172 x 215 from (303, 156)]
+W1014 15:01:20.210081  8472 work_detect.cpp:83] Invalid bbox: [173 x 212 from (303, 156)]
+W1014 15:01:20.240232  8472 work_detect.cpp:83] Invalid bbox: [176 x 225 from (290, 153)]
+W1014 15:01:20.276410  8472 work_detect.cpp:83] Invalid bbox: [173 x 218 from (302, 153)]
+W1014 15:01:20.311964  8472 work_detect.cpp:83] Invalid bbox: [172 x 212 from (303, 158)]
+W1014 15:01:20.342262  8472 work_detect.cpp:83] Invalid bbox: [175 x 225 from (292, 152)]
+W1014 15:01:20.378155  8472 work_detect.cpp:83] Invalid bbox: [175 x 228 from (292, 148)]
+W1014 15:01:20.408111  8472 work_detect.cpp:83] Invalid bbox: [176 x 214 from (298, 156)]
+W1014 15:01:20.444289  8472 work_detect.cpp:83] Invalid bbox: [178 x 220 from (298, 151)]
+W1014 15:01:20.474346  8472 work_detect.cpp:83] Invalid bbox: [176 x 222 from (297, 152)]
+W1014 15:01:20.510210  8472 work_detect.cpp:83] Invalid bbox: [166 x 216 from (288, 156)]
+W1014 15:01:20.511214  8473 work_recog.hpp:118] Face id: 4 has low quality : 0.0266734, no need to recog
+W1014 15:01:20.545902  8472 work_detect.cpp:83] Invalid bbox: [165 x 211 from (283, 158)]
+W1014 15:01:20.546871  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.018965, no need to recog
+W1014 15:01:20.575984  8472 work_detect.cpp:83] Invalid bbox: [166 x 210 from (285, 160)]
+W1014 15:01:20.576916  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.023839, no need to recog
+W1014 15:01:20.612907  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0298023, no need to recog
+W1014 15:01:20.642136  8472 work_detect.cpp:83] Invalid bbox: [169 x 212 from (280, 156)]
+W1014 15:01:20.643133  8474 work_recog.hpp:118] Face id: 4 has low quality : 0.0298021, no need to recog
+W1014 15:01:20.678050  8472 work_detect.cpp:83] Invalid bbox: [165 x 209 from (283, 159)]
+W1014 15:01:20.679028  8473 work_recog.hpp:118] Face id: 4 has low quality : 0.018967, no need to recog
+W1014 15:01:20.708084  8472 work_detect.cpp:83] Invalid bbox: [168 x 209 from (276, 159)]
+W1014 15:01:20.743929  8472 work_detect.cpp:83] Invalid bbox: [172 x 210 from (273, 159)]
+W1014 15:01:20.744869  8473 work_recog.hpp:118] Face id: 4 has low quality : 0.0189651, no need to recog
+W1014 15:01:20.774243  8472 work_detect.cpp:83] Invalid bbox: [173 x 219 from (273, 153)]
+W1014 15:01:20.810168  8472 work_detect.cpp:83] Invalid bbox: [177 x 216 from (269, 156)]
+W1014 15:01:20.845901  8472 work_detect.cpp:83] Invalid bbox: [174 x 215 from (270, 155)]
+W1014 15:01:20.912119  8472 work_detect.cpp:83] Invalid bbox: [176 x 219 from (250, 155)]
+W1014 15:01:20.942162  8472 work_detect.cpp:83] Invalid bbox: [175 x 218 from (247, 154)]
+W1014 15:01:20.943111  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.0266749, no need to recog
+W1014 15:01:20.978130  8472 work_detect.cpp:83] Invalid bbox: [173 x 217 from (250, 155)]
+W1014 15:01:20.979210  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.0266742, no need to recog
+W1014 15:01:21.008144  8472 work_detect.cpp:83] Invalid bbox: [170 x 212 from (250, 158)]
+W1014 15:01:21.009109  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.0332446, no need to recog
+W1014 15:01:21.044363  8472 work_detect.cpp:83] Invalid bbox: [174 x 210 from (245, 160)]
+W1014 15:01:21.045346  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.0212752, no need to recog
+W1014 15:01:21.080102  8472 work_detect.cpp:83] Invalid bbox: [172 x 208 from (244, 161)]
+W1014 15:01:21.110499  8472 work_detect.cpp:83] Invalid bbox: [174 x 208 from (243, 160)]
+W1014 15:01:21.111515  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.0238382, no need to recog
+W1014 15:01:21.146158  8472 work_detect.cpp:83] Invalid bbox: [181 x 215 from (239, 158)]
+W1014 15:01:21.151909  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.0332451, no need to recog
+W1014 15:01:21.176234  8472 work_detect.cpp:83] Invalid bbox: [176 x 211 from (241, 158)]
+W1014 15:01:21.177261  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.0266749, no need to recog
+W1014 15:01:21.212146  8472 work_detect.cpp:83] Invalid bbox: [186 x 233 from (219, 148)]
+W1014 15:01:21.213121  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.0212758, no need to recog
+W1014 15:01:21.242143  8472 work_detect.cpp:83] Invalid bbox: [177 x 207 from (237, 160)]
+W1014 15:01:21.243131  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.0332438, no need to recog
+W1014 15:01:21.278196  8472 work_detect.cpp:83] Invalid bbox: [178 x 208 from (237, 160)]
+W1014 15:01:21.314285  8472 work_detect.cpp:83] Invalid bbox: [185 x 214 from (231, 157)]
+W1014 15:01:21.315259  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.0298049, no need to recog
+W1014 15:01:21.344213  8472 work_detect.cpp:83] Invalid bbox: [187 x 217 from (229, 156)]
+W1014 15:01:21.345144  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.0411309, no need to recog
+W1014 15:01:21.379904  8472 work_detect.cpp:83] Invalid bbox: [187 x 217 from (229, 156)]
+W1014 15:01:21.380898  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.0238412, no need to recog
+W1014 15:01:21.410506  8472 work_detect.cpp:83] Invalid bbox: [180 x 212 from (216, 159)]
+W1014 15:01:21.411550  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.0298036, no need to recog
+W1014 15:01:21.446154  8472 work_detect.cpp:83] Invalid bbox: [183 x 212 from (232, 158)]
+W1014 15:01:21.447135  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.0298027, no need to recog
+W1014 15:01:21.476375  8472 work_detect.cpp:83] Invalid bbox: [186 x 222 from (211, 155)]
+W1014 15:01:21.477310  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.013351, no need to recog
+W1014 15:01:21.513104  8472 work_detect.cpp:83] Invalid bbox: [186 x 224 from (209, 154)]
+W1014 15:01:21.514135  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.026676, no need to recog
+W1014 15:01:21.547998  8472 work_detect.cpp:83] Invalid bbox: [182 x 217 from (215, 158)]
+W1014 15:01:21.549087  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.0266744, no need to recog
+W1014 15:01:21.578133  8472 work_detect.cpp:83] Invalid bbox: [179 x 214 from (216, 160)]
+W1014 15:01:21.579061  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.023838, no need to recog
+W1014 15:01:21.614122  8472 work_detect.cpp:83] Invalid bbox: [179 x 220 from (216, 156)]
+W1014 15:01:21.644368  8472 work_detect.cpp:83] Invalid bbox: [179 x 217 from (216, 157)]
+W1014 15:01:21.679960  8472 work_detect.cpp:83] Invalid bbox: [179 x 212 from (214, 162)]
+W1014 15:01:21.710258  8472 work_detect.cpp:83] Invalid bbox: [179 x 211 from (214, 161)]
+W1014 15:01:21.746332  8472 work_detect.cpp:83] Invalid bbox: [176 x 214 from (215, 158)]
+W1014 15:01:21.776278  8472 work_detect.cpp:83] Invalid bbox: [179 x 214 from (213, 159)]
+W1014 15:01:21.812069  8472 work_detect.cpp:83] Invalid bbox: [174 x 206 from (217, 164)]
+W1014 15:01:21.847928  8472 work_detect.cpp:83] Invalid bbox: [172 x 207 from (217, 162)]
+W1014 15:01:21.878365  8472 work_detect.cpp:83] Invalid bbox: [174 x 208 from (214, 161)]
+W1014 15:01:21.914155  8472 work_detect.cpp:83] Invalid bbox: [179 x 209 from (211, 162)]
+W1014 15:01:21.944384  8472 work_detect.cpp:83] Invalid bbox: [175 x 208 from (213, 162)]
+W1014 15:01:21.945358  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.02384, no need to recog
+W1014 15:01:21.980149  8472 work_detect.cpp:83] Invalid bbox: [170 x 211 from (215, 161)]
+W1014 15:01:22.010424  8472 work_detect.cpp:83] Invalid bbox: [173 x 209 from (213, 162)]
+W1014 15:01:22.011349  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.0298032, no need to recog
+W1014 15:01:22.046399  8472 work_detect.cpp:83] Invalid bbox: [175 x 211 from (210, 160)]
+W1014 15:01:22.047323  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.0411333, no need to recog
+W1014 15:01:22.082165  8472 work_detect.cpp:83] Invalid bbox: [177 x 204 from (213, 165)]
+W1014 15:01:22.083178  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.041132, no need to recog
+W1014 15:01:22.112522  8472 work_detect.cpp:83] Invalid bbox: [172 x 204 from (213, 164)]
+W1014 15:01:22.113445  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.0370148, no need to recog
+W1014 15:01:22.148208  8472 work_detect.cpp:83] Invalid bbox: [174 x 204 from (210, 164)]
+W1014 15:01:22.178196  8472 work_detect.cpp:83] Invalid bbox: [177 x 206 from (212, 164)]
+W1014 15:01:22.179147  8474 work_recog.hpp:118] Face id: 6 has low quality : 0.045611, no need to recog
+W1014 15:01:22.214238  8472 work_detect.cpp:83] Invalid bbox: [175 x 210 from (208, 160)]
+W1014 15:01:22.215152  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.026673, no need to recog
+W1014 15:01:22.244228  8472 work_detect.cpp:83] Invalid bbox: [175 x 211 from (212, 160)]
+W1014 15:01:22.280284  8472 work_detect.cpp:83] Invalid bbox: [172 x 211 from (214, 158)]
+W1014 15:01:22.281217  8473 work_recog.hpp:118] Face id: 6 has low quality : 0.0456131, no need to recog
+W1014 15:01:22.316227  8472 work_detect.cpp:83] Invalid bbox: [171 x 204 from (210, 161)]
+W1014 15:01:22.346187  8472 work_detect.cpp:83] Invalid bbox: [172 x 209 from (211, 158)]
+W1014 15:01:22.382249  8472 work_detect.cpp:83] Invalid bbox: [174 x 214 from (209, 154)]
+W1014 15:01:22.411976  8472 work_detect.cpp:83] Invalid bbox: [170 x 206 from (213, 160)]
+W1014 15:01:22.478111  8472 work_detect.cpp:83] Invalid bbox: [175 x 214 from (210, 154)]
+W1014 15:01:22.514125  8472 work_detect.cpp:83] Invalid bbox: [168 x 211 from (216, 156)]
+W1014 15:01:22.580209  8472 work_detect.cpp:83] Invalid bbox: [171 x 212 from (216, 154)]
+W1014 15:01:22.646076  8472 work_detect.cpp:83] Invalid bbox: [173 x 217 from (213, 150)]
+W1014 15:01:23.949967  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.0118565, no need to recog
+W1014 15:01:23.985669  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.029804, no need to recog
+W1014 15:01:24.016229  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0298027, no need to recog
+W1014 15:01:24.051736  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0332427, no need to recog
+W1014 15:01:24.117990  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.0332446, no need to recog
+W1014 15:01:24.184204  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0332435, no need to recog
+W1014 15:01:24.219878  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.0370139, no need to recog
+W1014 15:01:24.250171  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0298027, no need to recog
+W1014 15:01:24.285466  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0411317, no need to recog
+W1014 15:01:24.321414  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0332435, no need to recog
+W1014 15:01:24.352262  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0298017, no need to recog
+W1014 15:01:24.419100  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0332427, no need to recog
+W1014 15:01:24.455126  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0370139, no need to recog
+W1014 15:01:24.519549  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.026673, no need to recog
+W1014 15:01:24.585650  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.00933175, no need to recog
+W1014 15:01:24.621296  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.0370142, no need to recog
+W1014 15:01:24.651633  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0370145, no need to recog
+W1014 15:01:24.687615  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0298017, no need to recog
+W1014 15:01:24.717546  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.0150218, no need to recog
+W1014 15:01:24.753257  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.0238386, no need to recog
+W1014 15:01:24.783921  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0332451, no need to recog
+W1014 15:01:24.819339  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0411309, no need to recog
+W1014 15:01:24.855167  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0298027, no need to recog
+W1014 15:01:25.185650  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.0298014, no need to recog
+W1014 15:01:25.224215  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.0411333, no need to recog
+W1014 15:01:25.253226  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.0332435, no need to recog
+W1014 15:01:25.290303  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.0238388, no need to recog
+W1014 15:01:25.355288  8474 work_recog.hpp:118] Face id: 7 has low quality : 0.0332435, no need to recog
+W1014 15:01:25.419499  8473 work_recog.hpp:118] Face id: 7 has low quality : 0.0238388, no need to recog
+W1014 15:01:27.227821  8472 work_detect.cpp:83] Invalid bbox: [173 x 214 from (233, 149)]
+W1014 15:01:27.328976  8472 work_detect.cpp:83] Invalid bbox: [166 x 214 from (227, 152)]
+W1014 15:01:27.395476  8472 work_detect.cpp:83] Invalid bbox: [165 x 212 from (228, 152)]
+W1014 15:01:27.491273  8472 work_detect.cpp:83] Invalid bbox: [164 x 210 from (226, 154)]
+W1014 15:01:27.526890  8472 work_detect.cpp:83] Invalid bbox: [167 x 212 from (227, 152)]
+W1014 15:01:27.697988  8472 work_detect.cpp:83] Invalid bbox: [167 x 211 from (237, 153)]
+W1014 15:01:27.725646  8472 work_detect.cpp:83] Invalid bbox: [170 x 212 from (235, 152)]
+W1014 15:01:27.826105  8472 work_detect.cpp:83] Invalid bbox: [167 x 209 from (238, 154)]
+W1014 15:01:27.862406  8472 work_detect.cpp:83] Invalid bbox: [172 x 219 from (225, 148)]
+W1014 15:01:27.992498  8472 work_detect.cpp:83] Invalid bbox: [167 x 215 from (228, 153)]
+W1014 15:01:28.126078  8473 work_recog.hpp:118] Face id: 8 has low quality : 0.02384, no need to recog
+W1014 15:01:28.358914  8472 work_detect.cpp:83] Invalid bbox: [166 x 214 from (228, 154)]
+W1014 15:01:28.394523  8472 work_detect.cpp:83] Invalid bbox: [178 x 222 from (224, 148)]
+W1014 15:01:28.592770  8472 work_detect.cpp:83] Invalid bbox: [168 x 209 from (239, 154)]
+W1014 15:01:28.761940  8472 work_detect.cpp:83] Invalid bbox: [170 x 215 from (227, 153)]
+W1014 15:01:29.231467  8472 work_detect.cpp:83] Invalid bbox: [169 x 212 from (231, 154)]
+W1014 15:01:29.260968  8472 work_detect.cpp:83] Invalid bbox: [171 x 214 from (231, 152)]
+W1014 15:01:29.330212  8472 work_detect.cpp:83] Invalid bbox: [162 x 203 from (244, 159)]
+W1014 15:01:29.426264  8472 work_detect.cpp:83] Invalid bbox: [166 x 209 from (233, 157)]
+W1014 15:01:29.462117  8472 work_detect.cpp:83] Invalid bbox: [165 x 210 from (234, 157)]
+W1014 15:01:29.528199  8472 work_detect.cpp:83] Invalid bbox: [167 x 212 from (234, 156)]
+W1014 15:01:29.661161  8472 work_detect.cpp:83] Invalid bbox: [167 x 211 from (234, 156)]

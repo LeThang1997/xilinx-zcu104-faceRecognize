@@ -1,0 +1,59 @@
+Log file created at: 2019/10/14 10:23:37
+Running on machine: zcu104
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1014 10:23:37.923779  3732 feature_lib.cpp:107] Feature lib read name: images/thanglmb.jpg
+I1014 10:23:37.924736  3732 feature_lib.cpp:129] Read lib face : images/thanglmb.jpg
+I1014 10:23:37.924793  3732 feature_lib.cpp:143] Loading normal image: images/thanglmb.jpg...
+I1014 10:23:37.932719  3732 feature_lib.cpp:148] Load normal image: images/thanglmb.jpg done size: 640 * 360
+E1014 10:23:37.933153  3732 demo_inner.hpp:204] cannot open file 0
+I1014 10:23:37.933333  3732 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 10:23:38.148838  3732 demo_inner.hpp:126] thread [DedodeThread-0] is starting
+I1014 10:23:38.148989  3732 demo_inner.hpp:126] thread [GUIThread] is starting
+I1014 10:23:38.149081  3734 demo_inner.hpp:101] thread [DedodeThread-0] is started
+I1014 10:23:38.149101  3732 demo_inner.hpp:126] thread [SORT-0] is starting
+I1014 10:23:38.149106  3734 demo_inner.hpp:108] thread [DedodeThread-0] is ended
+I1014 10:23:38.149163  3735 demo_inner.hpp:101] thread [GUIThread] is started
+I1014 10:23:38.149173  3732 demo_inner.hpp:126] thread [T-Work-Detect_0] is starting
+I1014 10:23:38.149185  3736 demo_inner.hpp:101] thread [SORT-0] is started
+I1014 10:23:38.149243  3732 demo_inner.hpp:126] thread [T-Work-Recog_0] is starting
+I1014 10:23:38.149287  3737 demo_inner.hpp:101] thread [T-Work-Detect_0] is started
+I1014 10:23:38.149319  3732 demo_inner.hpp:126] thread [T-Work-Recog_1] is starting
+I1014 10:23:38.149344  3738 demo_inner.hpp:101] thread [T-Work-Recog_0] is started
+I1014 10:23:38.149384  3732 demo_inner.hpp:126] thread [T-Intergrate-intergrate] is starting
+I1014 10:23:38.149425  3739 demo_inner.hpp:101] thread [T-Work-Recog_1] is started
+I1014 10:23:38.149462  3732 demo_inner.hpp:137] waiting for [GUIThread] ended
+I1014 10:23:38.149488  3740 demo_inner.hpp:101] thread [T-Intergrate-intergrate] is started
+I1014 10:23:41.652568  3732 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 10:23:41.652639  3732 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 10:23:41.652654  3732 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 10:23:41.652669  3732 demo_inner.hpp:131] thread [T-Work-Detect_0] is stopped.
+I1014 10:23:41.652683  3732 demo_inner.hpp:131] thread [T-Work-Recog_0] is stopped.
+I1014 10:23:41.652696  3732 demo_inner.hpp:131] thread [T-Work-Recog_1] is stopped.
+I1014 10:23:41.652710  3732 demo_inner.hpp:131] thread [T-Intergrate-intergrate] is stopped.
+I1014 10:23:41.655396  3737 demo_inner.hpp:108] thread [T-Work-Detect_0] is ended
+I1014 10:23:41.660372  3740 demo_inner.hpp:108] thread [T-Intergrate-intergrate] is ended
+I1014 10:23:41.660614  3738 demo_inner.hpp:108] thread [T-Work-Recog_0] is ended
+I1014 10:23:41.660684  3739 demo_inner.hpp:108] thread [T-Work-Recog_1] is ended
+I1014 10:23:42.012629  3732 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 10:23:42.012676  3732 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 10:23:42.012692  3732 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 10:23:42.012706  3732 demo_inner.hpp:131] thread [T-Work-Detect_0] is stopped.
+I1014 10:23:42.012720  3732 demo_inner.hpp:131] thread [T-Work-Recog_0] is stopped.
+I1014 10:23:42.012734  3732 demo_inner.hpp:131] thread [T-Work-Recog_1] is stopped.
+I1014 10:23:42.012748  3732 demo_inner.hpp:131] thread [T-Intergrate-intergrate] is stopped.
+I1014 10:23:42.149721  3735 demo_inner.hpp:108] thread [GUIThread] is ended
+I1014 10:23:42.149731  3736 demo_inner.hpp:108] thread [SORT-0] is ended
+I1014 10:23:42.149783  3732 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 10:23:42.149804  3732 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 10:23:42.149819  3732 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 10:23:42.149832  3732 demo_inner.hpp:131] thread [T-Work-Detect_0] is stopped.
+I1014 10:23:42.149847  3732 demo_inner.hpp:131] thread [T-Work-Recog_0] is stopped.
+I1014 10:23:42.149859  3732 demo_inner.hpp:131] thread [T-Work-Recog_1] is stopped.
+I1014 10:23:42.149873  3732 demo_inner.hpp:131] thread [T-Intergrate-intergrate] is stopped.
+I1014 10:23:42.149888  3732 demo_inner.hpp:137] waiting for [DedodeThread-0] ended
+I1014 10:23:42.149907  3732 demo_inner.hpp:137] waiting for [SORT-0] ended
+I1014 10:23:42.150007  3732 demo_inner.hpp:137] waiting for [T-Work-Detect_0] ended
+I1014 10:23:42.150025  3732 demo_inner.hpp:137] waiting for [T-Work-Recog_0] ended
+I1014 10:23:42.150116  3732 demo_inner.hpp:137] waiting for [T-Work-Recog_1] ended
+I1014 10:23:42.150147  3732 demo_inner.hpp:137] waiting for [T-Intergrate-intergrate] ended
+I1014 10:23:42.157186  3732 test_video_face_recog_multi.cpp:178] BYEBYE

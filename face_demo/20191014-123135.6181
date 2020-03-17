@@ -1,0 +1,234 @@
+Log file created at: 2019/10/14 12:31:35
+Running on machine: zcu104
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1014 12:31:35.815125  6181 feature_lib.cpp:109] Feature lib read name: images/HaDM.jpg
+I1014 12:31:35.816053  6181 feature_lib.cpp:131] Read lib face : images/HaDM.jpg
+I1014 12:31:35.816082  6181 feature_lib.cpp:109] Feature lib read name: images/HaiHV.jpg
+I1014 12:31:35.816509  6181 feature_lib.cpp:131] Read lib face : images/HaiHV.jpg
+I1014 12:31:35.816530  6181 feature_lib.cpp:109] Feature lib read name: images/SonNNe.jpg
+I1014 12:31:35.816934  6181 feature_lib.cpp:131] Read lib face : images/SonNNe.jpg
+I1014 12:31:35.816953  6181 feature_lib.cpp:109] Feature lib read name: images/TungDM.jpg
+I1014 12:31:35.817351  6181 feature_lib.cpp:131] Read lib face : images/TungDM.jpg
+I1014 12:31:35.817371  6181 feature_lib.cpp:109] Feature lib read name: images/HungVTc.png
+I1014 12:31:35.817785  6181 feature_lib.cpp:131] Read lib face : images/HungVTc.png
+I1014 12:31:35.817814  6181 feature_lib.cpp:109] Feature lib read name: images/DangVHb.jpg
+I1014 12:31:35.818218  6181 feature_lib.cpp:131] Read lib face : images/DangVHb.jpg
+I1014 12:31:35.818238  6181 feature_lib.cpp:109] Feature lib read name: images/hungndn.jpg
+I1014 12:31:35.818639  6181 feature_lib.cpp:131] Read lib face : images/hungndn.jpg
+I1014 12:31:35.818658  6181 feature_lib.cpp:109] Feature lib read name: images/HieuPV.jpg
+I1014 12:31:35.819058  6181 feature_lib.cpp:131] Read lib face : images/HieuPV.jpg
+I1014 12:31:35.819077  6181 feature_lib.cpp:109] Feature lib read name: images/HuyNQz.png
+I1014 12:31:35.819514  6181 feature_lib.cpp:131] Read lib face : images/HuyNQz.png
+I1014 12:31:35.819551  6181 feature_lib.cpp:109] Feature lib read name: images/VuongNQb.png
+I1014 12:31:35.819953  6181 feature_lib.cpp:131] Read lib face : images/VuongNQb.png
+I1014 12:31:35.819981  6181 feature_lib.cpp:109] Feature lib read name: images/ThangLMb.jpg
+I1014 12:31:35.820394  6181 feature_lib.cpp:131] Read lib face : images/ThangLMb.jpg
+I1014 12:31:35.820415  6181 feature_lib.cpp:109] Feature lib read name: images/truongnxd.png
+I1014 12:31:35.820821  6181 feature_lib.cpp:131] Read lib face : images/truongnxd.png
+I1014 12:31:35.820839  6181 feature_lib.cpp:109] Feature lib read name: images/ThaoDQ.jpg
+I1014 12:31:35.821240  6181 feature_lib.cpp:131] Read lib face : images/ThaoDQ.jpg
+I1014 12:31:35.821290  6181 feature_lib.cpp:147] Loading normal image: images/HaDM.jpg...
+I1014 12:31:35.851955  6181 feature_lib.cpp:158] Load normal image: images/HaDM.jpg done size: 838 * 1100
+I1014 12:31:35.852021  6181 feature_lib.cpp:147] Loading normal image: images/HaiHV.jpg...
+I1014 12:31:35.909061  6181 feature_lib.cpp:158] Load normal image: images/HaiHV.jpg done size: 1203 * 1541
+I1014 12:31:35.909122  6181 feature_lib.cpp:147] Loading normal image: images/SonNNe.jpg...
+I1014 12:31:35.983546  6181 feature_lib.cpp:158] Load normal image: images/SonNNe.jpg done size: 1429 * 1719
+I1014 12:31:35.983608  6181 feature_lib.cpp:147] Loading normal image: images/TungDM.jpg...
+I1014 12:31:36.042187  6181 feature_lib.cpp:158] Load normal image: images/TungDM.jpg done size: 1340 * 1462
+I1014 12:31:36.042248  6181 feature_lib.cpp:147] Loading normal image: images/HungVTc.png...
+I1014 12:31:36.050354  6181 feature_lib.cpp:158] Load normal image: images/HungVTc.png done size: 263 * 317
+I1014 12:31:36.050384  6181 feature_lib.cpp:147] Loading normal image: images/DangVHb.jpg...
+I1014 12:31:36.115883  6181 feature_lib.cpp:158] Load normal image: images/DangVHb.jpg done size: 1469 * 1456
+I1014 12:31:36.115944  6181 feature_lib.cpp:147] Loading normal image: images/hungndn.jpg...
+I1014 12:31:36.213057  6181 feature_lib.cpp:158] Load normal image: images/hungndn.jpg done size: 1636 * 1930
+I1014 12:31:36.213119  6181 feature_lib.cpp:147] Loading normal image: images/HieuPV.jpg...
+I1014 12:31:36.291677  6181 feature_lib.cpp:158] Load normal image: images/HieuPV.jpg done size: 1527 * 1719
+I1014 12:31:36.291739  6181 feature_lib.cpp:147] Loading normal image: images/HuyNQz.png...
+I1014 12:31:36.318151  6181 feature_lib.cpp:158] Load normal image: images/HuyNQz.png done size: 493 * 639
+I1014 12:31:36.318208  6181 feature_lib.cpp:147] Loading normal image: images/VuongNQb.png...
+I1014 12:31:36.333101  6181 feature_lib.cpp:158] Load normal image: images/VuongNQb.png done size: 351 * 514
+I1014 12:31:36.333214  6181 feature_lib.cpp:147] Loading normal image: images/ThangLMb.jpg...
+I1014 12:31:36.411118  6181 feature_lib.cpp:158] Load normal image: images/ThangLMb.jpg done size: 1548 * 1719
+I1014 12:31:36.411180  6181 feature_lib.cpp:147] Loading normal image: images/truongnxd.png...
+I1014 12:31:36.464257  6181 feature_lib.cpp:158] Load normal image: images/truongnxd.png done size: 906 * 964
+I1014 12:31:36.464320  6181 feature_lib.cpp:147] Loading normal image: images/ThaoDQ.jpg...
+I1014 12:31:36.540861  6181 feature_lib.cpp:158] Load normal image: images/ThaoDQ.jpg done size: 1425 * 1719
+I1014 12:31:36.908517  6181 demo_inner.hpp:126] thread [DedodeThread-0] is starting
+I1014 12:31:36.908697  6181 demo_inner.hpp:126] thread [GUIThread] is starting
+I1014 12:31:36.908766  6184 demo_inner.hpp:101] thread [DedodeThread-0] is started
+I1014 12:31:36.908784  6181 demo_inner.hpp:126] thread [SORT-0] is starting
+I1014 12:31:36.908838  6185 demo_inner.hpp:101] thread [GUIThread] is started
+I1014 12:31:36.908855  6181 demo_inner.hpp:126] thread [T-Work-Detect_0] is starting
+I1014 12:31:36.908907  6186 demo_inner.hpp:101] thread [SORT-0] is started
+I1014 12:31:36.908916  6181 demo_inner.hpp:126] thread [T-Work-Recog_0] is starting
+I1014 12:31:36.908941  6187 demo_inner.hpp:101] thread [T-Work-Detect_0] is started
+I1014 12:31:36.908979  6181 demo_inner.hpp:126] thread [T-Work-Recog_1] is starting
+I1014 12:31:36.909032  6188 demo_inner.hpp:101] thread [T-Work-Recog_0] is started
+I1014 12:31:36.909050  6181 demo_inner.hpp:126] thread [T-Intergrate-intergrate] is starting
+I1014 12:31:36.909071  6189 demo_inner.hpp:101] thread [T-Work-Recog_1] is started
+I1014 12:31:36.909113  6181 demo_inner.hpp:137] waiting for [GUIThread] ended
+I1014 12:31:36.909139  6190 demo_inner.hpp:101] thread [T-Intergrate-intergrate] is started
+I1014 12:31:37.611110  6184 demo_inner.hpp:177] decode queue size 0
+I1014 12:31:37.611280  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:31:37.611346  6187 work_detect.cpp:102] Succeeded to add det start for frame 1
+I1014 12:31:37.618456  6187 work_detect.cpp:70] Frame :1 detect result :1 face(s)
+I1014 12:31:37.618490  6187 work_detect.cpp:86] Detected bbox: [172 x 218 from (208, 126)]
+I1014 12:31:37.618535  6187 work_detect.cpp:120] Succeeded to add det end for frame 1
+I1014 12:31:37.618551  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:31:37.618574  6187 work_track.cpp:82] Frame: 1 build input_characts: [0.26875 x 0.605556 from (0.325, 0.35)], 0.997596, 0
+I1014 12:31:37.618662  6187 work_track.cpp:102] Succeeded to set track lock for frame 1
+I1014 12:31:37.618752  6187 work_track.cpp:116] Succeeded to release track lock for frame 1
+I1014 12:31:37.618767  6187 work_track.cpp:120] Track results of frame 1: 1 objects input, 0 objects tracked!
+I1014 12:31:37.618785  6187 work_track.cpp:162] Frame: 1 lid: 0 not tracked, will set invalid
+I1014 12:31:37.618800  6187 work_thread.hpp:87]  [T-Work-Detect_0] Frame :1 split
+I1014 12:31:37.618818  6187 work_thread.hpp:123]  [T-Work-Detect_0] Invalid piece: lid = 0, drop it
+I1014 12:31:37.618856  6190 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :1
+I1014 12:31:37.619982  6186 demo_inner.hpp:435] thread [SORT-0]  frame id 1 sorting queue size 0   FPS: -1
+I1014 12:31:37.620048  6185 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:31:37.659154  6184 demo_inner.hpp:177] decode queue size 0
+I1014 12:31:37.659273  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:31:37.659310  6187 work_detect.cpp:102] Succeeded to add det start for frame 2
+I1014 12:31:37.666548  6187 work_detect.cpp:70] Frame :2 detect result :1 face(s)
+I1014 12:31:37.666604  6187 work_detect.cpp:86] Detected bbox: [175 x 218 from (207, 128)]
+I1014 12:31:37.666651  6187 work_detect.cpp:120] Succeeded to add det end for frame 2
+I1014 12:31:37.666667  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:31:37.666767  6187 work_track.cpp:82] Frame: 2 build input_characts: [0.273438 x 0.605556 from (0.323438, 0.355556)], 1.00035, 0
+I1014 12:31:37.666826  6187 work_track.cpp:102] Succeeded to set track lock for frame 2
+I1014 12:31:37.666887  6187 work_track.cpp:116] Succeeded to release track lock for frame 2
+I1014 12:31:37.666901  6187 work_track.cpp:120] Track results of frame 2: 1 objects input, 0 objects tracked!
+I1014 12:31:37.666919  6187 work_track.cpp:162] Frame: 2 lid: 0 not tracked, will set invalid
+I1014 12:31:37.666934  6187 work_thread.hpp:87]  [T-Work-Detect_0] Frame :2 split
+I1014 12:31:37.666952  6187 work_thread.hpp:123]  [T-Work-Detect_0] Invalid piece: lid = 0, drop it
+I1014 12:31:37.666999  6190 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :2
+I1014 12:31:37.668582  6186 demo_inner.hpp:435] thread [SORT-0]  frame id 2 sorting queue size 0   FPS: 20.8333
+I1014 12:31:37.668675  6185 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:31:37.712658  6184 demo_inner.hpp:177] decode queue size 0
+I1014 12:31:37.712790  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:31:37.712827  6187 work_detect.cpp:102] Succeeded to add det start for frame 3
+I1014 12:31:37.719504  6187 work_detect.cpp:70] Frame :3 detect result :1 face(s)
+I1014 12:31:37.719530  6187 work_detect.cpp:86] Detected bbox: [178 x 222 from (206, 129)]
+I1014 12:31:37.719569  6187 work_detect.cpp:120] Succeeded to add det end for frame 3
+I1014 12:31:37.719585  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:31:37.719609  6187 work_track.cpp:82] Frame: 3 build input_characts: [0.278125 x 0.616667 from (0.321875, 0.358333)], 0.999622, 0
+I1014 12:31:37.719662  6187 work_track.cpp:102] Succeeded to set track lock for frame 3
+I1014 12:31:37.719720  6187 work_track.cpp:116] Succeeded to release track lock for frame 3
+I1014 12:31:37.719736  6187 work_track.cpp:120] Track results of frame 3: 1 objects input, 1 objects tracked!
+I1014 12:31:37.719754  6187 work_track.cpp:148] Frame: 3, track bbox: [178 x 222 from (205.995, 128.821)], gid: 0, lid: 0
+I1014 12:31:37.719790  6187 work_thread.hpp:87]  [T-Work-Detect_0] Frame :3 split
+I1014 12:31:37.719808  6187 work_thread.hpp:119]  [T-Work-Detect_0] Valid piece: gid = 0
+I1014 12:31:37.719826  6187 work_thread.hpp:91]  [T-Work-Detect_0] Push to split queue:recog
+I1014 12:31:37.719869  6190 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :3
+I1014 12:31:37.719871  6188 work_thread.hpp:81]  [T-Work-Recog_0] Run work: WorkCapture
+I1014 12:31:37.721412  6186 demo_inner.hpp:435] thread [SORT-0]  frame id 3 sorting queue size 0   FPS: 19.802
+I1014 12:31:37.721441  6188 work_thread.hpp:81]  [T-Work-Recog_0] Run work: WorkRecog
+I1014 12:31:37.721467  6188 work_recog.hpp:89] Face id: 0 will run recog: bbox [178 x 222 from (206, 129)] quality: 0.471875
+I1014 12:31:37.721488  6185 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:31:37.721499  6188 work_recog.hpp:96] Recog pair: [256 x 280 from (168, 80)], [178 x 222 from (38, 49)]
+I1014 12:31:37.739295  6188 work_thread.hpp:81]  [T-Work-Recog_0] Run work: WorkCompare
+I1014 12:31:37.739768  6188 work_compare.cpp:76] Compare face: 0 successed, similarity :0.982277, name : images/ThangLMb.jpg, normal size : 1548 * 1719!
+I1014 12:31:37.760684  6184 demo_inner.hpp:177] decode queue size 0
+I1014 12:31:37.760809  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:31:37.760845  6187 work_detect.cpp:102] Succeeded to add det start for frame 4
+I1014 12:31:37.767446  6187 work_detect.cpp:70] Frame :4 detect result :1 face(s)
+I1014 12:31:37.767470  6187 work_detect.cpp:86] Detected bbox: [171 x 216 from (209, 129)]
+I1014 12:31:37.767510  6187 work_detect.cpp:120] Succeeded to add det end for frame 4
+I1014 12:31:37.767526  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:31:37.767549  6187 work_track.cpp:82] Frame: 4 build input_characts: [0.267188 x 0.6 from (0.326562, 0.358333)], 0.997488, 0
+I1014 12:31:37.767680  6187 work_track.cpp:102] Succeeded to set track lock for frame 4
+I1014 12:31:37.767721  6187 work_track.cpp:116] Succeeded to release track lock for frame 4
+I1014 12:31:37.767736  6187 work_track.cpp:120] Track results of frame 4: 1 objects input, 1 objects tracked!
+I1014 12:31:37.767753  6187 work_track.cpp:148] Frame: 4, track bbox: [171 x 216 from (209.297, 130.608)], gid: 0, lid: 0
+I1014 12:31:37.767791  6187 work_thread.hpp:87]  [T-Work-Detect_0] Frame :4 split
+I1014 12:31:37.767808  6187 work_thread.hpp:119]  [T-Work-Detect_0] Valid piece: gid = 0
+I1014 12:31:37.767827  6187 work_thread.hpp:91]  [T-Work-Detect_0] Push to split queue:recog
+I1014 12:31:37.767871  6188 work_thread.hpp:81]  [T-Work-Recog_0] Run work: WorkCapture
+I1014 12:31:37.767884  6190 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :4
+I1014 12:31:37.767912  6190 thread_intergrate.hpp:85] [T-Intergrate-intergrate] queue: compare output face:0
+I1014 12:31:37.767931  6190 thread_intergrate.hpp:137] T-Intergrate-intergrate set matched face: 0
+I1014 12:31:37.768496  6188 work_thread.hpp:81]  [T-Work-Recog_0] Run work: WorkRecog
+I1014 12:31:37.768522  6188 work_recog.hpp:89] Face id: 0 will run recog: bbox [171 x 216 from (209, 129)] quality: 0.424265
+I1014 12:31:37.768551  6188 work_recog.hpp:96] Recog pair: [248 x 280 from (168, 80)], [171 x 216 from (41, 49)]
+I1014 12:31:37.769459  6190 thread_intergrate.hpp:157] T-Intergrate-intergrate Show face :0, size :640 * 360
+I1014 12:31:37.769973  6186 demo_inner.hpp:435] thread [SORT-0]  frame id 4 sorting queue size 0   FPS: 20.1342
+I1014 12:31:37.770100  6185 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:31:37.786145  6188 work_thread.hpp:81]  [T-Work-Recog_0] Run work: WorkCompare
+I1014 12:31:37.786586  6188 work_compare.cpp:76] Compare face: 0 successed, similarity :0.991378, name : images/ThangLMb.jpg, normal size : 1548 * 1719!
+I1014 12:31:37.808719  6184 demo_inner.hpp:177] decode queue size 0
+I1014 12:31:37.808843  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:31:37.808881  6187 work_detect.cpp:102] Succeeded to add det start for frame 5
+I1014 12:31:37.815484  6187 work_detect.cpp:70] Frame :5 detect result :1 face(s)
+I1014 12:31:37.815510  6187 work_detect.cpp:86] Detected bbox: [172 x 225 from (198, 124)]
+I1014 12:31:37.815549  6187 work_detect.cpp:120] Succeeded to add det end for frame 5
+I1014 12:31:37.815565  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:31:37.815588  6187 work_track.cpp:82] Frame: 5 build input_characts: [0.26875 x 0.625 from (0.309375, 0.344444)], 0.997596, 0
+I1014 12:31:37.815644  6187 work_track.cpp:102] Succeeded to set track lock for frame 5
+I1014 12:31:37.815685  6187 work_track.cpp:116] Succeeded to release track lock for frame 5
+I1014 12:31:37.815701  6187 work_track.cpp:120] Track results of frame 5: 1 objects input, 1 objects tracked!
+I1014 12:31:37.815717  6187 work_track.cpp:148] Frame: 5, track bbox: [172 x 225 from (202.403, 125.193)], gid: 0, lid: 0
+I1014 12:31:37.815754  6187 work_thread.hpp:87]  [T-Work-Detect_0] Frame :5 split
+I1014 12:31:37.815771  6187 work_thread.hpp:119]  [T-Work-Detect_0] Valid piece: gid = 0
+I1014 12:31:37.815789  6187 work_thread.hpp:91]  [T-Work-Detect_0] Push to split queue:recog
+I1014 12:31:37.815834  6188 work_thread.hpp:81]  [T-Work-Recog_0] Run work: WorkCapture
+I1014 12:31:37.815835  6190 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :5
+I1014 12:31:37.815876  6190 thread_intergrate.hpp:85] [T-Intergrate-intergrate] queue: compare output face:0
+I1014 12:31:37.815894  6190 thread_intergrate.hpp:137] T-Intergrate-intergrate set matched face: 0
+I1014 12:31:37.816438  6188 work_thread.hpp:81]  [T-Work-Recog_0] Run work: WorkRecog
+I1014 12:31:37.816463  6188 work_recog.hpp:89] Face id: 0 will run recog: bbox [172 x 225 from (198, 124)] quality: 0.464413
+I1014 12:31:37.816493  6188 work_recog.hpp:96] Recog pair: [248 x 288 from (160, 72)], [172 x 225 from (38, 52)]
+I1014 12:31:37.817358  6190 thread_intergrate.hpp:157] T-Intergrate-intergrate Show face :0, size :640 * 360
+I1014 12:31:37.817960  6186 demo_inner.hpp:435] thread [SORT-0]  frame id 5 sorting queue size 0   FPS: 20.3046
+I1014 12:31:37.818045  6185 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:31:37.834133  6188 work_thread.hpp:81]  [T-Work-Recog_0] Run work: WorkCompare
+I1014 12:31:37.834579  6188 work_compare.cpp:76] Compare face: 0 successed, similarity :0.981677, name : images/ThangLMb.jpg, normal size : 1548 * 1719!
+I1014 12:31:37.862658  6184 demo_inner.hpp:177] decode queue size 0
+I1014 12:31:37.862795  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:31:37.862833  6187 work_detect.cpp:102] Succeeded to add det start for frame 6
+I1014 12:31:37.869556  6187 work_detect.cpp:70] Frame :6 detect result :1 face(s)
+I1014 12:31:37.869585  6187 work_detect.cpp:86] Detected bbox: [170 x 212 from (210, 129)]
+I1014 12:31:37.869626  6187 work_detect.cpp:120] Succeeded to add det end for frame 6
+I1014 12:31:37.869642  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:31:37.869664  6187 work_track.cpp:82] Frame: 6 build input_characts: [0.265625 x 0.588889 from (0.328125, 0.358333)], 0.997596, 0
+I1014 12:31:37.869719  6187 work_track.cpp:102] Succeeded to set track lock for frame 6
+I1014 12:31:37.869757  6187 work_track.cpp:116] Succeeded to release track lock for frame 6
+I1014 12:31:37.869771  6187 work_track.cpp:120] Track results of frame 6: 1 objects input, 1 objects tracked!
+I1014 12:31:37.869789  6187 work_track.cpp:148] Frame: 6, track bbox: [170 x 212 from (205.905, 130.428)], gid: 0, lid: 0
+I1014 12:31:37.869824  6187 work_thread.hpp:87]  [T-Work-Detect_0] Frame :6 split
+I1014 12:31:37.869843  6187 work_thread.hpp:119]  [T-Work-Detect_0] Valid piece: gid = 0
+I1014 12:31:37.869860  6187 work_thread.hpp:91]  [T-Work-Detect_0] Push to split queue:recog
+I1014 12:31:37.869900  6189 work_thread.hpp:81]  [T-Work-Recog_1] Run work: WorkCapture
+I1014 12:31:37.869920  6190 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :6
+I1014 12:31:37.869946  6190 thread_intergrate.hpp:85] [T-Intergrate-intergrate] queue: compare output face:0
+I1014 12:31:37.869963  6190 thread_intergrate.hpp:137] T-Intergrate-intergrate set matched face: 0
+I1014 12:31:37.870472  6189 work_thread.hpp:81]  [T-Work-Recog_1] Run work: WorkRecog
+I1014 12:31:37.870497  6189 work_recog.hpp:89] Face id: 0 will run recog: bbox [170 x 212 from (210, 129)] quality: 0.396404
+I1014 12:31:37.870527  6189 work_recog.hpp:96] Recog pair: [240 x 280 from (176, 80)], [170 x 212 from (34, 49)]
+I1014 12:31:37.871388  6190 thread_intergrate.hpp:157] T-Intergrate-intergrate Show face :0, size :640 * 360
+I1014 12:31:37.871903  6186 demo_inner.hpp:435] thread [SORT-0]  frame id 6 sorting queue size 0   FPS: 19.9203
+I1014 12:31:37.871974  6185 demo_inner.hpp:260]  gui queue size 0, state = running
+I1014 12:31:37.888017  6189 work_thread.hpp:81]  [T-Work-Recog_1] Run work: WorkCompare
+I1014 12:31:37.888496  6189 work_compare.cpp:76] Compare face: 0 successed, similarity :0.993548, name : images/ThangLMb.jpg, normal size : 1548 * 1719!
+I1014 12:31:37.910671  6184 demo_inner.hpp:177] decode queue size 0
+I1014 12:31:37.910781  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WorkDetect
+I1014 12:31:37.910820  6187 work_detect.cpp:102] Succeeded to add det start for frame 7
+I1014 12:31:37.917636  6187 work_detect.cpp:70] Frame :7 detect result :1 face(s)
+I1014 12:31:37.917668  6187 work_detect.cpp:86] Detected bbox: [169 x 215 from (210, 130)]
+I1014 12:31:37.917708  6187 work_detect.cpp:120] Succeeded to add det end for frame 7
+I1014 12:31:37.917724  6187 work_thread.hpp:81]  [T-Work-Detect_0] Run work: WrokTrack
+I1014 12:31:37.917747  6187 work_track.cpp:82] Frame: 7 build input_characts: [0.264062 x 0.597222 from (0.328125, 0.361111)], 1.00035, 0
+I1014 12:31:37.917801  6187 work_track.cpp:102] Succeeded to set track lock for frame 7
+I1014 12:31:37.917840  6187 work_track.cpp:116] Succeeded to release track lock for frame 7
+I1014 12:31:37.917930  6187 work_track.cpp:120] Track results of frame 7: 1 objects input, 1 objects tracked!
+I1014 12:31:37.917950  6187 work_track.cpp:148] Frame: 7, track bbox: [169 x 215 from (207.662, 128.737)], gid: 0, lid: 0
+I1014 12:31:37.917989  6187 work_thread.hpp:87]  [T-Work-Detect_0] Frame :7 split
+I1014 12:31:37.918006  6187 work_thread.hpp:119]  [T-Work-Detect_0] Valid piece: gid = 0
+I1014 12:31:37.918023  6187 work_thread.hpp:91]  [T-Work-Detect_0] Push to split queue:recog
+I1014 12:31:37.918062  6189 work_thread.hpp:81]  [T-Work-Recog_1] Run work: WorkCapture
+I1014 12:31:37.918074  6190 thread_intergrate.hpp:78] [T-Intergrate-intergrate] queue: frame output frame :7
+I1014 12:31:37.918098  6190 thread_intergrate.hpp:85] [T-Intergrate-intergrate] queue: compare output face:0
+I1014 12:31:37.918115  6190 thread_intergrate.hpp:137] T-Intergrate-intergrate set matched face: 0
+I1014 12:31:37.918610  6189 work_thread.hpp:81]  [T-Work-Recog_1] Run work: WorkRecog
+I1014 12:31:37.918637  6189 work_recog.hpp:89] Face id: 0 will run recog: bbox [169 x 215 from (210, 130)] quality: 0.41565
+I1014 12:31:37.918664  6189 work_recog.hpp:96] Recog pair: [240 x 280 from (176, 80)], [169 x 215 from (34, 50)]
+I1014 12:31:37.919570  6190 thread_intergrate.hpp:157] T-Intergrate-intergrate Show face :0, size :640 * 360
+I1014 12:31:37.920214  6186 demo_inner.hpp:435] thread [SORT-0]  frame id 7 sorting queue size 0   FPS: 20.0669
+I1014 12:31:37.920286  6185 demo_inner.hpp:260]  gui queue size 0, state = running

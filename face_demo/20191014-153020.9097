@@ -1,0 +1,72 @@
+Log file created at: 2019/10/14 15:30:20
+Running on machine: zcu104
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1014 15:30:20.734580  9103 work_recog.hpp:118] Face id: 1 has low quality : 0.00649063, no need to recog
+W1014 15:30:20.782511  9103 work_recog.hpp:118] Face id: 1 has low quality : 0.00574468, no need to recog
+W1014 15:30:20.829710  9103 work_recog.hpp:118] Face id: 1 has low quality : 0.0118571, no need to recog
+W1014 15:30:20.883720  9103 work_recog.hpp:118] Face id: 1 has low quality : 0.0238404, no need to recog
+W1014 15:30:20.932502  9103 work_recog.hpp:118] Face id: 1 has low quality : 0.026676, no need to recog
+W1014 15:30:21.034230  9104 work_recog.hpp:118] Face id: 1 has low quality : 0.0673092, no need to recog
+W1014 15:30:21.082048  9104 work_recog.hpp:118] Face id: 1 has low quality : 0.033252, no need to recog
+W1014 15:30:21.130599  9104 work_recog.hpp:118] Face id: 1 has low quality : 0.045627, no need to recog
+W1014 15:30:21.184525  9103 work_recog.hpp:118] Face id: 1 has low quality : 0.0212843, no need to recog
+W1014 15:30:21.578114  9102 work_detect.cpp:83] Invalid bbox: [138 x 193 from (251, 168)]
+W1014 15:30:21.831071  9102 work_detect.cpp:83] Invalid bbox: [145 x 196 from (246, 167)]
+W1014 15:30:21.879290  9102 work_detect.cpp:83] Invalid bbox: [142 x 192 from (247, 170)]
+W1014 15:30:21.932981  9102 work_detect.cpp:83] Invalid bbox: [143 x 190 from (246, 172)]
+W1014 15:30:21.981040  9102 work_detect.cpp:83] Invalid bbox: [142 x 188 from (246, 173)]
+W1014 15:30:22.029196  9102 work_detect.cpp:83] Invalid bbox: [145 x 191 from (244, 172)]
+W1014 15:30:22.082832  9102 work_detect.cpp:83] Invalid bbox: [144 x 188 from (245, 174)]
+W1014 15:30:22.130935  9102 work_detect.cpp:83] Invalid bbox: [144 x 190 from (244, 172)]
+W1014 15:30:22.179066  9102 work_detect.cpp:83] Invalid bbox: [144 x 188 from (244, 173)]
+W1014 15:30:22.233251  9102 work_detect.cpp:83] Invalid bbox: [147 x 193 from (242, 172)]
+W1014 15:30:22.281479  9102 work_detect.cpp:83] Invalid bbox: [147 x 196 from (242, 167)]
+W1014 15:30:22.328570  9102 work_detect.cpp:83] Invalid bbox: [145 x 188 from (243, 175)]
+W1014 15:30:22.382390  9102 work_detect.cpp:83] Invalid bbox: [148 x 193 from (240, 171)]
+W1014 15:30:22.430519  9102 work_detect.cpp:83] Invalid bbox: [149 x 195 from (240, 169)]
+W1014 15:30:22.478663  9102 work_detect.cpp:83] Invalid bbox: [148 x 193 from (241, 171)]
+W1014 15:30:22.532279  9102 work_detect.cpp:83] Invalid bbox: [149 x 193 from (240, 171)]
+W1014 15:30:22.682364  9102 work_detect.cpp:83] Invalid bbox: [148 x 192 from (241, 173)]
+W1014 15:30:22.730482  9102 work_detect.cpp:83] Invalid bbox: [147 x 193 from (241, 170)]
+W1014 15:30:22.778416  9102 work_detect.cpp:83] Invalid bbox: [144 x 191 from (243, 170)]
+W1014 15:30:22.832448  9102 work_detect.cpp:83] Invalid bbox: [147 x 196 from (242, 168)]
+W1014 15:30:22.880326  9102 work_detect.cpp:83] Invalid bbox: [145 x 191 from (242, 173)]
+W1014 15:30:22.927973  9102 work_detect.cpp:83] Invalid bbox: [146 x 195 from (242, 168)]
+W1014 15:30:22.982013  9102 work_detect.cpp:83] Invalid bbox: [147 x 192 from (242, 172)]
+W1014 15:30:23.029884  9102 work_detect.cpp:83] Invalid bbox: [148 x 195 from (240, 168)]
+W1014 15:30:23.079957  9102 work_detect.cpp:83] Invalid bbox: [147 x 192 from (241, 172)]
+W1014 15:30:23.133407  9102 work_detect.cpp:83] Invalid bbox: [144 x 190 from (243, 172)]
+W1014 15:30:23.181891  9102 work_detect.cpp:83] Invalid bbox: [144 x 192 from (243, 169)]
+W1014 15:30:23.232255  9102 work_detect.cpp:83] Invalid bbox: [144 x 194 from (243, 169)]
+W1014 15:30:23.283931  9102 work_detect.cpp:83] Invalid bbox: [146 x 194 from (242, 168)]
+W1014 15:30:23.333865  9102 work_detect.cpp:83] Invalid bbox: [147 x 191 from (241, 172)]
+W1014 15:30:23.379122  9102 work_detect.cpp:83] Invalid bbox: [145 x 193 from (242, 170)]
+W1014 15:30:23.432737  9102 work_detect.cpp:83] Invalid bbox: [148 x 193 from (241, 172)]
+W1014 15:30:23.481036  9102 work_detect.cpp:83] Invalid bbox: [147 x 195 from (241, 167)]
+W1014 15:30:23.529223  9102 work_detect.cpp:83] Invalid bbox: [145 x 190 from (243, 173)]
+W1014 15:30:23.582769  9102 work_detect.cpp:83] Invalid bbox: [146 x 191 from (242, 171)]
+W1014 15:30:23.630877  9102 work_detect.cpp:83] Invalid bbox: [148 x 193 from (241, 170)]
+W1014 15:30:23.679095  9102 work_detect.cpp:83] Invalid bbox: [147 x 192 from (241, 169)]
+W1014 15:30:23.732861  9102 work_detect.cpp:83] Invalid bbox: [149 x 198 from (241, 166)]
+W1014 15:30:23.780939  9102 work_detect.cpp:83] Invalid bbox: [148 x 194 from (241, 168)]
+W1014 15:30:23.829073  9102 work_detect.cpp:83] Invalid bbox: [148 x 195 from (241, 169)]
+W1014 15:30:23.830219  9103 work_recog.hpp:118] Face id: 2 has low quality : 0.0411406, no need to recog
+W1014 15:30:23.882803  9102 work_detect.cpp:83] Invalid bbox: [144 x 190 from (243, 173)]
+W1014 15:30:23.883883  9104 work_recog.hpp:118] Face id: 2 has low quality : 0.0370292, no need to recog
+W1014 15:30:23.930819  9102 work_detect.cpp:83] Invalid bbox: [148 x 192 from (241, 173)]
+W1014 15:30:23.932035  9104 work_recog.hpp:118] Face id: 2 has low quality : 0.0266797, no need to recog
+W1014 15:30:23.979197  9102 work_detect.cpp:83] Invalid bbox: [147 x 193 from (241, 170)]
+W1014 15:30:24.032939  9102 work_detect.cpp:83] Invalid bbox: [146 x 195 from (242, 167)]
+W1014 15:30:24.034216  9103 work_recog.hpp:118] Face id: 2 has low quality : 0.0411535, no need to recog
+W1014 15:30:24.080801  9102 work_detect.cpp:83] Invalid bbox: [146 x 188 from (242, 175)]
+W1014 15:30:24.081856  9104 work_recog.hpp:118] Face id: 2 has low quality : 0.0456329, no need to recog
+W1014 15:30:24.129144  9102 work_detect.cpp:83] Invalid bbox: [146 x 193 from (242, 170)]
+W1014 15:30:24.130386  9104 work_recog.hpp:118] Face id: 2 has low quality : 0.0504707, no need to recog
+W1014 15:30:24.182823  9102 work_detect.cpp:83] Invalid bbox: [145 x 193 from (242, 168)]
+W1014 15:30:24.184078  9103 work_recog.hpp:118] Face id: 2 has low quality : 0.0168895, no need to recog
+W1014 15:30:24.230824  9102 work_detect.cpp:83] Invalid bbox: [146 x 190 from (242, 174)]
+W1014 15:30:24.278991  9102 work_detect.cpp:83] Invalid bbox: [147 x 194 from (241, 167)]
+W1014 15:30:24.332971  9102 work_detect.cpp:83] Invalid bbox: [147 x 192 from (241, 170)]
+W1014 15:30:24.381032  9102 work_detect.cpp:83] Invalid bbox: [152 x 199 from (238, 167)]
+W1014 15:30:24.428956  9102 work_detect.cpp:83] Invalid bbox: [151 x 201 from (238, 163)]
+W1014 15:30:24.830021  9102 work_detect.cpp:83] Invalid bbox: [153 x 199 from (236, 162)]

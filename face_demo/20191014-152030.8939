@@ -1,0 +1,17 @@
+Log file created at: 2019/10/14 15:20:30
+Running on machine: zcu104
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1014 15:20:30.214723  8944 work_detect.cpp:83] Invalid bbox: [136 x 175 from (235, 194)]
+W1014 15:20:30.244899  8944 work_detect.cpp:83] Invalid bbox: [134 x 175 from (237, 194)]
+W1014 15:20:30.280709  8944 work_detect.cpp:83] Invalid bbox: [138 x 177 from (234, 193)]
+W1014 15:20:30.346822  8944 work_detect.cpp:83] Invalid bbox: [130 x 170 from (237, 191)]
+W1014 15:20:32.849550  8944 work_detect.cpp:83] Invalid bbox: [175 x 216 from (249, 150)]
+W1014 15:20:33.719452  8944 work_detect.cpp:83] Invalid bbox: [171 x 215 from (249, 153)]
+W1014 15:20:33.755228  8944 work_detect.cpp:83] Invalid bbox: [173 x 216 from (247, 153)]
+W1014 15:20:33.851244  8944 work_detect.cpp:83] Invalid bbox: [172 x 217 from (251, 153)]
+W1014 15:20:33.887197  8944 work_detect.cpp:83] Invalid bbox: [173 x 212 from (264, 154)]
+W1014 15:20:34.289666  8944 work_detect.cpp:83] Invalid bbox: [166 x 208 from (250, 158)]
+W1014 15:20:34.487072  8944 work_detect.cpp:83] Invalid bbox: [172 x 216 from (250, 153)]
+W1014 15:20:34.589462  8944 work_detect.cpp:83] Invalid bbox: [168 x 212 from (254, 156)]
+W1014 15:20:34.655416  8944 work_detect.cpp:83] Invalid bbox: [172 x 217 from (248, 152)]
+W1014 15:20:34.691318  8944 work_detect.cpp:83] Invalid bbox: [173 x 216 from (249, 152)]

@@ -1,0 +1,15 @@
+Log file created at: 2019/10/12 15:58:33
+Running on machine: zcu104
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1012 15:58:33.741232  8549 work_recog.hpp:118] Face id: 1 has low quality : 0.000700548, no need to recog
+W1012 15:58:33.879215  8549 work_recog.hpp:118] Face id: 1 has low quality : 0.000481695, no need to recog
+W1012 15:58:34.023166  8549 work_recog.hpp:118] Face id: 1 has low quality : 0.00732824, no need to recog
+W1012 15:58:34.161181  8549 work_recog.hpp:118] Face id: 1 has low quality : 0.000898421, no need to recog
+W1012 15:58:34.299157  8549 work_recog.hpp:118] Face id: 1 has low quality : 0.00189455, no need to recog
+W1012 15:58:34.442942  8549 work_recog.hpp:118] Face id: 1 has low quality : 0.000793219, no need to recog
+W1012 15:58:34.580930  8549 work_recog.hpp:118] Face id: 1 has low quality : 0.00070034, no need to recog
+W1012 15:58:34.718997  8549 work_recog.hpp:118] Face id: 1 has low quality : 0.00214508, no need to recog
+W1012 15:58:36.819101  8549 work_recog.hpp:118] Face id: 2 has low quality : 0.0150286, no need to recog
+W1012 15:58:41.720983  8548 work_recog.hpp:118] Face id: 0 has low quality : 0.0672422, no need to recog
+W1012 15:58:41.858918  8549 work_recog.hpp:118] Face id: 0 has low quality : 0.0238392, no need to recog
+W1012 15:58:43.538914  8548 work_recog.hpp:118] Face id: 0 has low quality : 0.0672499, no need to recog

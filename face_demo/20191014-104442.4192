@@ -1,0 +1,248 @@
+Log file created at: 2019/10/14 10:44:42
+Running on machine: zcu104
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1014 10:44:42.996508  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0150249, no need to recog
+W1014 10:44:43.032196  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0505067, no need to recog
+W1014 10:44:43.068197  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0370254, no need to recog
+W1014 10:44:43.098989  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0456161, no need to recog
+W1014 10:44:43.134284  4198 work_recog.hpp:118] Face id: 0 has low quality : 0.0873418, no need to recog
+W1014 10:44:43.134531  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0505005, no need to recog
+W1014 10:44:43.162964  4197 work_detect.cpp:83] Invalid bbox: [152 x 192 from (151, 172)]
+W1014 10:44:43.163975  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0370254, no need to recog
+W1014 10:44:43.199142  4197 work_detect.cpp:83] Invalid bbox: [153 x 188 from (135, 174)]
+W1014 10:44:43.200028  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0370292, no need to recog
+W1014 10:44:43.229089  4197 work_detect.cpp:83] Invalid bbox: [158 x 175 from (124, 187)]
+W1014 10:44:43.230095  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.033257, no need to recog
+W1014 10:44:43.265049  4197 work_detect.cpp:83] Invalid bbox: [164 x 183 from (118, 186)]
+W1014 10:44:43.265950  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0298095, no need to recog
+W1014 10:44:43.295030  4197 work_detect.cpp:83] Invalid bbox: [154 x 174 from (120, 191)]
+W1014 10:44:43.295977  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0150249, no need to recog
+W1014 10:44:43.330765  4197 work_detect.cpp:83] Invalid bbox: [158 x 174 from (101, 199)]
+W1014 10:44:43.331640  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0238456, no need to recog
+W1014 10:44:43.366919  4197 work_detect.cpp:83] Invalid bbox: [159 x 177 from (96, 203)]
+W1014 10:44:43.367847  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.045627, no need to recog
+W1014 10:44:43.396807  4197 work_detect.cpp:83] Invalid bbox: [137 x 163 from (108, 211)]
+W1014 10:44:43.397706  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0673302, no need to recog
+W1014 10:44:43.433007  4197 work_detect.cpp:83] Invalid bbox: [148 x 170 from (105, 209)]
+W1014 10:44:43.433888  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0872708, no need to recog
+W1014 10:44:43.462924  4197 work_detect.cpp:83] Invalid bbox: [147 x 162 from (98, 215)]
+W1014 10:44:43.463809  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.033252, no need to recog
+W1014 10:44:43.498883  4197 work_detect.cpp:83] Invalid bbox: [137 x 154 from (102, 219)]
+W1014 10:44:43.499771  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.050473, no need to recog
+W1014 10:44:43.529022  4197 work_detect.cpp:83] Invalid bbox: [143 x 155 from (83, 220)]
+W1014 10:44:43.529922  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0672499, no need to recog
+W1014 10:44:43.564772  4197 work_detect.cpp:83] Invalid bbox: [134 x 150 from (89, 224)]
+W1014 10:44:43.565647  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0298095, no need to recog
+W1014 10:44:43.600880  4197 work_detect.cpp:83] Invalid bbox: [141 x 152 from (92, 220)]
+W1014 10:44:43.601811  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0672662, no need to recog
+W1014 10:44:43.630913  4197 work_detect.cpp:83] Invalid bbox: [129 x 141 from (90, 228)]
+W1014 10:44:43.631763  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.033252, no need to recog
+W1014 10:44:43.763537  4197 work_detect.cpp:83] Invalid bbox: [131 x 142 from (94, 227)]
+W1014 10:44:43.764590  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0735863, no need to recog
+W1014 10:44:43.798563  4197 work_detect.cpp:83] Invalid bbox: [131 x 149 from (91, 222)]
+W1014 10:44:43.799434  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0504785, no need to recog
+W1014 10:44:43.834614  4197 work_detect.cpp:83] Invalid bbox: [122 x 146 from (92, 224)]
+W1014 10:44:43.835749  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0212813, no need to recog
+W1014 10:44:43.864790  4197 work_detect.cpp:83] Invalid bbox: [127 x 143 from (84, 224)]
+W1014 10:44:43.865761  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0298135, no need to recog
+W1014 10:44:43.900437  4197 work_detect.cpp:83] Invalid bbox: [138 x 149 from (80, 218)]
+W1014 10:44:43.901394  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0504707, no need to recog
+W1014 10:44:43.930393  4197 work_detect.cpp:83] Invalid bbox: [140 x 156 from (76, 212)]
+W1014 10:44:43.931306  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0238456, no need to recog
+W1014 10:44:43.968107  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0456205, no need to recog
+W1014 10:44:43.996564  4197 work_detect.cpp:83] Invalid bbox: [123 x 153 from (97, 212)]
+W1014 10:44:43.997493  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0504652, no need to recog
+W1014 10:44:44.032620  4197 work_detect.cpp:83] Invalid bbox: [129 x 159 from (95, 210)]
+W1014 10:44:44.033531  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0189697, no need to recog
+W1014 10:44:44.068418  4197 work_detect.cpp:83] Invalid bbox: [137 x 160 from (80, 208)]
+W1014 10:44:44.069344  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0411459, no need to recog
+W1014 10:44:44.098587  4197 work_detect.cpp:83] Invalid bbox: [137 x 160 from (89, 209)]
+W1014 10:44:44.099524  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0613254, no need to recog
+W1014 10:44:44.134474  4197 work_detect.cpp:83] Invalid bbox: [133 x 157 from (93, 209)]
+W1014 10:44:44.135419  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0504707, no need to recog
+W1014 10:44:44.164773  4197 work_detect.cpp:83] Invalid bbox: [137 x 161 from (92, 210)]
+W1014 10:44:44.165684  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0370254, no need to recog
+W1014 10:44:44.200366  4197 work_detect.cpp:83] Invalid bbox: [134 x 160 from (96, 208)]
+W1014 10:44:44.201325  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0266876, no need to recog
+W1014 10:44:44.230782  4197 work_detect.cpp:83] Invalid bbox: [126 x 151 from (111, 214)]
+W1014 10:44:44.231694  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.045627, no need to recog
+W1014 10:44:44.268589  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0370316, no need to recog
+W1014 10:44:44.297302  4197 work_detect.cpp:83] Invalid bbox: [127 x 145 from (111, 220)]
+W1014 10:44:44.298354  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0504785, no need to recog
+W1014 10:44:44.333720  4197 work_detect.cpp:83] Invalid bbox: [122 x 144 from (129, 225)]
+W1014 10:44:44.335777  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0370254, no need to recog
+W1014 10:44:44.369168  4197 work_detect.cpp:83] Invalid bbox: [137 x 158 from (112, 214)]
+W1014 10:44:44.370157  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0189691, no need to recog
+W1014 10:44:44.399394  4197 work_detect.cpp:83] Invalid bbox: [127 x 144 from (124, 227)]
+W1014 10:44:44.400377  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0118579, no need to recog
+W1014 10:44:44.435235  4197 work_detect.cpp:83] Invalid bbox: [136 x 158 from (119, 220)]
+W1014 10:44:44.436250  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0150249, no need to recog
+W1014 10:44:44.465368  4197 work_detect.cpp:83] Invalid bbox: [144 x 160 from (116, 214)]
+W1014 10:44:44.466315  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0189681, no need to recog
+W1014 10:44:44.502154  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0133534, no need to recog
+W1014 10:44:44.531997  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.033252, no need to recog
+W1014 10:44:44.568118  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0266775, no need to recog
+W1014 10:44:44.603257  4197 work_detect.cpp:83] Invalid bbox: [123 x 143 from (159, 236)]
+W1014 10:44:44.604255  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0411422, no need to recog
+W1014 10:44:44.634229  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0266829, no need to recog
+W1014 10:44:44.669375  4197 work_detect.cpp:83] Invalid bbox: [120 x 134 from (164, 249)]
+W1014 10:44:44.670292  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0802491, no need to recog
+W1014 10:44:44.699383  4197 work_detect.cpp:83] Invalid bbox: [152 x 172 from (144, 218)]
+W1014 10:44:44.700428  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0212813, no need to recog
+W1014 10:44:44.736137  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.061319, no need to recog
+W1014 10:44:44.801136  4197 work_detect.cpp:83] Invalid bbox: [129 x 135 from (176, 252)]
+W1014 10:44:44.802152  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0238493, no need to recog
+W1014 10:44:44.836400  4197 work_detect.cpp:83] Invalid bbox: [127 x 136 from (181, 235)]
+W1014 10:44:44.837283  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0557058, no need to recog
+W1014 10:44:44.867089  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0189704, no need to recog
+W1014 10:44:44.903213  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0238509, no need to recog
+W1014 10:44:44.932453  4197 work_detect.cpp:83] Invalid bbox: [147 x 154 from (163, 220)]
+W1014 10:44:44.933372  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0370316, no need to recog
+W1014 10:44:44.968375  4197 work_detect.cpp:83] Invalid bbox: [150 x 160 from (162, 215)]
+W1014 10:44:44.969310  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0557585, no need to recog
+W1014 10:44:44.998390  4197 work_detect.cpp:83] Invalid bbox: [143 x 168 from (177, 206)]
+W1014 10:44:44.999351  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0370316, no need to recog
+W1014 10:44:45.034355  4197 work_detect.cpp:83] Invalid bbox: [138 x 160 from (188, 211)]
+W1014 10:44:45.035336  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0736672, no need to recog
+W1014 10:44:45.070504  4197 work_detect.cpp:83] Invalid bbox: [149 x 168 from (181, 203)]
+W1014 10:44:45.101433  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0332643, no need to recog
+W1014 10:44:45.137507  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0298194, no need to recog
+W1014 10:44:45.167788  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0557058, no need to recog
+W1014 10:44:45.203743  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.05049, no need to recog
+W1014 10:44:45.235023  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0613254, no need to recog
+W1014 10:44:45.270414  4198 work_recog.hpp:118] Face id: 1 has low quality : 0.0613002, no need to recog
+W1014 10:44:45.301589  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.0802981, no need to recog
+W1014 10:44:45.336609  4199 work_recog.hpp:118] Face id: 1 has low quality : 0.04565, no need to recog
+W1014 10:44:46.140105  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0946568, no need to recog
+W1014 10:44:46.206900  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0456699, no need to recog
+W1014 10:44:46.238090  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0872708, no need to recog
+W1014 10:44:46.272436  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.06135, no need to recog
+W1014 10:44:46.302769  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.04565, no need to recog
+W1014 10:44:46.338351  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0673005, no need to recog
+W1014 10:44:46.374239  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0736074, no need to recog
+W1014 10:44:46.405684  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0332748, no need to recog
+W1014 10:44:46.471149  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0872708, no need to recog
+W1014 10:44:46.507970  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0504785, no need to recog
+W1014 10:44:46.537601  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0557058, no need to recog
+W1014 10:44:46.572691  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0557197, no need to recog
+W1014 10:44:46.608687  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0612968, no need to recog
+W1014 10:44:46.638859  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.06135, no need to recog
+W1014 10:44:46.674603  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0802691, no need to recog
+W1014 10:44:46.704900  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0613134, no need to recog
+W1014 10:44:46.739724  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.04565, no need to recog
+W1014 10:44:46.770437  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0736317, no need to recog
+W1014 10:44:46.806094  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.04565, no need to recog
+W1014 10:44:46.842068  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.087258, no need to recog
+W1014 10:44:46.871925  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0804907, no need to recog
+W1014 10:44:46.907835  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0614011, no need to recog
+W1014 10:44:46.975606  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0875936, no need to recog
+W1014 10:44:47.005477  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0557585, no need to recog
+W1014 10:44:47.077133  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0673191, no need to recog
+W1014 10:44:47.143437  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0736672, no need to recog
+W1014 10:44:47.242663  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0802981, no need to recog
+W1014 10:44:47.276227  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0945136, no need to recog
+W1014 10:44:47.305143  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0873206, no need to recog
+W1014 10:44:47.341559  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0736672, no need to recog
+W1014 10:44:47.377230  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0803402, no need to recog
+W1014 10:44:47.407781  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0613408, no need to recog
+W1014 10:44:47.443275  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0673191, no need to recog
+W1014 10:44:47.473345  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0945719, no need to recog
+W1014 10:44:47.575109  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0736317, no need to recog
+W1014 10:44:47.611129  4198 work_recog.hpp:118] Face id: 3 has low quality : 0.0803104, no need to recog
+W1014 10:44:47.641750  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.087651, no need to recog
+W1014 10:44:47.677458  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0737188, no need to recog
+W1014 10:44:47.706095  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.087651, no need to recog
+W1014 10:44:47.743106  4199 work_recog.hpp:118] Face id: 3 has low quality : 0.0873019, no need to recog
+W1014 10:44:47.940138  4199 work_recog.hpp:118] Face id: 4 has low quality : 0.0557197, no need to recog
+W1014 10:44:47.976120  4198 work_recog.hpp:118] Face id: 4 has low quality : 0.0411646, no need to recog
+W1014 10:44:48.006884  4199 work_recog.hpp:118] Face id: 4 has low quality : 0.0737938, no need to recog
+W1014 10:44:48.042173  4199 work_recog.hpp:118] Face id: 4 has low quality : 0.0370592, no need to recog
+W1014 10:44:48.078107  4199 work_recog.hpp:118] Face id: 4 has low quality : 0.0411646, no need to recog
+W1014 10:44:48.540499  4198 work_recog.hpp:118] Face id: 5 has low quality : 0.0267186, no need to recog
+W1014 10:44:48.612283  4198 work_recog.hpp:118] Face id: 5 has low quality : 0.0150242, no need to recog
+W1014 10:44:48.642746  4199 work_recog.hpp:118] Face id: 5 has low quality : 0.015027, no need to recog
+W1014 10:44:48.785473  4199 work_recog.hpp:118] Face id: 5 has low quality : 0.0073297, no need to recog
+W1014 10:44:53.924456  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0411459, no need to recog
+W1014 10:44:53.954083  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0672802, no need to recog
+W1014 10:44:53.989789  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0613085, no need to recog
+W1014 10:44:54.020325  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0411808, no need to recog
+W1014 10:44:54.056322  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0266944, no need to recog
+W1014 10:44:54.091770  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0189712, no need to recog
+W1014 10:44:54.120695  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.016901, no need to recog
+W1014 10:44:54.158083  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0332462, no need to recog
+W1014 10:44:54.188261  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0266896, no need to recog
+W1014 10:44:54.224439  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0212778, no need to recog
+W1014 10:44:54.254567  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0238456, no need to recog
+W1014 10:44:54.290552  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0238741, no need to recog
+W1014 10:44:54.320217  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0118656, no need to recog
+W1014 10:44:54.357084  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0133563, no need to recog
+W1014 10:44:54.392762  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0370316, no need to recog
+W1014 10:44:54.423074  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0238438, no need to recog
+W1014 10:44:54.459477  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0168954, no need to recog
+W1014 10:44:54.489985  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0370405, no need to recog
+W1014 10:44:54.525549  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0150404, no need to recog
+W1014 10:44:54.554862  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0168919, no need to recog
+W1014 10:44:54.591073  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0150264, no need to recog
+W1014 10:44:54.627169  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0168993, no need to recog
+W1014 10:44:54.657022  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.016901, no need to recog
+W1014 10:44:54.692637  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0266843, no need to recog
+W1014 10:44:54.722872  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0133546, no need to recog
+W1014 10:44:54.759052  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0212822, no need to recog
+W1014 10:44:54.789155  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0266876, no need to recog
+W1014 10:44:54.824682  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0238456, no need to recog
+W1014 10:44:54.860273  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0370254, no need to recog
+W1014 10:44:54.890715  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0189742, no need to recog
+W1014 10:44:54.926609  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0168993, no need to recog
+W1014 10:44:54.956758  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.033257, no need to recog
+W1014 10:44:54.992235  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0238456, no need to recog
+W1014 10:44:55.022543  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0238547, no need to recog
+W1014 10:44:55.059026  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0332462, no need to recog
+W1014 10:44:55.094666  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0332486, no need to recog
+W1014 10:44:55.267204  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0168927, no need to recog
+W1014 10:44:55.268029  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.033257, no need to recog
+W1014 10:44:55.297211  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0150264, no need to recog
+W1014 10:44:55.299192  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0168979, no need to recog
+W1014 10:44:55.322127  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0238412, no need to recog
+W1014 10:44:55.356938  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.023857, no need to recog
+W1014 10:44:55.393575  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0133546, no need to recog
+W1014 10:44:55.423372  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0370224, no need to recog
+W1014 10:44:55.459528  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0133563, no need to recog
+W1014 10:44:55.489274  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0212813, no need to recog
+W1014 10:44:55.525249  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0212886, no need to recog
+W1014 10:44:55.555282  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.023843, no need to recog
+W1014 10:44:55.591470  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0266775, no need to recog
+W1014 10:44:55.627300  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0266775, no need to recog
+W1014 10:44:55.657176  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0266781, no need to recog
+W1014 10:44:55.693501  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0238423, no need to recog
+W1014 10:44:55.723522  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0150253, no need to recog
+W1014 10:44:55.759353  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0189805, no need to recog
+W1014 10:44:55.789753  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.033257, no need to recog
+W1014 10:44:55.825474  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0150242, no need to recog
+W1014 10:44:55.861953  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0238547, no need to recog
+W1014 10:44:55.891714  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0266789, no need to recog
+W1014 10:44:55.928350  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0298076, no need to recog
+W1014 10:44:55.957758  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.045627, no need to recog
+W1014 10:44:55.993835  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0212778, no need to recog
+W1014 10:44:56.024029  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0298095, no need to recog
+W1014 10:44:56.060003  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0456205, no need to recog
+W1014 10:44:56.095958  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0133578, no need to recog
+W1014 10:44:56.125470  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0298095, no need to recog
+W1014 10:44:56.163190  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0238456, no need to recog
+W1014 10:44:56.191128  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0370224, no need to recog
+W1014 10:44:56.226807  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0212843, no need to recog
+W1014 10:44:56.256527  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0189712, no need to recog
+W1014 10:44:56.292673  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0118594, no need to recog
+W1014 10:44:56.322856  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0212778, no need to recog
+W1014 10:44:56.358183  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0212822, no need to recog
+W1014 10:44:56.394188  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0189712, no need to recog
+W1014 10:44:56.424664  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0118608, no need to recog
+W1014 10:44:56.460342  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0189681, no need to recog
+W1014 10:44:56.491768  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0168908, no need to recog
+W1014 10:44:56.526485  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0189697, no need to recog
+W1014 10:44:56.632817  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0189681, no need to recog
+W1014 10:44:56.634773  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0133588, no need to recog
+W1014 10:44:56.657379  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0189681, no need to recog
+W1014 10:44:56.663841  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0189697, no need to recog
+W1014 10:44:56.694844  4199 work_recog.hpp:118] Face id: 6 has low quality : 0.0150264, no need to recog
+W1014 10:44:56.724387  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0238466, no need to recog
+W1014 10:44:56.759871  4198 work_recog.hpp:118] Face id: 6 has low quality : 0.0332535, no need to recog

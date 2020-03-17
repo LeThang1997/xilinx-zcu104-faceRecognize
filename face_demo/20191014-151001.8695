@@ -1,0 +1,95 @@
+Log file created at: 2019/10/14 15:10:01
+Running on machine: zcu104
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1014 15:10:01.137727  8695 feature_lib.cpp:109] Feature lib read name: images/HaDM.jpg
+I1014 15:10:01.138674  8695 feature_lib.cpp:131] Read lib face : images/HaDM.jpg
+I1014 15:10:01.138703  8695 feature_lib.cpp:109] Feature lib read name: images/HaiHV.jpg
+I1014 15:10:01.139108  8695 feature_lib.cpp:131] Read lib face : images/HaiHV.jpg
+I1014 15:10:01.139128  8695 feature_lib.cpp:109] Feature lib read name: images/SonNNe.jpg
+I1014 15:10:01.139526  8695 feature_lib.cpp:131] Read lib face : images/SonNNe.jpg
+I1014 15:10:01.139545  8695 feature_lib.cpp:109] Feature lib read name: images/TungDM.jpg
+I1014 15:10:01.139940  8695 feature_lib.cpp:131] Read lib face : images/TungDM.jpg
+I1014 15:10:01.139959  8695 feature_lib.cpp:109] Feature lib read name: images/HungVTc.png
+I1014 15:10:01.140403  8695 feature_lib.cpp:131] Read lib face : images/HungVTc.png
+I1014 15:10:01.140435  8695 feature_lib.cpp:109] Feature lib read name: images/DangVHb.jpg
+I1014 15:10:01.140830  8695 feature_lib.cpp:131] Read lib face : images/DangVHb.jpg
+I1014 15:10:01.140851  8695 feature_lib.cpp:109] Feature lib read name: images/hungndn.jpg
+I1014 15:10:01.141244  8695 feature_lib.cpp:131] Read lib face : images/hungndn.jpg
+I1014 15:10:01.141263  8695 feature_lib.cpp:109] Feature lib read name: images/HieuPV.jpg
+I1014 15:10:01.141659  8695 feature_lib.cpp:131] Read lib face : images/HieuPV.jpg
+I1014 15:10:01.141677  8695 feature_lib.cpp:109] Feature lib read name: images/HuyNQz.png
+I1014 15:10:01.142107  8695 feature_lib.cpp:131] Read lib face : images/HuyNQz.png
+I1014 15:10:01.142145  8695 feature_lib.cpp:109] Feature lib read name: images/VuongNQb.png
+I1014 15:10:01.142544  8695 feature_lib.cpp:131] Read lib face : images/VuongNQb.png
+I1014 15:10:01.142572  8695 feature_lib.cpp:109] Feature lib read name: images/ThangLMb.jpg
+I1014 15:10:01.142968  8695 feature_lib.cpp:131] Read lib face : images/ThangLMb.jpg
+I1014 15:10:01.142987  8695 feature_lib.cpp:109] Feature lib read name: images/truongnxd.png
+I1014 15:10:01.143388  8695 feature_lib.cpp:131] Read lib face : images/truongnxd.png
+I1014 15:10:01.143407  8695 feature_lib.cpp:109] Feature lib read name: images/ThaoDQ.jpg
+I1014 15:10:01.143800  8695 feature_lib.cpp:131] Read lib face : images/ThaoDQ.jpg
+I1014 15:10:01.143849  8695 feature_lib.cpp:147] Loading normal image: images/HaDM.jpg...
+I1014 15:10:01.174610  8695 feature_lib.cpp:158] Load normal image: images/HaDM.jpg done size: 838 * 1100
+I1014 15:10:01.174677  8695 feature_lib.cpp:147] Loading normal image: images/HaiHV.jpg...
+I1014 15:10:01.231946  8695 feature_lib.cpp:158] Load normal image: images/HaiHV.jpg done size: 1203 * 1541
+I1014 15:10:01.232007  8695 feature_lib.cpp:147] Loading normal image: images/SonNNe.jpg...
+I1014 15:10:01.306766  8695 feature_lib.cpp:158] Load normal image: images/SonNNe.jpg done size: 1429 * 1719
+I1014 15:10:01.306828  8695 feature_lib.cpp:147] Loading normal image: images/TungDM.jpg...
+I1014 15:10:01.365623  8695 feature_lib.cpp:158] Load normal image: images/TungDM.jpg done size: 1340 * 1462
+I1014 15:10:01.365684  8695 feature_lib.cpp:147] Loading normal image: images/HungVTc.png...
+I1014 15:10:01.373791  8695 feature_lib.cpp:158] Load normal image: images/HungVTc.png done size: 263 * 317
+I1014 15:10:01.373821  8695 feature_lib.cpp:147] Loading normal image: images/DangVHb.jpg...
+I1014 15:10:01.439119  8695 feature_lib.cpp:158] Load normal image: images/DangVHb.jpg done size: 1469 * 1456
+I1014 15:10:01.439182  8695 feature_lib.cpp:147] Loading normal image: images/hungndn.jpg...
+I1014 15:10:01.541872  8695 feature_lib.cpp:158] Load normal image: images/hungndn.jpg done size: 1636 * 1930
+I1014 15:10:01.541936  8695 feature_lib.cpp:147] Loading normal image: images/HieuPV.jpg...
+I1014 15:10:01.620715  8695 feature_lib.cpp:158] Load normal image: images/HieuPV.jpg done size: 1527 * 1719
+I1014 15:10:01.620777  8695 feature_lib.cpp:147] Loading normal image: images/HuyNQz.png...
+I1014 15:10:01.647277  8695 feature_lib.cpp:158] Load normal image: images/HuyNQz.png done size: 493 * 639
+I1014 15:10:01.647336  8695 feature_lib.cpp:147] Loading normal image: images/VuongNQb.png...
+I1014 15:10:01.662191  8695 feature_lib.cpp:158] Load normal image: images/VuongNQb.png done size: 351 * 514
+I1014 15:10:01.662302  8695 feature_lib.cpp:147] Loading normal image: images/ThangLMb.jpg...
+I1014 15:10:01.740511  8695 feature_lib.cpp:158] Load normal image: images/ThangLMb.jpg done size: 1548 * 1719
+I1014 15:10:01.740573  8695 feature_lib.cpp:147] Loading normal image: images/truongnxd.png...
+I1014 15:10:01.793603  8695 feature_lib.cpp:158] Load normal image: images/truongnxd.png done size: 906 * 964
+I1014 15:10:01.793666  8695 feature_lib.cpp:147] Loading normal image: images/ThaoDQ.jpg...
+I1014 15:10:01.865723  8695 feature_lib.cpp:158] Load normal image: images/ThaoDQ.jpg done size: 1425 * 1719
+I1014 15:10:02.168422  8695 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 15:10:02.168501  8695 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 15:10:02.168517  8695 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 15:10:02.168532  8695 demo_inner.hpp:131] thread [T-Work-Detect_0] is stopped.
+I1014 15:10:02.233806  8695 demo_inner.hpp:126] thread [DedodeThread-0] is starting
+I1014 15:10:02.233986  8695 demo_inner.hpp:126] thread [GUIThread] is starting
+I1014 15:10:02.234058  8698 demo_inner.hpp:101] thread [DedodeThread-0] is started
+I1014 15:10:02.234078  8695 demo_inner.hpp:126] thread [SORT-0] is starting
+I1014 15:10:02.234082  8698 demo_inner.hpp:108] thread [DedodeThread-0] is ended
+I1014 15:10:02.234133  8699 demo_inner.hpp:101] thread [GUIThread] is started
+I1014 15:10:02.234150  8695 demo_inner.hpp:126] thread [T-Work-Detect_0] is starting
+I1014 15:10:02.234153  8699 demo_inner.hpp:108] thread [GUIThread] is ended
+I1014 15:10:02.234165  8700 demo_inner.hpp:101] thread [SORT-0] is started
+I1014 15:10:02.234185  8700 demo_inner.hpp:108] thread [SORT-0] is ended
+I1014 15:10:02.234247  8695 demo_inner.hpp:126] thread [T-Work-Recog_0] is starting
+I1014 15:10:02.234254  8701 demo_inner.hpp:101] thread [T-Work-Detect_0] is started
+I1014 15:10:02.234272  8701 demo_inner.hpp:108] thread [T-Work-Detect_0] is ended
+I1014 15:10:02.234302  8695 demo_inner.hpp:126] thread [T-Work-Recog_1] is starting
+I1014 15:10:02.234308  8702 demo_inner.hpp:101] thread [T-Work-Recog_0] is started
+I1014 15:10:02.234355  8695 demo_inner.hpp:126] thread [T-Intergrate-intergrate] is starting
+I1014 15:10:02.234364  8703 demo_inner.hpp:101] thread [T-Work-Recog_1] is started
+I1014 15:10:02.234417  8695 demo_inner.hpp:137] waiting for [GUIThread] ended
+I1014 15:10:02.234445  8704 demo_inner.hpp:101] thread [T-Intergrate-intergrate] is started
+I1014 15:10:02.234448  8695 demo_inner.hpp:131] thread [DedodeThread-0] is stopped.
+I1014 15:10:02.234478  8695 demo_inner.hpp:131] thread [GUIThread] is stopped.
+I1014 15:10:02.234493  8695 demo_inner.hpp:131] thread [SORT-0] is stopped.
+I1014 15:10:02.234508  8695 demo_inner.hpp:131] thread [T-Work-Detect_0] is stopped.
+I1014 15:10:02.234520  8695 demo_inner.hpp:131] thread [T-Work-Recog_0] is stopped.
+I1014 15:10:02.234534  8695 demo_inner.hpp:131] thread [T-Work-Recog_1] is stopped.
+I1014 15:10:02.234547  8695 demo_inner.hpp:131] thread [T-Intergrate-intergrate] is stopped.
+I1014 15:10:02.234562  8695 demo_inner.hpp:137] waiting for [DedodeThread-0] ended
+I1014 15:10:02.234580  8695 demo_inner.hpp:137] waiting for [SORT-0] ended
+I1014 15:10:02.234594  8695 demo_inner.hpp:137] waiting for [T-Work-Detect_0] ended
+I1014 15:10:02.234609  8695 demo_inner.hpp:137] waiting for [T-Work-Recog_0] ended
+I1014 15:10:02.244412  8702 demo_inner.hpp:108] thread [T-Work-Recog_0] is ended
+I1014 15:10:02.244443  8703 demo_inner.hpp:108] thread [T-Work-Recog_1] is ended
+I1014 15:10:02.244503  8695 demo_inner.hpp:137] waiting for [T-Work-Recog_1] ended
+I1014 15:10:02.244534  8704 demo_inner.hpp:108] thread [T-Intergrate-intergrate] is ended
+I1014 15:10:02.244536  8695 demo_inner.hpp:137] waiting for [T-Intergrate-intergrate] ended
+I1014 15:10:02.264259  8695 test_video_face_recog_multi.cpp:179] BYEBYE
